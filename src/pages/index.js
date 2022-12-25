@@ -1,9 +1,10 @@
 import RuleCard from "../components/RuleCard"
+import FAQ from "../components/FAQ"
 
 
 export default function Home() {
   return (
-    <div className='bg-slate-500  ' >
+    <div className='' >
       hello world
      {/* rule section */}
       <div className="flex" >
@@ -14,7 +15,10 @@ export default function Home() {
 
      {/* rule section end */}
 
+    {/* {FAQ Section Starts} - Managed by Aditya - Junior*/}
+    <FAQ></FAQ>
 
     </div>
+
   )
 }
