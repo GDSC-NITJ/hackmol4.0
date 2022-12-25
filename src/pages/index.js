@@ -11,6 +11,9 @@ export default function Home() {
       <RuleCard title={"Rule2"} description="text des" />
       
       </div>
+     {/* rule section end */}
+
+
       <div className="flex w-auto">
       <div>
 
@@ -19,11 +22,9 @@ export default function Home() {
       <TrackAndPrices />
           </div>
       <div className="flex items-center border-2 ">
-
       <h1 className="text-5xl rotate-90">TrackAndPrices</h1>
-        </div>
       </div>
-     {/* rule section end */}
+      </div>
 
 
     </div>
