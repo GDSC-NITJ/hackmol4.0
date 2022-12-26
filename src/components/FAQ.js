@@ -3,6 +3,7 @@ import back from "../public/back.svg"
 import next from "../public/next.svg"
 
 class FAQ extends React.Component{
+   
     constructor(){
         super();
         this.state = {
@@ -67,6 +68,7 @@ class FAQ extends React.Component{
     }
 
     render(){
+    
         const {qa,index} = this.state;
         return(
             <div className="bg-[#F96300] grid grid-rows-4 justify-items-center items-center w-screen h-screen">
