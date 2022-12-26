@@ -7,10 +7,11 @@ export default function Home() {
     <div className='' >
       hello world
      {/* rule section */}
-      <div className="flex" >
+      <div className="flex justify-center" >
 
-      <RuleCard title={"Rule1"} description="text des" />
-      <RuleCard title={"Rule2"} description="text des" />
+      {/* <RuleCard title={"Rule1"} description="text des" />
+      <RuleCard title={"Rule2"} description="text des" /> */}
+      <RuleCard/>
       </div>
 
      {/* rule section end */}
