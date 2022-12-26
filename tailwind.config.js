@@ -5,8 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        'yellow':'#FFEB01'
+      screen:{
+        'breakpoint':'859px'
       }
     },
   },
