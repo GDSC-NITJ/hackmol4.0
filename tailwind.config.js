@@ -5,7 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      visibility: ["group-hover"]
+      colors:{
+        'yellow':'#FFEB01'
+      }
     },
   },
   plugins: [],

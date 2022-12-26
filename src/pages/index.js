@@ -1,6 +1,6 @@
 import RuleCard from "../components/RuleCard"
 import TrackAndPrices from "../components/TrackAndPrices"
-import TrackCard from "../components/TrackCard"
+
 export default function Home() {
   return (
     <div className='bg-slate-500  ' >
@@ -13,20 +13,15 @@ export default function Home() {
       </div>
      {/* rule section end */}
 
+     {/* Tracks And Prices start */}
 
-      <div className="flex w-auto">
-      <div>
-
-      <TrackAndPrices />
-      <TrackAndPrices />
-      <TrackAndPrices />
-          </div>
-      <div className="flex items-center border-2 ">
-      <h1 className="text-5xl rotate-90">TrackAndPrices</h1>
-      </div>
+      <div className="flex ">
+        
+          <TrackAndPrices title="" description=""/>
       </div>
 
-
+     {/* Tracks And Prices end */}
     </div>
+
   )
 }
