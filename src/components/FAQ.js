@@ -71,7 +71,7 @@ class FAQ extends React.Component{
     
         const {qa,index} = this.state;
         return(
-            <div className="bg-[#F96300] grid grid-rows-4 justify-items-center items-center w-screen h-screen">
+            <div className="bg-[#F96300] grid grid-rows-4 justify-items-center items-center w-full h-screen">
             <h1 className="self-end text-5xl"><b>FAQs</b></h1>
             <div style={this.obj} className="bg-[#FFEB01] border border-black w-[60%] h-4/5 row-span-2 grid grid-rows-3 justify-items-center items-center">
                 <h2 className="p-4 mt-16 text-2xl text-center"><b>{qa[index].ques}</b></h2>

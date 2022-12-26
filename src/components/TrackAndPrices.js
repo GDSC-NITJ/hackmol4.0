@@ -1,5 +1,4 @@
 import React from 'react'
-import arrow from "../public/arrow.svg";
 
 function TrackAndPrices() {
 
@@ -19,7 +18,7 @@ function TrackAndPrices() {
             </div>
             <button className='flex flex-col justify-center items-center border border-black bg-[#FFFFFF] rounded-[12px] px-[40px] py-[20px] gap-[20px] w-[64px] h-[60px]  border border-black border-[0.820513px] shadow-[4.10256px_4.10256px_0px_#000000]' onClick={() => setState(0)}>
 
-              <img className='w-[30px] h-[30px]' src={arrow.src} ></img>
+              <div className='w-[30px] h-[30px]'  >   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z" data-name="3-Arrow Right"/></svg></div>
             </button>
 
           </div>
@@ -30,7 +29,7 @@ function TrackAndPrices() {
             </div>
             <button className='flex flex-col justify-center items-center border border-black bg-[#FFFFFF] rounded-[12px] px-[40px] py-[20px] gap-[20px] w-[64px] h-[60px] border border-black border-[0.820513px] shadow-[4.10256px_4.10256px_0px_#000000]' onClick={() => setState(1)}>
 
-              <img className='w-[32px] h-[12px]' src={arrow.src}></img>
+            <div className='w-[30px] h-[30px]'  >   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z" data-name="3-Arrow Right"/></svg></div>
             </button>
 
           </div>
@@ -41,7 +40,7 @@ function TrackAndPrices() {
             </div>
             <button className='flex flex-col justify-center items-center border border-black bg-[#FFFFFF] rounded-[12px] px-[40px] py-[20px] gap-[20px] w-[64px] h-[60px] border border-black border-[0.820513px] shadow-[4.10256px_4.10256px_0px_#000000]' onClick={() => setState(2)}>
 
-              <img className='w-[32px] h-[12px]' src={arrow.src}></img>
+            <div className='w-[30px] h-[30px]'  >   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z" data-name="3-Arrow Right"/></svg></div>
             </button>
 
           </div>
