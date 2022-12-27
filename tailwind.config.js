@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       screen:{
         'breakpoint':'859px'
+     
+      },
+      boxShadow:{
+        '3xl':'5px 5px black',
       }
     },
   },
