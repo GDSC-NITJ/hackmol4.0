@@ -1,25 +1,22 @@
 
 import TrackAndPrices from "../components/TrackAndPrices"
 import FAQ from "../components/FAQ"
-
+import Announcement from "../components/Announcement"
 export default function Home() {
   return (
     <div className='' >
+
+      {/* Announcement start */}
+
+      <Announcement/>
+
+
+      {/* Announcement ends */}
      {/* rule section */}
-   
      {/* rule section end */}
 
-
-
-
      {/* Tracks And Prices starts */}
- 
-        
-
-    <TrackAndPrices title="" description=""/>
-       
-  
-
+    <TrackAndPrices />
      {/* Tracks And Prices end */}
 
 
