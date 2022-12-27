@@ -9,7 +9,7 @@ const Announcement = () => {
                     <h1 className="font-bold text-[280%]">Announcement</h1>
                 </div>
                 <div className="font-semibold text-center text-[120%]">
-                    Whether you need more balance, flexibility, or just a different gig, we make it easier to chart a new path. You don't have to be a tech expert or even understand how to start a business. You just gotta take what you know and sell it.
+                    Whether you need more balance, flexibility, or just a different gig, we make it easier to chart a new path. You don&apos;t have to be a tech expert or even understand how to start a business. You just gotta take what you know and sell it.
                 </div>
             </div>
         </div>
