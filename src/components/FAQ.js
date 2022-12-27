@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import back from "../public/back.svg"
-import next from "../public/next.svg"
+
+// *******TODO: Update FAQ Questions*******
 
 let qa = [
     {
@@ -8,7 +8,7 @@ let qa = [
         ans: "Anything which everyone wants. Demo Answer 1"
     },
     {
-        ques: "This is question 2 and 2 is my favourite number you know?",
+        ques: "This is question 2 fsdsdfsdfsdfgsdgand 2 is my favourite number you know?",
         ans: "No, I dont care, demo answer 2"
     },
     {

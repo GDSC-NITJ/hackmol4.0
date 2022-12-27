@@ -1,6 +1,6 @@
 import React from 'react'
 import RulesPoints from './RulesPoints'
-import Rules_image from '../public/Rules_image.svg'
+import RulesImage from '../public/RulesImage.svg'
 import BrushIcon from '@mui/icons-material/Brush';
 import ImagesearchRollerIcon from '@mui/icons-material/ImagesearchRoller'
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh'
@@ -26,7 +26,7 @@ function RuleCard({title, description}) {
           <CancelIcon className='mx-2 my-1 fill-red-500'/>
         </div>
         <div className="box2__bottom border-black bg-white rounded-lg">
-          <img src={Rules_image.src} alt="" className=' border-2rounded' />
+          <img src={RulesImage.src} alt="" className=' border-2rounded' />
         </div>
 
       </div>
