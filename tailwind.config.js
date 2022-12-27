@@ -5,8 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screen:{
-        'breakpoint':'859px'
+      colors:{
+        'lighgreen':'#94E95D'
      
       },
       boxShadow:{
