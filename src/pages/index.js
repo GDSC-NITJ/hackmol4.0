@@ -2,6 +2,8 @@
 import TrackAndPrices from "../components/TrackAndPrices"
 import FAQ from "../components/FAQ"
 import Announcement from "../components/Announcement"
+import RuleCard from "../components/RulesCard"
+
 export default function Home() {
   return (
     <div className='' >
@@ -13,6 +15,7 @@ export default function Home() {
 
       {/* Announcement ends */}
      {/* rule section */}
+      <RuleCard/>
      {/* rule section end */}
 
      {/* Tracks And Prices starts */}

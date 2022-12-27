@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       colors:{
         'lighgreen':'#94E95D'
+     
+      },
+      boxShadow:{
+        '3xl':'5px 5px black',
       }
     },
   },
