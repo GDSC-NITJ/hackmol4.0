@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 import RuleCard from "../components/RulesCard";
 import Sponsers from "../components/Sponsers";
-import BelowSponsers from "../components/BelowSponsers";
+import Testimonies from "../components/Testimonies";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
 
       {/*FAQ and footer starts*/}
       <Sponsers></Sponsers>
-      <BelowSponsers></BelowSponsers>
+      <Testimonies/>
       <FAQ></FAQ>
       <Footer></Footer>
 
