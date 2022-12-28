@@ -4,7 +4,9 @@ import Announcement from "../components/Announcement"
 import Footer from "../components/Footer"
 import RuleCard from "../components/RulesCard"
 import Schedule from "../components/Schedule"
-import Sponsers from "../components/Sponsers";
+import Sponsers from "../components/Sponsers"
+import Judges from "../components/Judges"
+
 
 export default function Home() {
   return (
@@ -23,6 +25,9 @@ export default function Home() {
       {/* rule section */}
       <RuleCard />
       {/* rule section end */}
+      {/* Judges Section starts*/}
+      <Judges/>
+      {/* Judges section ends */}
 
       {/* Tracks And Prices starts */}
       <TrackAndPrices />
