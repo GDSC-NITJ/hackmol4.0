@@ -1,5 +1,8 @@
 import TrackAndPrices from "../components/TrackAndPrices"
 import FAQ from "../components/FAQ"
+import NavBar from "../components/NavBar"
+import About from "../components/About"
+import Banner from "../components/Banner"
 import Announcement from "../components/Announcement"
 import Footer from "../components/Footer"
 import RuleCard from "../components/RulesCard"
@@ -11,6 +14,14 @@ import Judges from "../components/Judges"
 export default function Home() {
   return (
     <div className='' >
+      {/* Navigation starts */}
+      <NavBar/>
+      {/* navigation ends */}
+      {/* Home starts */}
+      <Banner/>
+      {/* Home ends */}
+      {/* About starts */}
+      <About/>
       {/* Schedule starts */}
 
         <Schedule/>
