@@ -4,6 +4,7 @@ import Announcement from "../components/Announcement"
 import Footer from "../components/Footer"
 import RuleCard from "../components/RulesCard"
 import Schedule from "../components/Schedule"
+import Sponsers from "../components/Sponsers";
 
 export default function Home() {
   return (
@@ -13,28 +14,26 @@ export default function Home() {
         <Schedule/>
 
       {/* Schedule ends */}
+
       {/* Announcement start */}
 
-      <Announcement/>
-
+      <Announcement />
 
       {/* Announcement ends */}
-     {/* rule section */}
-      <RuleCard/>
-     {/* rule section end */}
+      {/* rule section */}
+      <RuleCard />
+      {/* rule section end */}
 
-     {/* Tracks And Prices starts */}
-    <TrackAndPrices />
-     {/* Tracks And Prices end */}
+      {/* Tracks And Prices starts */}
+      <TrackAndPrices />
+      {/* Tracks And Prices end */}
 
+      {/*FAQ and footer starts*/}
+      <Sponsers></Sponsers>
+      <FAQ></FAQ>
+      <Footer></Footer>
 
-    {/*FAQ and footer starts*/}
-
-    <FAQ></FAQ>
-    <Footer></Footer>
-
-    {/*FAQ and footer ends*/}
+      {/*FAQ and footer ends*/}
     </div>
-
-  )
+  );
 }
