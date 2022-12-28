@@ -56,7 +56,7 @@ const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to HACKMOL4.0</span>
                 {/* <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Connect", "Build", "Innovate" ]'><span className="wrap">{text}</span></span></h1> */}
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div className="banner__buttons__one">
                   <button className="tagline below" onClick={() => console.log('connect')}>Button1</button>
                   <button className="tagline below" onClick={() => console.log('connect')}>Button1</button></div>
