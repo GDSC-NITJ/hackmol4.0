@@ -2,7 +2,7 @@ import React from "react";
 
 let Footer = function(props){
     return(
-        <div className="border border-black w-full h-full grid grid-rows-1 bg-[black] text-white">
+        <div className="border border-black w-screen h-full grid grid-rows-1 bg-[black] text-white">
             <div className="grid grid-cols-4 ml-20 mr-28 mt-32 mb-32">
                 {/* Left column */}
                 

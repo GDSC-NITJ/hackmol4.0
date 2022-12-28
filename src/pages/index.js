@@ -1,19 +1,18 @@
 import TrackAndPrices from "../components/TrackAndPrices"
 import FAQ from "../components/FAQ"
-
 import Announcement from "../components/Announcement"
-
-
 import Footer from "../components/Footer"
-
-
 import RuleCard from "../components/RulesCard"
-
+import Schedule from "../components/Schedule"
 
 export default function Home() {
   return (
     <div className='' >
+      {/* Schedule starts */}
 
+        <Schedule/>
+
+      {/* Schedule ends */}
       {/* Announcement start */}
 
       <Announcement/>
