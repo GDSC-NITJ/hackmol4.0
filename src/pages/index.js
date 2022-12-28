@@ -1,17 +1,22 @@
-import TrackAndPrices from "../components/TrackAndPrices";
-import FAQ from "../components/FAQ";
-
-import Announcement from "../components/Announcement";
-
-import Footer from "../components/Footer";
-
-import RuleCard from "../components/RulesCard";
-import Sponsers from "../components/Sponsers";
+import TrackAndPrices from "../components/TrackAndPrices"
+import FAQ from "../components/FAQ"
+import Announcement from "../components/Announcement"
+import Footer from "../components/Footer"
+import RuleCard from "../components/RulesCard"
+import Schedule from "../components/Schedule"
+import Sponsers from "../components/Sponsers"
+import Judges from "../components/Judges"
 import Testimonies from "../components/Testimonies";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className='' >
+      {/* Schedule starts */}
+
+        <Schedule/>
+
+      {/* Schedule ends */}
+
       {/* Announcement start */}
 
       <Announcement />
@@ -20,6 +25,9 @@ export default function Home() {
       {/* rule section */}
       <RuleCard />
       {/* rule section end */}
+      {/* Judges Section starts*/}
+      <Judges/>
+      {/* Judges section ends */}
 
       {/* Tracks And Prices starts */}
       <TrackAndPrices />
