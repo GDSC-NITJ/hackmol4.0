@@ -11,6 +11,7 @@ module.exports = {
       },
       boxShadow:{
         '3xl':'5px 5px black',
+        '5xl':'10px 10px 0px 0px white',
       }
     },
   },
