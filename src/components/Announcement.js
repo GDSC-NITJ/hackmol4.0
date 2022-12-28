@@ -3,7 +3,7 @@ import React from "react";
 const Announcement = () => {
     return (
 
-        <div className="flex flex-col justify-center items-center w-screen   h-[380px] bg-lighgreen px-[18%] py-[17%] border border-t-black border-t-2">
+        <div className="flex flex-col justify-center items-center w-full   h-[380px] bg-lighgreen px-[18%] py-[17%] border border-t-black border-t-2">
             <div className='flex flex-col justify-center items-center p-[50px]'>
                 <div>
                     <h1 className="font-bold text-[280%]">Announcement</h1>

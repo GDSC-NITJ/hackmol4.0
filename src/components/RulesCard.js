@@ -9,7 +9,7 @@ import CancelIcon from '@mui/icons-material/Cancel'
 
 function RuleCard({title, description}) {
   return (
-    <div className='rules flex flex-row justify-center w-screen h-fit border-4 border-[#A27CFF]' >
+    <div className='rules flex flex-row justify-center w-full h-fit border-4 border-[#A27CFF]' >
     { /*<div className='border-2  m-2 w-48 ' >*/}
     {/* <h1 className=' border-b-2 p-2 '>{title}</h1>
       <div className='p-2' >{description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error? </div> */}

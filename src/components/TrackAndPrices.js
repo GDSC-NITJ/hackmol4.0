@@ -7,7 +7,7 @@ function TrackAndPrices() {
   
 
   return (
-    <div className='flex lg:flex-row flex-col  border border-2 border-black w-screen'>
+    <div className='flex lg:flex-row flex-col  border border-2 border-black w-full'>
       <div className='flex flex-row justify-center py-[84px] px-[83px] bg-[#FFEB01] p-8 w-1/2 h-[60%] border border-r-black border-r-[1.69312px] items-start'>
         <div className='flex flex-col justify-center items-center p-0 gap-[24px]  w-[100%] h-[80%] left-[119.49px] top-[191px]'>
 
