@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <div className='' >
       {/* Navigation starts */}
-      <NavBar/>
+      {/* <NavBar/> */}
       {/* navigation ends */}
       {/* Home starts */}
-      <Banner/>
+      {/* <Banner/> */}
       {/* Home ends */}
       {/* About starts */}
       <About/>
@@ -35,22 +35,22 @@ export default function Home() {
 
       {/* Announcement ends */}
       {/* rule section */}
-      <RuleCard />
+      {/* <RuleCard /> */}
       {/* rule section end */}
       {/* Judges Section starts*/}
       {/* Judges section ends */}
 
-      <Sponsers></Sponsers>
+      {/* <Sponsers></Sponsers> */}
       {/* Tracks And Prices starts */}
-      <TrackAndPrices />
+      {/* <TrackAndPrices /> */}
       {/* Tracks And Prices end */}
 
       {/*FAQ and footer starts*/}
-      <Judges />
+      {/* <Judges /> */}
       <Testimonies/>
       <FAQ></FAQ>
-      <Footer></Footer>
-      <FooterLinks></FooterLinks>
+      {/* <Footer></Footer> */}
+      {/* <FooterLinks></FooterLinks> */}
 
       {/*FAQ and footer ends*/}
     </div>

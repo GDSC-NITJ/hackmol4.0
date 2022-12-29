@@ -7,8 +7,7 @@ function Judges() {
       <h2 className=' font-semibold text-5xl ' > Judges</h2>
         <div className="central-box flex gap-16 justify-center p-34 w-auto">
                     <JudgCard/>
-                    <JudgCard/>
-                    <JudgCard/>
+                    
             
         </div>
         <div className="bg-blue w-[60%] mb-20 h-4 relative border shadow-[4.10256px_4.10256px_0px_#000000] border-black">
