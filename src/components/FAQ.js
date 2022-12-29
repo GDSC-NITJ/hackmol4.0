@@ -49,14 +49,14 @@ let FAQ =  function(){
     }
 
     return(
-        <div className="bg-[#F96300] grid grid-rows-4 justify-items-center items-center w-full h-screen">
+        <div className="bg-orange grid grid-rows-4 justify-items-center items-center w-full h-screen">
         <h1 className="self-end text-5xl"><b>FAQs</b></h1>
-        <div className="bg-[#FFEB01] shadow-[4.10256px_4.10256px_0px_#000000] border border-black w-[60%] h-4/5 row-span-2 grid grid-rows-3 justify-items-center items-center">
+        <div className="bg-yellow shadow-[4.10256px_4.10256px_0px_#000000] border border-black w-[60%] h-4/5 row-span-2 grid grid-rows-3 justify-items-center items-center">
             <h2 className="p-4 mt-16 text-2xl text-center"><b>{qa[index].ques}</b></h2>
             <h3 className="text-center mt-4 self-start text-lg p-6">{qa[index].ans}</h3>
         </div>
-        <div className="bg-[#296CF2] w-[60%] mb-20 h-4 relative border shadow-[4.10256px_4.10256px_0px_#000000] border-black">
-            <div className="w-[98px] h-[70px] absolute -top-6 left-[43%] rounded-full grid grid-cols-2 bg-[#296CF2] justify-items-center items-center border border-black">
+        <div className="bg-blue w-[60%] mb-20 h-4 relative border shadow-[4.10256px_4.10256px_0px_#000000] border-black">
+            <div className="w-[98px] h-[70px] absolute -top-6 left-[43%] rounded-full grid grid-cols-2 bg-blue justify-items-center items-center border border-black">
                 <button onClick={()=>{FAQPositionerDecrease()}}>
                 <svg className="h-[26px] w-[26px] hover:mr-2" width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.5 13L23 0.00961876V25.9904L0.5 13Z" fill="#070606"/>
