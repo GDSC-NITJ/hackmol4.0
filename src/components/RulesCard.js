@@ -9,11 +9,11 @@ import CancelIcon from '@mui/icons-material/Cancel'
 
 function RuleCard({title, description}) {
   return (
-    <div className='rules flex flex-row justify-center w-full h-fit border-4 border-[#A27CFF]' >
+    <div className='rules flex flex-row justify-center w-full h-fit border-4 border-purple' >
     { /*<div className='border-2  m-2 w-48 ' >*/}
     {/* <h1 className=' border-b-2 p-2 '>{title}</h1>
       <div className='p-2' >{description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error? </div> */}
-    <div className="rules__left bg-[#FFEB01] w-1/2 border-r-4 border-[#A27CFF]">
+    <div className="rules__left bg-yellow w-1/2 border-r-4 border-purple">
       <div className="box1 shadow-3xl w-3/5 h-40 bg-white border-2 border-black">
           
       </div>
@@ -34,11 +34,11 @@ function RuleCard({title, description}) {
       <div className="box3 shadow-3xl w-60 h-80 bg-white border-2 rounded border-black relative bottom-24 -mb-20">
           {/* Internal designs of box3 */}
           <div className="box3__design flex flex-col justify-center ">
-        <div className="yellow__bar h-3 border-1 rounded-3xl bg-[#FFEB01] my-5 w-3/4 self-center"></div>
+        <div className="yellow__bar h-3 border-1 rounded-3xl bg-yellow my-5 w-3/4 self-center"></div>
         <div className="gray__bar h-3 border-1 rounded-3xl bg-gray-300 my-1 w-3/4 self-center"></div> 
         <div className="gray__bar h-3 border-1 rounded-3xl bg-gray-300 my-1 w-5/6 self-center"></div> 
         <div className="gray__bar h-3 border-1 rounded-3xl bg-gray-300 my-1 w-3/4 self-center"></div> 
-        <div className="yellow__bar h-3 border-1 rounded-3xl bg-[#FFEB01] my-5 mt-10 w-3/4 self-center"></div>
+        <div className="yellow__bar h-3 border-1 rounded-3xl bg-yellow my-5 mt-10 w-3/4 self-center"></div>
         <div className="gray__bar h-3 border-1 rounded-3xl bg-gray-300 my-1 w-3/4 self-center"></div> 
         <div className="gray__bar h-3 border-1 rounded-3xl bg-gray-300 my-1 w-5/6 self-center"></div> 
         <div className="gray__bar h-3 border-1 rounded-3xl bg-gray-300 my-1 w-3/4 self-center"></div>
@@ -64,14 +64,14 @@ function RuleCard({title, description}) {
         <div className="rules__points p-4">
           <RulesPoints title="Team Members" decription="Description 3" />
           <RulesPoints title="Submission details" decription="Upload on github with ppt" />
-          <RulesPoints title="Rule 3" decription="Description 3" />
-          <RulesPoints title="Rule 4" decription="Description 4" />
-          <RulesPoints title="Rule 5" decription="Description 5" />
-          <RulesPoints title="Rule 6" decription="Description 6" />
-          <RulesPoints title="Rule 7" decription="Description 7" />
-          <RulesPoints title="Rule 8" decription="Description 8" />
-          <RulesPoints title="Rule 9" decription="Description 9" />
-          <RulesPoints title="Rule 10" decription="Description 10" />
+          <RulesPoints title="Rule 3" decription="Each team must contain between 1-5 members" />
+          <RulesPoints title="Rule 4" decription="The Project must be build entirely during the Duration of the Hackathon" />
+          <RulesPoints title="Rule 5" decription="Each participant must adhere to our Code of Conduct." />
+          <RulesPoints title="Rule 6" decription="Hackers can work on any technical domain and idea of their choice." />
+          <RulesPoints title="Rule 7" decription="For precise details head to here to our Devfolio Page." />
+          <RulesPoints title="Rule 8" decription="Hackathon and Events are Open to and free for Student Developers." />
+          <RulesPoints title="Rule 9" decription="Organizers Reserves the final right of decision." />
+          <RulesPoints title="Rule 10" decription=" Finalist teams may be called for special presentation with the Judges" />
         </div>
       </div>
     </div>
