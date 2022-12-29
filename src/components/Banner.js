@@ -58,7 +58,7 @@ const Banner = () => {
                 <br></br>
                 <br></br>
                 {/* <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Connect", "Build", "Innovate" ]'><span className="wrap">{text}</span></span></h1> */}
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div className="banner__buttons__one">
                   <button id = "left" className="tagline below" onClick={() => console.log('connect')}>Join Discord</button>
                   <button id = "right" className="tagline below" onClick={() => console.log('connect')}>Register</button></div>

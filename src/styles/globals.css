@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Space+Grotesk:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Red+Hat+Display:wght@300&family=Space+Grotesk:wght@600;700&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+
 
 html,
 body {
   /* top: 0; */
   padding: 0;
   margin: 0;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 a {
