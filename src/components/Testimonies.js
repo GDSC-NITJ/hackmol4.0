@@ -3,7 +3,7 @@ import TestimonyCard from "./TestimonyCard";
 function Testimonies()
 {
     return (
-        <div className="bg-white flex  flex-col md:flex-row h-screen w-full">
+        <div className="bg-white flex  flex-col md:flex-row  h-full  w-full">
             {/* Left side */}
             <div className="bg-green h-full md:w-1/2 flex justify-center items-center ">
 
@@ -20,7 +20,7 @@ function Testimonies()
 
 
             {/*Right side*/}
-            <div className="h-full flex flex-col justify-center items-center bg-green md:w-1/2 md:border-2 md:border-black md:bg-white ">
+            <div className="flex flex-col justify-center items-center bg-green md:w-1/2 md:border-2 md:border-black md:bg-white h-ful ">
             <div className=" mb-6 hidden  md:block "><h1 className="font-bold text-[33px] text-center" >Previous year reviews</h1></div>
                 <div className=" bg-white rounded-lg shadow-3xl border-2 border-black py-3  md:p-0 md:border-none md:shadow-none  w-11/12 sm:w-3/4 mb-10  md:mb-0 ">
                     <div className="w-full flex items-center justify-around h-1/5 rounded-xl my-3">
