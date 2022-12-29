@@ -73,6 +73,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - name: No Jekyll
+        run: touch ./out/.nojekyll
         with:
           path: ./out
 
