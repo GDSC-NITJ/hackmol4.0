@@ -32,7 +32,7 @@ const NavBar = () => {
         {/* <div className="header"> */}
           <div className = "heading__container" href="/">
             <h2 className="heading">HACKMOL 4.0</h2>
-            <div className="line"></div>
+            {/* <div className="line"></div> */}
           </div>
           
           {/* <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -41,8 +41,9 @@ const NavBar = () => {
             <span>MENU</span>
             </div>
           </Navbar.Toggle> */}
-          <Navbar.Collapse className="navbar-options" id="basic-navbar-nav">
+          <div className="navbar-options" id="basic-navbar-nav">
             <Nav className="ms-auto">
+              {/* <Nav.Link className="header-name">HACKMOL 4.0</Nav.Link> */}
               <Nav.Link href="#about" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>ABOUT</Nav.Link>
               <Nav.Link href="#rules" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('rules')}>RULES</Nav.Link>
               <Nav.Link href="#schedule" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('schedule')}>SCHEDULE</Nav.Link>
@@ -59,7 +60,7 @@ const NavBar = () => {
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span> */}
-          </Navbar.Collapse>
+          </div>
         {/* </div> */}
       </Navbar>
       </div>
