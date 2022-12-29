@@ -1,14 +1,12 @@
 import React from 'react'
+import JudgCard from './JudgCard'
 
 function Judges() {
   return (
-    <div className='judges bg-orange text-black h-screen flex justify-center align-middle'>
-        <div className="central-box flex justify-center my-52 w-auto">
-            <div className="central-box-minor border-4 border-black flex justify-center shadow-bordered-orange w-auto m-1">
-                <div className="central-box-text text-5xl leading-10 font-bold flex flex-col justify-center text-center p-9 h-full">
-                    Judges - To be decided
-                </div>
-            </div>
+    <div className='judges  text-black h-screen flex justify-center items-center '>
+        <div className="central-box flex justify-center p-34 w-auto">
+                    <JudgCard/>
+            
         </div>
     </div>
   )
