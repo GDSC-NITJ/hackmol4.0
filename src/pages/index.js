@@ -37,15 +37,15 @@ export default function Home() {
       <RuleCard />
       {/* rule section end */}
       {/* Judges Section starts*/}
-      <Judges/>
       {/* Judges section ends */}
 
+      <Sponsers></Sponsers>
       {/* Tracks And Prices starts */}
       <TrackAndPrices />
       {/* Tracks And Prices end */}
 
       {/*FAQ and footer starts*/}
-      <Sponsers></Sponsers>
+      <Judges />
       <Testimonies/>
       <FAQ></FAQ>
       <Footer></Footer>
