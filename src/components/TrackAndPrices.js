@@ -7,8 +7,8 @@ function TrackAndPrices() {
   
 
   return (
-    <div className='flex lg:flex-row flex-col  border border-2 border-black'>
-      <div className='flex flex-row justify-center py-[84px] px-[83px] bg-[#FFEB01] p-8 w-[100%] h-[60%] border border-r-black border-r-[1.69312px] items-start'>
+    <div className='flex lg:flex-row flex-col  border border-2 border-black w-full'>
+      <div className='flex flex-row justify-center py-[84px] px-[83px] bg-[#FFEB01] p-8 w-1/2 h-[60%] border border-r-black border-r-[1.69312px] items-start'>
         <div className='flex flex-col justify-center items-center p-0 gap-[24px]  w-[100%] h-[80%] left-[119.49px] top-[191px]'>
 
           <div className='flex justify-center items-center p-0   w-[398px]  h-[64px]  gap-[40px]  max-sm:gap-[15px]'>
@@ -50,7 +50,7 @@ function TrackAndPrices() {
 
 
       {/* right portion of this section */}
-      <div className='flex  flex-row bg-white items-center px-[55px] py-[8px] '>
+      <div className='flex  flex-row bg-white items-center w-1/2 px-[55px] py-[8px] '>
         <div className='flex flex-col items-center'>
           <div className='flex flex-col font-bold text-[200%]  '>
             {trackArray[state].title}
