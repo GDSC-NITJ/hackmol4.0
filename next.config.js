@@ -2,9 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/hackmol4.0',
-  assetPrefix: '/hackmol4.0/',
-  distDir:'hackmol4.0'
+  serverRuntimeConfig: {
+    // Will only be available on the server side
+    domain: 'https://hackmol.tech',
+  },
 }
 
 module.exports = nextConfig
