@@ -3,7 +3,7 @@ import TestimonyCard from "./TestimonyCard";
 function Testimonies()
 {
     return (
-        <div className="bg-white flex h-screen w-full sm:flex-col">
+        <div className="bg-white flex h-screen w-full">
             {/* Left side */}
             <div className="bg-[#94E95D] h-full w-1/2 flex justify-center items-center ">
 
