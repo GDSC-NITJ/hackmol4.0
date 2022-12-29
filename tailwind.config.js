@@ -20,6 +20,9 @@ module.exports = {
         'bordered-blue':' 8px 8px 0 -2px #296cf2, 8px 8px black',
         'bordered-black':' 8px 8px 0 -2px black, 8px 8px white',
         'bordered-orange':' 8px 8px 0 -2px #F96300, 8px 8px black',
+      },
+      fontFamily:{
+        Jakarta: ['Plus Jakarta Sans', 'sans-serif']
       }
     },
   },
