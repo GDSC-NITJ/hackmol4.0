@@ -29,7 +29,9 @@ export default function Home() {
 
       <Sponsers/>
      
-      {/* <TrackAndPrices /> */}
+      <div className="hidden sm:block">
+        <TrackAndPrices  />
+      </div>
       {/* <Judges /> */}
       <Testimonies/>
       <FAQ></FAQ>
