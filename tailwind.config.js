@@ -8,7 +8,8 @@ module.exports = {
       colors:{
         'lighgreen':'#94E95D',
         'darkblue':' #296CF2',
-        'orange': '#F96300'
+        'orange': '#F96300',
+        'lightblue':'#5C40EC'
       },
       boxShadow:{
         '3xl':'5px 5px black',
