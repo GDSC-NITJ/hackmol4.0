@@ -6,9 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'lighgreen':'#94E95D',
-        'darkblue':' #296CF2',
-        'orange': '#F96300',
+        'blue':' #296CF2',
+        'yellow': '#FFEB01',
+        'purple': '#5C40EC',
+        'white': '#FFFFFF',
+        'orange': '#FF6F0F',
+        'green':'#94E95D',
+        'black':'#000000',
         'lightblue':'#5C40EC'
       },
       boxShadow:{
