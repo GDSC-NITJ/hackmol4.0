@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 // import headerImg from '../public/project-img4.png';
 import headerImg from '../public/project-img4.png'
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
 const Banner = () => {

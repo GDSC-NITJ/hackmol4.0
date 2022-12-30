@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+
 // import '../styles/Navbar.css';
 
 const NavBar = () => {
