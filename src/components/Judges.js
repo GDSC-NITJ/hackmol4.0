@@ -2,6 +2,9 @@ import React, { useEffect, useLayoutEffect, useState } from 'react'
 import JudgCard from './JudgCard'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSwiper } from 'swiper/react';
+
+
+
 function Judges() {
 
   const [index, setIndex] = useState(0);
@@ -40,7 +43,7 @@ function Judges() {
 
   return (
 
-    <div className='  py-10 md:py-20 space-y-8 bg-yellow text-black  justify-center items-center '>
+    <div className='  py-10 md:py-20 space-y-8 bg-yellow text-black  justify-items-center items-center '>
       <h2 className=' font-semibold text-5xl text-center w-full ' >
          Judges</h2>
         <div className=" max-w-[90%] relative left-[50%] -translate-x-[50%]   ">
