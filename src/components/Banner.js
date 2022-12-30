@@ -63,8 +63,8 @@ const Banner = () => {
                      </span> </p>
 
                   <div className="banner__buttons__one">
-                  <button id = "left" className="tagline below" onClick={() => console.log('connect')}>Join Discord</button>
-                  <button id = "right" className="tagline below" onClick={() => console.log('connect')}>Register</button></div>
+                  <button id = "left" className="tagline below w-40 " onClick={() => console.log('connect')}>Join Discord</button>
+                  <button id = "right" className="tagline below w-40" onClick={() => console.log('connect')}>Register</button></div>
               </div>}
             </TrackVisibility>
           </div>
@@ -78,8 +78,8 @@ const Banner = () => {
             </TrackVisibility>
           </div>
           <div className="banner__buttons__two">
-                  <button id = "left" className="tagline below   " onClick={() => console.log('connect')}>Join Discord</button>
-                  <button id="right" className="tagline below right" onClick={() => console.log('connect')}>Register</button></div>
+                  <button id = "left" className="tagline below  w-40  " onClick={() => console.log('connect')}>Join Discord</button>
+                  <button id="right" className="tagline below right w-40 mr-0 " onClick={() => console.log('connect')}>Register</button></div>
         </div>
     </section>
   )
