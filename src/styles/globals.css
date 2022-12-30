@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 
-
 html,
 body {
   /* top: 0; */
@@ -27,6 +26,8 @@ a {
   top: 0;
   box-sizing: border-box;
 }
+
+
 
 /************ Navbar Css ************/
 nav.navbar {
@@ -67,7 +68,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 
 .heading__container {
   display: block;
-  width: 100vw;
+  width: 100%;
   border-bottom: 1px solid black;
   background-color: #FFEB01;
 }
@@ -164,7 +165,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 @media screen and (max-width: 900px) {
   .heading {
-    width: 100vw;
+    width: 100%;
     font-size: 10vw;
     /* height: 0.5vw; */
   }
@@ -223,7 +224,7 @@ nav.navbar .navbar-toggler:focus {
 
 nav.navbar .navbar-toggler {
   /* border: 1px solid black; */
-  width: 100vw;
+  width: 100%;
   /* color: white; */
 }
 
@@ -285,7 +286,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   border: 1px solid black; 
   background: #5C40EC;
   border-width: 3px 0px;
@@ -293,6 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: #000000;
   padding: 20px 60px 20px 40px;
   gap: 48px;
+  display: none;
 }
 /* nav.navbar.scrolled { */
   /* display: none; */
@@ -303,7 +305,8 @@ nav.navbar.scrolled {
   width: 100%;
   /* height: 50px; */
   position: fixed;
-  display: flex;
+  display: none;
+
   justify-content: space-between;
 }
 nav.navbar.scrolled .heading__container{
@@ -322,6 +325,7 @@ nav.navbar.scrolled .heading__container h2{
 }
 nav.navbar.scrolled.navbar-options{
   width: 75vw;
+  display: none;
 }
 nav.navbar.scrolled .navbar-nav .nav-link.navbar-link 
 {
@@ -332,6 +336,7 @@ nav.navbar.scrolled .navbar-options{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  display: none;
   /* justify-content: flex-end; */
   /* border: 0px solid #5C40EC; */
 }
@@ -543,7 +548,7 @@ nav.navbar.scrolled .header-name{
 
 @media screen and (max-width: 767px) {
   .banner-row {
-    width: 100vw;
+    width: 100%;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;

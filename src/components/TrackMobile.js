@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// *******TODO: Update FAQ Questions*******
+// *******TODO: Update TrackMobile Questions*******
 
 let qa = [
     {
@@ -25,12 +25,12 @@ let qa = [
     }
 ]
 
-let FAQ = function () {
+let TrackMobile = function () {
     const [index, setIndex] = useState(() => {
         return 0;
     })
 
-    let FAQPositionerIncrease = () => {
+    let TrackMobilePositionerIncrease = () => {
         if (index == qa.length - 1) {
             setIndex(0);
         }
@@ -39,7 +39,7 @@ let FAQ = function () {
         }
     }
 
-    let FAQPositionerDecrease = () => {
+    let TrackMobilePositionerDecrease = () => {
         if (index == 0) {
             setIndex(qa.length - 1);
         }
@@ -48,21 +48,21 @@ let FAQ = function () {
         }
     }
     return (
-        <div className="bg-orange flex flex-col  justify-center items-center  w-full  py-10 md:py-20 ">
-            <h1 className="   text-black  text-3xl md:text-4xl font-extrabold items-center pb-4 text-center ">FAQs</h1>
+        <div className="bg-green flex flex-col  justify-center items-center  w-full  py-10 md:py-20 ">
+            <h1 className="   text-black  text-3xl md:text-4xl font-extrabold items-center pb-4 text-center ">TrackMobiles</h1>
             <div className="bg-yellow shadow-3xl mb-10 p-6 md:h-80 md:px-10 md:pt-10 md:pb-16  border w-11/12 sm:w-8/12 border-black  flex flex-col rounded-lg justify-items-center items-center">
                 <h2 className="p-4 text-2xl text-center"><b>{qa[index].ques}</b></h2>
                 <h3 className="text-center self-start text-lg   ">{qa[index].ans}</h3>
             </div>
             <div className="bg-blue w-[60%] rounded-lg   h-4 relative border shadow-3xl border-black">
                 <div className="w-[98px] h-[60px] absolute -top-6 left-[50%] -translate-x-[50%] rounded-full flex bg-blue justify-center gap-3  items-center border border-black">
-                    <button onClick={() => { FAQPositionerDecrease() }}>
+                    <button onClick={() => { TrackMobilePositionerDecrease() }}>
                         <svg className="h-[25px] w-[25px] hover:mr-2" width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.5 13L23 0.00961876V25.9904L0.5 13Z" fill="#070606" />
                         </svg>
 
                     </button>
-                    <button className="h-[25px] w-[25px]  hover:ml-2" onClick={() => { FAQPositionerIncrease() }}><svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button className="h-[25px] w-[25px]  hover:ml-2" onClick={() => { TrackMobilePositionerIncrease() }}><svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.5 13L0 25.9904L0 0.00961876L22.5 13Z" fill="#070606" />
                     </svg>
                     </button>
@@ -72,4 +72,4 @@ let FAQ = function () {
     )
 }
 
-export default FAQ
+export default TrackMobile

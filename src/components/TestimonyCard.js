@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TestimonyCard() {
   return (
-    <div className='bg-white w-80 shadow-3xl border-2 border-black  pt-10  pl-6 pr-8 pb-8 ' >
+    <div className='bg-white w-full sm:w-96 shadow-3xl border-2 rounded-xl md:rounded-none  border-black  pt-10  pl-6 pr-8 pb-8 ' >
       <div className='flex  w-full justify-between'>
         <div className='font-semibold text-[14px] ' >
           Priyanshi
