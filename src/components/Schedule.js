@@ -1,22 +1,33 @@
 import React from 'react';
-
+import star from '../public/Vector.png'
 const Schedule=()=>{
     return(
-        <div className='flex w-full'>
-            <div className='flex w-1/2 bg-black h-[640px] justify-center items-center'>
-                <div className='flex justify-center items-center text-white w-[420px] shadow-bordered-black h-[420px] border border-white border-[3px]'>
-                    <div>
-                        <h1 className='font-bold text-[23px]'>Day 1 schedule - TBD</h1>
-                    </div>
+        <div className='flex w-full flex-col lg:flex-row '>
+            <div className='flex flex-col w-1/2 h-[640px]  border-r-black border-r-[1.7px] justify-center items-center bg-lightblue'>
+               
+                <div className='flex justify-center items-center font-bold text-[52px] text-white relative'> <img className='absolute top-[-27px] left-[-30px]' width={54} height={54}  src={star.src}/>DAY-1</div>
+                <div className='flex flex-col bg-white font-medium w-[522px]  border-black border-[2px] rounded-[12px]'>
+                    <div className='flex justify-between px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon     registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]'><div>10:00 am</div><div>Hackathon     registration starts</div></div>
                 </div>
             </div>
-            <div className='flex w-1/2 bg-darkblue h-[640px] justify-center items-center   '>
-                <div className='flex justify-center items-center w-[420px] h-[420px] border shadow-bordered-blue border-black border-[3px]'>
-                    <div>
-                        <h1 className='font-bold text-[23px]'>Day 2 schedule - TBD</h1>
-                    </div>
+            <div className='flex flex-col w-1/2 h-[640px] border-r-black border-r-[1.7px] justify-center items-center'>
+               
+            <div className='flex justify-center items-center font-bold text-[52px] relative'> <img className='absolute top-[-27px] left-[-30px]' width={58} height={58}  src={star.src}/>DAY-2</div>
+                <div className='flex flex-col bg-white font-medium w-[522px] border-black border-[2px] rounded-[12px]'>
+                    <div className='flex justify-between px-[10px] py-[20px] border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px] border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px] border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px] border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px] border-b-black border-b-[2px]'><div>10:00 am</div><div>Hackathon     registration starts</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]'><div>10:00 am</div><div>Hackathon     registration starts</div></div>
                 </div>
             </div>
+            
         </div>
     )
 }

@@ -9,7 +9,7 @@ import RuleCard from "../components/RulesCard"
 import Schedule from "../components/Schedule"
 import Sponsers from "../components/Sponsers"
 import Judges from "../components/Judges"
-
+import Testimonies from "../components/Testimonies";
 
 export default function Home() {
   return (
@@ -46,6 +46,7 @@ export default function Home() {
 
       {/*FAQ and footer starts*/}
       <Sponsers></Sponsers>
+      <Testimonies/>
       <FAQ></FAQ>
       <Footer></Footer>
 
