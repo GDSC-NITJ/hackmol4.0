@@ -11,12 +11,21 @@ import Schedule from "../components/Schedule"
 import Sponsers from "../components/Sponsers"
 import Judges from "../components/Judges"
 import Testimonies from "../components/Testimonies";
+import TrackMobile from "../components/TrackMobile"
+import Head from "next/head"
+
+
+
 
 export default function Home() {
   return (
     <div className='' >
-      {/* <NavBar/> */}
-      {/* <Banner/> */}
+      <Head>
+      
+</Head>
+
+      <NavBar/>
+      <Banner/>
       <About/>
 
         <Schedule/>
@@ -25,18 +34,22 @@ export default function Home() {
 
       <Announcement />
 
-      {/* <RuleCard /> */}
+      <RuleCard />
 
       <Sponsers/>
      
       <div className="hidden sm:block">
         <TrackAndPrices  />
       </div>
-      {/* <Judges /> */}
+      <div className="sm:hidden block">
+        <TrackMobile  />
+      </div>
+      <Judges />
+
       <Testimonies/>
       <FAQ></FAQ>
-      {/* <Footer></Footer> */}
-      {/* <FooterLinks></FooterLinks> */}
+      <Footer></Footer>
+      <FooterLinks></FooterLinks>
 
     </div>
   );
