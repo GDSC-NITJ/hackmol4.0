@@ -48,7 +48,7 @@ let TrackMobile = function () {
         }
     }
     return (
-        <div className="bg-green flex flex-col  justify-center items-center  w-full  py-10 md:py-20 ">
+        <div id="prizes" className="bg-green flex flex-col  justify-center items-center  w-full  py-10 md:py-20 ">
             <h1 className="   text-black  text-3xl md:text-4xl font-extrabold items-center pb-4 text-center ">Tracks</h1>
             <div className="bg-yellow shadow-3xl mb-10 h-[332px] p-6 md:h-80 md:px-10 md:pt-10 md:pb-16  border w-11/12 sm:w-8/12 border-black  flex flex-col rounded-lg justify-items-center items-center">
                 <h2 className="pb-4 text-2xl text-center"><b>{qa[index].ques}</b></h2>

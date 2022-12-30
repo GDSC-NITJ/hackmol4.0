@@ -2,7 +2,7 @@ import React from "react";
 
 let Footer = function(props){
     return(
-        <div>
+        <div id="contact" >
         <div className="md:hidden bg-black h-[45%] text-white grid grid-rows-2 space-y-8 items-center  w-full">
             {/* Mobile View */}
             <div className="grid grid-rows-3 ml-8 mt-6">

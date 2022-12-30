@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 // import '../styles/Navbar.css';
 
 const NavBar = () => {
@@ -98,19 +98,69 @@ const NavBar = () => {
                     >
                         <ul className="items-center justify-center space-y-6 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-extrabold text-white  font-bold  md:text-xl hover:text-indigo-200">
-                                <h2 href="javascript:void(0)">ABOUT</h2>
+                            <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={550}
+                >
+                  ABOUT
+                </Link>
+                                <h2 href="javascript:void(0)"></h2>
                             </li>
                             <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
-                                <h2 href="javascript:void(0)">RULES</h2>
+                                <Link
+                  activeClass="active"
+                  to="rules"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={550}
+                >
+                  RULES
+                </Link>
+
+
                             </li>
                             <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
-                                <h2 href="javascript:void(0)">SCHEDULE</h2>
+                               <Link
+                  activeClass="active"
+                  to="schedule"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={550}
+                >
+                  SCHEDULE
+                </Link>
                             </li>
                             <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
-                                <h2 href="javascript:void(0)">PRIZES</h2>
+                                <Link
+                  activeClass="active"
+                  to="prizes"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={550}
+                >
+                  PRIZES
+                </Link>
+
                             </li>
                             <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
-                                <h2 href="javascript:void(0)">CONTACT</h2>
+                                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={550}
+                >
+                  CONTACT
+                </Link>
+                        
                             </li>
                         </ul>
                     </div>

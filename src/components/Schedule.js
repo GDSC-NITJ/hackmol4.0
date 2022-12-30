@@ -2,7 +2,7 @@ import React from 'react';
 import star from '../public/Vector.png'
 const Schedule=()=>{
     return(
-        <div className='flex w-full flex-col md:flex-row '>
+        <div id='schedule' className='flex w-full flex-col md:flex-row '>
             <div className='flex flex-col md:w-1/2 gap-2 h-[640px] sm:py-10 border-r-black border-r-[1.7px] justify-center items-center bg-lightblue'>
                
                 <div className='flex justify-center  items-center font-bold text-[52px] text-white relative'> <img className='absolute top-[-27px] left-[-30px]' width={54} height={54}  src={star.src}/>DAY-1</div>

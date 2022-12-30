@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
     return (
-      <div className="w-full py-20 bg-orange flex flex-col  justify-center items-center " >
+      <div id="about"  className="w-full py-20 bg-orange flex flex-col  justify-center items-center " >
         <h2 className="container flex flex-col justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-4 text-center  ">About HackMol4.0</h2>
           <div className="border-2 border-black p-7 shadow-3xl bg-white rounded-xl md:rounded-full w-11/12 sm:w-9/12 ">
           <div className="border-2 border-black px-4 md:px-32 py-10 rounded-xl  md:rounded-full  text-center">
