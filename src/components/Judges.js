@@ -39,6 +39,7 @@ function Judges() {
 
 
   return (
+
     <div className='  py-10 md:py-20 space-y-8 bg-yellow text-black  justify-center items-center '>
       <h2 className=' font-semibold text-5xl text-center w-full ' >
          Judges</h2>
@@ -69,6 +70,7 @@ function Judges() {
         </SwiperSlide>
         </Swiper>
                     
+
             
         </div>
         <div className="bg-blue w-[60%] rounded-lg relative left-[50%] -translate-x-[50%]  h-4 relative border shadow-3xl border-black">

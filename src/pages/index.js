@@ -36,6 +36,7 @@ export default function Home() {
 
       <RuleCard />
 
+
       <Sponsers/>
      
       <div className="hidden sm:block">
@@ -44,6 +45,7 @@ export default function Home() {
       <div className="sm:hidden block">
         <TrackMobile  />
       </div>
+
       <Judges />
 
       <Testimonies/>

@@ -24,10 +24,14 @@ export default About;
           <div className="skill-bx wow zoomIn">
             <h2>About HackMol4.0</h2>
             <div className="about-para">
+
+            <p>Over the years HackMOL has established itself as the Biggest Hackathon of Punjab with a awe-inspiring attendance of over 700+, 1100+ & 1300+ hackers in successive editions but this year HackMOL has advanced to another level by serving as the premier and opening event of Techniti (the annual Tech Fest of NIT Jalandhar) with anticipation of over 1000+ hackers physically joining us.</p></div>
+            
             <p>
 Over the years HackMOL has established itself as the Biggest Hackathon of Punjab with a awe-inspiring attendance of over 700+, 1100+ & 1300+ hackers in successive editions but this year HackMOL has advanced to another level by serving as the premier and opening event of Techniti (the annual Tech Fest of NIT Jalandhar) with anticipation of over 1000+ hackers physically joining us
 
 It is organised at the end of Month of Learning (MOL), a series of workshops & seminars focused and centred around the latest technologies.</p></div>
+
             {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                               <div className="item">
                                   <img src={meter1} alt="Image" />

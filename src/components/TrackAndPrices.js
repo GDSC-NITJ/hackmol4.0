@@ -7,14 +7,20 @@ function TrackAndPrices() {
 
 
   return (
+
     <div className='flex md:flex-row flex-col   border-2 border-black w-full'>
       <div className='flex flex-row justify-center py-36 px-[83px] bg-green p-8 w-full md:w-1/2 h-[60%] border border-r-black border-r-[1.69312px] items-start'>
+
         <div className='flex flex-col justify-center items-center p-0 gap-[24px]  w-[100%] h-[80%] left-[119.49px] top-[191px]'>
 
           <div className='flex justify-center items-center p-0   w-[398px]  h-[64px]  gap-[40px]  max-sm:gap-[15px]'>
             <div className='flex flex-col justify-center items-center border border-black bg-green rounded-[12px] px-[40px] py-[20px] gap-[20px] w-[294px]  h-[64px] border border-black border-[1px] shadow-[5px_5px_0px_#000000]'>
 
+
+              <h1 className='font-bold text-[19px]'>Fresher's Track</h1>
+
               <h1 className='font-bold text-[19px]'>Fresher&apos;s Track</h1>
+
             </div>
             <button className='flex flex-col justify-center items-center border border-black bg-white rounded-[12px] px-[40px] py-[20px] gap-[20px] w-[64px] h-[60px]  border border-black border-[0.820513px] shadow-[4.10256px_4.10256px_0px_#000000]' onClick={() => setState(0)}>
 
