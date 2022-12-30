@@ -5,7 +5,7 @@ import React, { useState } from "react";
 let qa = [
     {
         ques: "What do you expect from this hackathon? Demo Question 1",
-        ans: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna."
+        ans: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et adipiscing elit Ut et massa mi. Aliquam in hendrerit urna."
     },
     {
         ques: "This is question 2 fsdsdfsdfsdfgsdgand 2 is my favourite number you know?",
@@ -50,7 +50,7 @@ let FAQ = function () {
     return (
         <div className="bg-orange flex flex-col  justify-center items-center  w-full py-10 md:py-20 ">
             <h1 className="   text-black  text-3xl md:text-4xl font-extrabold items-center pb-4 text-center ">FAQs</h1>
-            <div className="bg-yellow shadow-3xl  h-[331px] mb-10 p-6 md:h-80 md:px-10 md:pt-10 md:pb-16  border w-11/12 sm:w-8/12 border-black  flex flex-col rounded-lg justify-items-center items-center">
+            <div className="bg-yellow shadow-3xl  h-[332px] mb-10 p-6 md:h-80 md:px-10 md:pt-10 md:pb-16  border w-11/12 sm:w-8/12 border-black  flex flex-col rounded-lg justify-items-center items-center">
                 <h2 className="p-4 text-2xl text-center"><b>{qa[index].ques}</b></h2>
                 <h3 className="text-center self-start text-lg">{qa[index].ans}</h3>
             </div>

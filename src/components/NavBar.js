@@ -111,7 +111,7 @@ const NavBar = () => {
                                 <h2 href="javascript:void(0)">PRIZES</h2>
                             </li>
                             <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
-                                <h2 href="javascript:void(0)">CONTACH</h2>
+                                <h2 href="javascript:void(0)">CONTACT</h2>
                             </li>
                         </ul>
                     </div>
