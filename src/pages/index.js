@@ -34,7 +34,7 @@ export default function Home() {
 
       <Announcement />
 
-      <RuleCard />
+      {/* <RuleCard /> */}
 
 
       <Sponsers/>
