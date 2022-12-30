@@ -17,7 +17,6 @@ function TrackAndPrices() {
             <div className='flex flex-col justify-center items-center border border-black bg-green rounded-[12px] px-[40px] py-[20px] gap-[20px] w-[294px]  h-[64px] border border-black border-[1px] shadow-[5px_5px_0px_#000000]'>
 
 
-              <h1 className='font-bold text-[19px]'>Fresher's Track</h1>
 
               <h1 className='font-bold text-[19px]'>Fresher&apos;s Track</h1>
 
