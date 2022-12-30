@@ -1,14 +1,9 @@
 import React from 'react'
 
-function RulesPoints({title,decription}) {
+function RulesPoints({Desc,color}) {
   return (
-    <div className='rulesPoints flex flex-row space-x-2'>
-      <div className="rulesPoints__header font-semibold">
-        {"-> "}{title}{" : "}
-      </div>
-      <div className="rulesPoints__details">
-        {decription}
-      </div>
+    <div style={{background:color}} className='rulesPoints border-2 border-black shadow-3xl rounded-2xl flex flex-col p-3 justify-center text-black h-20 mx-7 my-9 text-sm font-Plus-Jakarta font-bold'>
+    {Desc}
     </div>
   )
 }

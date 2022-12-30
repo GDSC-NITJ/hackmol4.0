@@ -13,6 +13,7 @@ import Judges from "../components/Judges"
 import Testimonies from "../components/Testimonies";
 import TrackMobile from "../components/TrackMobile"
 import Head from "next/head"
+import RulesNew from "../components/RulesNew"
 
 
 
@@ -35,7 +36,7 @@ export default function Home() {
       <Announcement />
 
       {/* <RuleCard /> */}
-
+      <RulesNew/>
 
       <Sponsers/>
      
