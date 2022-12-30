@@ -3,8 +3,14 @@ import JudgCard from './JudgCard'
 
 function Judges() {
   return (
+
     <div className='judges  text-black h-screen flex justify-center items-center '>
         <div className="central-box flex justify-center p-34 w-auto">
+
+    <div className=' flex flex-col gap-12  bg-yellow text-black h-screen flex justify-center items-center '>
+      <h2 className=' font-semibold text-5xl ' > Judges</h2>
+        <div className="central-box flex gap-16 justify-center p-34 w-auto">
+
                     <JudgCard/>
                     <JudgCard/>
                     <JudgCard/>

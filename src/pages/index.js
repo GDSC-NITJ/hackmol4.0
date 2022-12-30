@@ -5,6 +5,7 @@ import About from "../components/About"
 import Banner from "../components/Banner"
 import Announcement from "../components/Announcement"
 import Footer from "../components/Footer"
+import FooterLinks from "../components/FooterLinks"
 import RuleCard from "../components/RulesCard"
 import Schedule from "../components/Schedule"
 import Sponsers from "../components/Sponsers"
@@ -37,18 +38,23 @@ export default function Home() {
       <RuleCard />
       {/* rule section end */}
       {/* Judges Section starts*/}
-      <Judges/>
       {/* Judges section ends */}
 
+      <Sponsers></Sponsers>
       {/* Tracks And Prices starts */}
       <TrackAndPrices />
       {/* Tracks And Prices end */}
 
       {/*FAQ and footer starts*/}
+
       <Sponsers></Sponsers>
+
+      <Judges />
+
       <Testimonies/>
       <FAQ></FAQ>
       <Footer></Footer>
+      <FooterLinks></FooterLinks>
 
       {/*FAQ and footer ends*/}
     </div>
