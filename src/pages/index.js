@@ -11,43 +11,40 @@ import Schedule from "../components/Schedule"
 import Sponsers from "../components/Sponsers"
 import Judges from "../components/Judges"
 import Testimonies from "../components/Testimonies";
+import TrackMobile from "../components/TrackMobile"
+import Head from "next/head"
+
+
+
 
 export default function Home() {
   return (
     <div className='' >
-      {/* Navigation starts */}
+      <Head>
+      
+</Head>
+
       <NavBar/>
-      {/* navigation ends */}
-      {/* Home starts */}
       <Banner/>
-      {/* Home ends */}
-      {/* About starts */}
       <About/>
-      {/* Schedule starts */}
 
         <Schedule/>
 
-      {/* Schedule ends */}
 
-      {/* Announcement start */}
 
       <Announcement />
 
-      {/* Announcement ends */}
-      {/* rule section */}
       <RuleCard />
-      {/* rule section end */}
-      {/* Judges Section starts*/}
-      {/* Judges section ends */}
 
-      <Sponsers></Sponsers>
-      {/* Tracks And Prices starts */}
-      <TrackAndPrices />
-      {/* Tracks And Prices end */}
 
-      {/*FAQ and footer starts*/}
-
-      <Sponsers></Sponsers>
+      <Sponsers/>
+     
+      <div className="hidden sm:block">
+        <TrackAndPrices  />
+      </div>
+      <div className="sm:hidden block">
+        <TrackMobile  />
+      </div>
 
       <Judges />
 
@@ -56,7 +53,6 @@ export default function Home() {
       <Footer></Footer>
       <FooterLinks></FooterLinks>
 
-      {/*FAQ and footer ends*/}
     </div>
   );
 }
