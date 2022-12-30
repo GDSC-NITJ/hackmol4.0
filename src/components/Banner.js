@@ -58,7 +58,11 @@ const Banner = () => {
                 <br></br>
                 <br></br>
                 {/* <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Connect", "Build", "Innovate" ]'><span className="wrap">{text}</span></span></h1> */}
-                  <p>HackMOL is the flagship annual 30-hour hackathon being organised by Google Developer Student (GDSC) of NIT Jalandhar wherein young coders & developers from all over the country join together to build projects & solutions to the alarming problems of the region & the world. </p>
+                  <p>HackMOL is the flagship annual 30-hour hackathon being organised by Google Developer Student (GDSC) of
+                     NIT Jalandhar<span className="hide">
+                        wherein young coders & developers from all over
+                       the country join together to build projects & solutions to the alarming problems of the region & the world.
+                     </span> </p>
 
                   <div className="banner__buttons__one">
                   <button id = "left" className="tagline below" onClick={() => console.log('connect')}>Join Discord</button>
@@ -76,7 +80,7 @@ const Banner = () => {
             </TrackVisibility>
           </div>
           <div className="banner__buttons__two">
-                  <button id = "left" className="tagline below" onClick={() => console.log('connect')}>Join Discord</button>
+                  <button id = "left" className="tagline below   " onClick={() => console.log('connect')}>Join Discord</button>
                   <button id="right" className="tagline below right" onClick={() => console.log('connect')}>Register</button></div>
         </div>
     </section>

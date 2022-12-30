@@ -77,7 +77,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-style: normal;
   font-weight: 1000;
   color: black;
-  line-height: 128px;
+  /* line-height: 128px; */
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -106,7 +106,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 @media screen and (max-width: 767px) {
   .scrolled .navbar-options {
-    display: none;
+    /* display: none; */
   }
 
   .non__scrolled.navbar.navbar-expand-md.navbar-light {
@@ -118,7 +118,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   }
 
   .non__scrolled .navbar-options {
-    display: none;
+    /* display: none; */
   }
 
   .heading {
@@ -302,48 +302,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: #000000;
   padding: 20px 60px 20px 40px;
   gap: 48px;
-  display: none;
+  /* display: none; */
 }
 
 /* nav.navbar.scrolled { */
 /* display: none; */
 /* background-color: white; */
 /* } */
-nav.navbar.scrolled {
+/* nav.navbar.scrolled {
   top: 0;
   width: 100%;
   /* height: 50px; */
-  position: fixed;
+  /* position: fixed;
   display: none;
 
   justify-content: space-between;
-}
+} */ 
 
-nav.navbar.scrolled .heading__container {
-  /* border: 1px solid black; */
-  display: none;
-  width: 25vw;
-  /* height: 20px; */
-  padding: 5px;
-  background-color: #5C40EC;
-}
 
-nav.navbar.scrolled .heading__container h2 {
+/* nav.navbar.scrolled .heading__container h2 {
   height: fit-content;
   padding: 0;
   margin: 0;
   font-size: 30px;
-}
+} */
 
-nav.navbar.scrolled.navbar-options {
+/* nav.navbar.scrolled.navbar-options {
   width: 75vw;
   display: none;
-}
+} */
 
-nav.navbar.scrolled .navbar-nav .nav-link.navbar-link {
+/* nav.navbar.scrolled .navbar-nav .nav-link.navbar-link {
   color: white !important;
   font-size: 20px;
-}
+} */
 
 /* nav.navbar.scrolled .navbar-options {
   display: flex;
@@ -570,9 +562,10 @@ nav.navbar.scrolled .header-name {
   }
 
   .banner_left {
+    padding: 40px 0 ;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 75%;
     border-right: none;
     background-color: #FFFFFF;
     outline: none;
@@ -584,10 +577,13 @@ nav.navbar.scrolled .header-name {
     /* border: 2px solid black; */
   }
 
+  
+
   .banner__buttons__two {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
   }
 
   .banner__buttons__one {
@@ -599,6 +595,7 @@ nav.navbar.scrolled .header-name {
   .banner__buttons__two {
     display: none;
   }
+  
 }
 
 
@@ -698,6 +695,15 @@ nav.navbar.scrolled .header-name {
     padding: 20px;
     width: 100%;
     height: 60%;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .tag{
+    font-size: 36px;
+    line-height: 1em;
   }
 }
 

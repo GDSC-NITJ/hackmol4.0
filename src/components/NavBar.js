@@ -7,6 +7,7 @@ const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -28,43 +29,96 @@ const NavBar = () => {
 
   return (
     <div>
-      <Navbar expand="md" className={scrolled ? "scrolled" : "non__scrolled"}>
-        {/* <div className="header"> */}
+ 
+      <div expand="md" fixed="top" >
         <div className="heading__container" href="/">
           <h2 className="heading">HACKMOL 4.0</h2>
-          {/* <div className="line"></div> */}
         </div>
 
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <div className="toggleBar">
-            <span className="navbar-toggler-icon"></span>
-            <span>MENU</span>
+        <nav className="w-full bg-purple shadow border-2 border-black top-0 sticky">
+            <div className="justify-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 md:py-3 ">
+                <div>
+                    <div className="flex items-center justify-between py-1 md:py-5 md:block">
+                        <div className="md:hidden">
+                            <button
+                                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                                onClick={() => setNavbar(!navbar)}
+                            >
+                                {navbar ? (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6 text-white"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clipRule="evenodd"
+                                        />
+                                    </svg>
+                                ) : (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6 text-white"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                        strokeWidth={2}
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M4 6h16M4 12h16M4 18h16"
+                                        />
+                                    </svg>
+                                )}
+                            </button>
+                        </div>
+                        <a href="javascript:void(0)" className="md:hidden flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
+                            <h2 className=" text-lg md:text-2xl font-bold text-white"   >Menu</h2>
+                            {navbar ? (
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.75 13.125L10 6.875L16.25 13.125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    
+                                ) : (
+                                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  
+                                )}
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div
+                        className={`flex-1 justify-self-center pb-4 mt-4 md:block md:pb-0 md:mt-0 ${
+                            navbar ? "block" : "hidden"
+                        }`}
+                    >
+                        <ul className="items-center justify-center space-y-6 md:flex md:space-x-6 md:space-y-0">
+                            <li className="text-extrabold text-white  font-bold  md:text-xl hover:text-indigo-200">
+                                <h2 href="javascript:void(0)">ABOUT</h2>
+                            </li>
+                            <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                                <h2 href="javascript:void(0)">RULES</h2>
+                            </li>
+                            <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                                <h2 href="javascript:void(0)">SCHEDULE</h2>
+                            </li>
+                            <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                                <h2 href="javascript:void(0)">PRIZES</h2>
+                            </li>
+                            <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                                <h2 href="javascript:void(0)">CONTACH</h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </Navbar.Toggle> */}
-
-
-        <div className="navbar-options" id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            {/* <Nav.Link className="header-name">HACKMOL 4.0</Nav.Link> */}
-            <Nav.Link href="#about" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>ABOUT</Nav.Link>
-            <Nav.Link href="#rules" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('rules')}>RULES</Nav.Link>
-            <Nav.Link href="#schedule" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('schedule')}>SCHEDULE</Nav.Link>
-            <Nav.Link href="#prizes" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('prizes')}>PRIZES</Nav.Link>
-            <Nav.Link href="#contact" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>CONTACT</Nav.Link>
-          </Nav>
-          {/* <span className="navbar-text">
-              <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
-              </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
-            </span> */}
-        </div>
-        {/* </div> */}
-      </Navbar>
+        </nav>
+      </div>
     </div>
   )
 }
