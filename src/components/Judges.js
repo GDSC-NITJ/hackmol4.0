@@ -50,7 +50,6 @@ function Judges() {
       <Swiper
         slidesPerView={length}
         onSlideChange={handleSelect}
-        onSwiper={(swiper) => console.log(swiper)}
         loop={true}
         autoplay={{
           delay: 2500,

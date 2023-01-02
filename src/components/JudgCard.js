@@ -1,5 +1,5 @@
 import Image from "next/image"
-import pic from "../public/images/judges/123.png"
+import pic from "../../public/images/judges/123.png"
 
 
 function JudgCard({color}) {

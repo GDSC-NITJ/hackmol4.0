@@ -74,20 +74,20 @@ const NavBar = () => {
                                 )}
                             </button>
                         </div>
-                        <a href="javascript:void(0)" className="md:hidden flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
+                        <div className="md:hidden flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
                             <h2 className=" text-lg md:text-2xl font-bold text-white"   >Menu</h2>
                             {navbar ? (
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.75 13.125L10 6.875L16.25 13.125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3.75 13.125L10 6.875L16.25 13.125" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                                     </svg>
                                     
                                 ) : (
                                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                                   </svg>
                                   
                                 )}
-                        </a>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -108,7 +108,7 @@ const NavBar = () => {
                 >
                   ABOUT
                 </Link>
-                                <h2 href="javascript:void(0)"></h2>
+
                             </li>
                             <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                                 <Link

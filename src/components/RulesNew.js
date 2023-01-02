@@ -1,5 +1,5 @@
 import React from 'react'
-import Hackmol4 from '../public/Hackmol4.png'
+import Hackmol4 from '../../public/Hackmol4.png'
 import RulesPoints from './RulesPoints'
 
 function RulesNew() {

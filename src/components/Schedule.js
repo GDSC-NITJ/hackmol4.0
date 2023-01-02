@@ -1,5 +1,5 @@
 import React from 'react';
-import star from '../public/Vector.png'
+import star from '../../public/Vector.png'
 const Schedule=()=>{
     return(
         <div id='schedule' className='flex w-full flex-col md:flex-row '>
