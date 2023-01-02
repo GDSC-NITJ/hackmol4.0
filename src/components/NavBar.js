@@ -115,6 +115,7 @@ const NavBar = () => {
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#schedule'}
+                      scroll={false}
                     >
                       SCHEDULE
                     </Link>
