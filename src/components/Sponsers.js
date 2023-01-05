@@ -1,4 +1,7 @@
 import react from "react";
+import devfolio from '../../public/images/sponsors/devfolio.png'
+import gfg from '../../public/images/sponsors/gfg.png'
+import celo from '../../public/images/sponsors/celo.png'
 
 function Sponsers() {
   return (
@@ -11,8 +14,8 @@ function Sponsers() {
           <span>Diamond Sponsers</span>
         </div>
         <div className="diamond__sponsers-sponsers">
-          <div className="diamond__sponsers-sponsers-box"></div>
-          <div className="diamond__sponsers-sponsers-box"></div>
+          <div className="diamond__sponsers-sponsers-box"><img src={devfolio.src}/></div>
+          <div className="diamond__sponsers-sponsers-box"><img src={gfg.src}/></div>
         </div>
       </div>
    
@@ -21,12 +24,12 @@ function Sponsers() {
           <span>Gold Sponsers</span>
         </div>
         <div className="gold__sponsers-sponsers">
-          <div className="gold__sponsers-sponsers-box"></div>
-          <div className="gold__sponsers-sponsers-box"></div>
-          <div className="gold__sponsers-sponsers-box"></div>
-          <div className="gold__sponsers-sponsers-box"></div>
-          <div className="gold__sponsers-sponsers-box"></div>
-          <div className="gold__sponsers-sponsers-box"></div>
+          <div className="gold__sponsers-sponsers-box"><img src={devfolio.src}/></div>
+          <div className="gold__sponsers-sponsers-box"><img src={gfg.src}/></div>
+          <div className="gold__sponsers-sponsers-box"><img src={devfolio.src}/></div>
+          <div className="gold__sponsers-sponsers-box"><img src={gfg.src}/></div>
+          <div className="gold__sponsers-sponsers-box"><img src={devfolio.src}/></div>
+          <div className="gold__sponsers-sponsers-box"><img src={gfg.src}/></div>
         </div>
       </div>
 
@@ -35,12 +38,12 @@ function Sponsers() {
           <span>Siver Sponsers</span>
         </div>
         <div className="silver__sponsers-sponsers">
-          <div className="silver__sponsers-sponsers-box"></div>
-          <div className="silver__sponsers-sponsers-box"></div>
-          <div className="silver__sponsers-sponsers-box"></div>
-          <div className="silver__sponsers-sponsers-box"></div>
-          <div className="silver__sponsers-sponsers-box"></div>
-          <div className="silver__sponsers-sponsers-box"></div>
+          <div className="silver__sponsers-sponsers-box"><img src={devfolio.src}/></div>
+          <div className="silver__sponsers-sponsers-box"><img src={gfg.src}/></div>
+          <div className="silver__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="silver__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="silver__sponsers-sponsers-box"><img src={devfolio.src}/></div>
+          <div className="silver__sponsers-sponsers-box"><img src={celo.src}/></div>
         </div>
       </div>
 
@@ -49,16 +52,16 @@ function Sponsers() {
           <span>Bronze Sponsers</span>
         </div>
         <div className="bronze__sponsers-sponsers">
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
-          <div className="bronze__sponsers-sponsers-box"></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
+          <div className="bronze__sponsers-sponsers-box"><img src={celo.src}/></div>
         </div>
       </div>
 
