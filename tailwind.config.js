@@ -18,6 +18,7 @@ module.exports = {
         fontFamily:{
           'Space-Grotesk': ['Space Grotesk', 'sans-serif'],
           'Plus-Jakarta': ['Plus Jakarta Sans', 'sans-serif'],
+          'Red-Hat-Display': ['Red Hat Display', 'sans-serif'],
       },
       boxShadow:{
         '3xl':'5px 5px black',
