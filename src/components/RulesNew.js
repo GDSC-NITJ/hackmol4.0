@@ -36,8 +36,8 @@ function RulesNew() {
             </div>
                     <div className="rules__list  space-y-8  ">
                         
-                      {  rules.map((ele)=>{
-                            return    <RulesPoints Desc={ele.rule} color={ele.color}/>
+                      {  rules.map((ele,i)=>{
+                            return    <RulesPoints Desc={ele.rule} color={ele.color} key={i}/>
                         })
                         }
                     </div>
