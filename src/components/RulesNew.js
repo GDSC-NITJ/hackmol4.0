@@ -35,9 +35,8 @@ function RulesNew() {
                 <img src={Hackmol4.src} alt="Image" className=' mb-10  w-[330px] ' />
             </div>
                     <div className="rules__list  space-y-8  ">
-                        
-                      {  rules.map((ele,id)=>{
-                            return    <RulesPoints key={id} Desc={ele.rule} color={ele.color}/>
+                      {  rules.map((ele,i)=>{
+                            return    <RulesPoints Desc={ele.rule} color={ele.color} key={i}/>
                         })
                         }
                     </div>
