@@ -8,8 +8,8 @@ const Schedule=()=>{
                 <div className='flex justify-center  items-center font-bold text-[52px] text-white relative'> <img className='absolute top-[-27px] left-[-30px]' width={54} height={54}  src={star.src}/>DAY-1</div>
                 <div className='flex flex-col bg-white  shadow-3xl font-medium w-11/12 sm:w-9/12  border-black border-[2px] rounded-[12px]'>
                     <div className='flex justify-between px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Introduction to Hackathon</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Team Formations and Ideations Start</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Ideations Result Declaration</div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Team Formations  </div></div>
+                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Ideations Phase</div></div>
                     <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Prototyping Phase Begins</div></div>
                     <div className='flex justify-between  px-[10px] py-[20px]'><div>-- : -- am</div><div>Fun Events</div></div>
                 </div>
