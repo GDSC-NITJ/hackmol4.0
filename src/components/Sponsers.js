@@ -9,7 +9,7 @@ function Sponsers() {
             <h1 className="text-4xl uppercase  mb-2 font-bold font-Space-Grotesk">Sponsors</h1>
 
             <div className="flex items-center justify-center  flex-col">
-                <div className="  font-Red-Hat-Display font-semibold text-base w-[294px] h-11 bg-[#FFC900] text-center px-10 py-2 shadow-3xl">
+                <div className="  font-Red-Hat-Display font-semibold text-base rounded w-[294px] h-11 bg-[#FFC900] text-center px-10 py-2 shadow-3xl">
                     Diamond Sponsors
                 </div>
                 <div className=" flex items-center flex-wrap justify-center">

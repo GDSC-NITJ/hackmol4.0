@@ -69,7 +69,7 @@ let Footer = function(props){
                     </div>
                     <div className="h-[72px] row-span-1 self-start">
                         <h6 className="text-white font-Plus-Jakarta">
-                            <b>Lorem ipsum dolor sit amet consectetur. Pellentesque ullamcorper nisl pretium senectus cursus nullam augue tincidunt.</b>
+                            <b>GDSC NITJ</b>
                         </h6>
                     </div>
                 </div>

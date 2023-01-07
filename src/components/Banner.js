@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 // import headerImg from '../public/project-img4.png';
 import headerImg from '../../public/project-img4.png'
 import TrackVisibility from 'react-on-screen';
+import Link from "next/link";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -78,8 +79,8 @@ const Banner = () => {
             </TrackVisibility>
           </div>
           <div className="banner__buttons__two">
-                  <button id = "left" className="tagline below  w-40  " onClick={() => console.log('connect')}>Join Discord</button>
-                  <button id="right" className="tagline below right w-40 mr-0 " onClick={() => console.log('connect')}>Register</button></div>
+                  <button id = "left" className="tagline below  w-40  " onClick={() => console.log('connect')}><Link href='https://discord.gg/6Th6ppaG' >Join Discord</Link></button>
+                  <button id="right" className="tagline below right w-40 mr-0 " onClick={() => console.log('connect')}><Link>Register</Link></button></div>
         </div>
     </section>
   )
