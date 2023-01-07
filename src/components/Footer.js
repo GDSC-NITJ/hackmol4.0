@@ -14,7 +14,7 @@ let Footer = function(props){
                         <path d="M63.9585 51.7897C65.3125 51.7897 66.683 51.4244 67.9461 50.6588L96.0081 33.5916L76.4497 26.0496L59.9626 36.0794C56.1401 38.4021 54.8274 43.5518 57.04 47.5794C58.5095 50.2761 61.201 51.7897 63.9585 51.7897Z" fill="#FBBC04"/>
                         <path d="M92.0016 34.7227C94.7591 34.7227 97.4506 33.2178 98.9284 30.5124C101.133 26.4848 99.8283 21.3351 96.0058 19.0125L67.9437 1.94524C64.1212 -0.377369 59.2337 0.997064 57.0294 5.02465C54.825 9.05224 56.1294 14.202 59.952 16.5246L88.014 33.5919C89.2689 34.3574 90.6477 34.7227 92.0016 34.7227Z" fill="#34A853"/>
                     </svg>
-                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4 w-[105px] mt-4 text-center">
+                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4 w-[105px] mt-5 text-center">
                         <b>GDSC NITJ</b>
                     </h6>
                 </div>
@@ -53,10 +53,10 @@ let Footer = function(props){
 
         </div>
         <div className="md:grid hidden w-full h-96 bg-black justify-items-center items-center">
-            <div className="ml-20 mr-20 grid grid-cols-3 self-center">
+            <div className="ml-20 mr-20 flex justify-between self-center w-10/12">
 
                 {/* Left Column */}
-                <div className="col-span-1 grid grid-rows-3">
+                <div className="col-span-1 grid grid-rows-2">
                     <div className="self-center row-span-2">
                         <svg width="100" height="51" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M23.8113 26.3979L40.0507 16.5247C43.8733 14.2021 45.1777 9.05227 42.9734 5.02467C40.769 0.997064 35.8815 -0.377373 32.059 1.94524L3.99698 19.0126L23.8113 26.3979Z" fill="#EA4335"/>
@@ -66,9 +66,9 @@ let Footer = function(props){
                         </svg>
                     </div>
                     <div className="h-[72px] row-span-1 self-start">
-                        <h6 className="text-white font-Plus-Jakarta">
-                            <b>GDSC NITJ</b>
-                        </h6>
+                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4 w-[100px] mt-5 text-center">
+                        <b>GDSC NITJ</b>
+                    </h6>
                     </div>
                 </div>
 
