@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useState , useRef} from 'react'
 import JudgCard from './JudgCard'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSwiper } from 'swiper/react';
@@ -14,7 +14,7 @@ function Judges() {
     setIndex(selectedIndex);
   };
 
-  const swiper = useSwiper();
+  const swiperRef = useRef();
 
   React.useEffect(() => {
     
@@ -55,6 +55,9 @@ function Judges() {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+        }}
       >
         <SwiperSlide>
           <JudgCard
@@ -77,13 +80,16 @@ function Judges() {
         </div>
         <div className="bg-blue w-[60%] rounded-lg relative left-[50%] -translate-x-[50%]  h-4 relative border shadow-3xl border-black">
                 <div className="w-[98px] h-[60px] absolute -top-6 left-[50%] -translate-x-[50%] rounded-full flex bg-blue justify-center gap-3  items-center border border-black">
-                    <button onClick={() => swiper.slidePrev() }>
-                        <svg className="h-[25px] w-[25px] hover:mr-2" width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button onClick={() => swiperRef.current.slidePrev() }>
+                        <svg className="h-[25px] w-[25px] relative hover:right-1 hover:ease-out " width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.5 13L23 0.00961876V25.9904L0.5 13Z" fill="#070606" />
                         </svg>
 
                     </button>
-                    <button className="h-[25px] w-[25px]  hover:ml-2" onClick={() => swiper.slideNext() }><svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button  onClick={() => swiperRef.current.slideNext()}>
+                      <svg 
+                      className="h-[25px] w-[25px] relative hover:left-1 hover:ease-out"
+                     width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.5 13L0 25.9904L0 0.00961876L22.5 13Z" fill="#070606" />
                     </svg>
                     </button>
