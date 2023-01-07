@@ -79,7 +79,7 @@ const Banner = () => {
             </TrackVisibility>
           </div>
           <div className="banner__buttons__two">
-                  <button id = "left" className="tagline below  w-40  " onClick={() => console.log('connect')}><Link href='https://discord.gg/6Th6ppaG' >Join Discord</Link></button>
+                  <button id = "left" className="tagline below  w-40  " onClick={() => console.log('connect')}><Link target="_blank" rel="noreferrer"  href='https://discord.gg/6Th6ppaG' >Join Discord</Link></button>
                   <button id="right" className="tagline below right w-40 mr-0 " onClick={() => console.log('connect')}>Register</button></div>
         </div>
     </section>
