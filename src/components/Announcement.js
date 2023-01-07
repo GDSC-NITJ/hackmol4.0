@@ -11,10 +11,10 @@ const Announcement = () => {
                 <div className="font-semibold sm:text-center border-2 border-black p-10 shadow-3xl bg-white rounded-xl w-11/12 sm:w-9/12 text-lg ">
                 To be eligible for fresher&apos;strack, all the members of team should be from first year of Degree/ All school students are also eligible for hackathon
 
-Opting for fresher&apos;strack is a choice, instead of compulsion so if your team wish to participate in main track you can, we&apos;ll roll out forms for this choice during hackathon
+Opting for fresher&apos;strack is a choice, instead of compulsion so if your team wish to participate in main track you can, we&apos;ll roll out forms for this choice during hackathon. 
 
-Folks participating in fresher&apos;strack can start their project before hackathon period. 
 <span className="hidden sm:inline" >
+Folks participating in fresher&apos;strack can start their project before hackathon period. 
     
     You can use any open source library/module/framework to build your hack
     

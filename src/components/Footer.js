@@ -6,18 +6,16 @@ let Footer = function(props){
         <div id="contact" >
         <div className="md:hidden bg-black h-[45%] text-white grid grid-rows-2 space-y-8 items-center  w-full">
             {/* Mobile View */}
-            <div className="grid grid-rows-3 ml-8 mt-6">
-                <div className="self-center row-span-1">
+            <div className="grid grid-rows-2 ml-8 mt-6">
+                <div className="self-center row-span-1 flex flex-col justify-center ">
                     <svg width="100" height="51" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.8113 26.3979L40.0507 16.5247C43.8733 14.2021 45.1777 9.05227 42.9734 5.02467C40.769 0.997064 35.8815 -0.377373 32.059 1.94524L3.99698 19.0126L23.8113 26.3979Z" fill="#EA4335"/>
                         <path d="M36.0439 51.7903C38.8014 51.7903 41.4928 50.2767 42.9706 47.58C45.1749 43.5524 43.8705 38.4027 40.048 36.0801L11.986 19.0128C8.16346 16.6902 3.27593 18.0646 1.07158 22.0922C-1.13276 26.1198 0.17169 31.2696 3.9942 33.5922L32.0562 50.6595C33.3194 51.425 34.6899 51.7903 36.0439 51.7903Z" fill="#4285F4"/>
                         <path d="M63.9585 51.7897C65.3125 51.7897 66.683 51.4244 67.9461 50.6588L96.0081 33.5916L76.4497 26.0496L59.9626 36.0794C56.1401 38.4021 54.8274 43.5518 57.04 47.5794C58.5095 50.2761 61.201 51.7897 63.9585 51.7897Z" fill="#FBBC04"/>
                         <path d="M92.0016 34.7227C94.7591 34.7227 97.4506 33.2178 98.9284 30.5124C101.133 26.4848 99.8283 21.3351 96.0058 19.0125L67.9437 1.94524C64.1212 -0.377369 59.2337 0.997064 57.0294 5.02465C54.825 9.05224 56.1294 14.202 59.952 16.5246L88.014 33.5919C89.2689 34.3574 90.6477 34.7227 92.0016 34.7227Z" fill="#34A853"/>
                     </svg>
-                </div>
-                <div className="h-[72px] row-span-1 flex items-center w-[80%]">
-                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4">
-                        <b>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.</b>
+                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4 w-[105px] mt-4 text-center">
+                        <b>GDSC NITJ</b>
                     </h6>
                 </div>
                 <div className="row-span-1 w-[50%] flex items-center pt-4">
