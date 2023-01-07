@@ -73,22 +73,22 @@ function Sponsers() {
             </div>
 
             <div className="flex items-center justify-center  flex-col">
-                <div className="  font-Red-Hat-Display font-semibold text-base   w-44 h-11 md:w-[250px] rounded  bg-[#A27CFF] text-center px-10 py-2 shadow-3xl">
+                <div className="  font-Red-Hat-Display font-semibold text-base   w-[250px] h-11 md:w-[250px] rounded  bg-[#A27CFF] text-center px-10 py-2 shadow-3xl">
                     Bronze Sponsor
                 </div>
                 <div className=" flex items-center justify-center w-full  flex-wrap">
-                    <div className="w-44 h-12 md:w-[250px] md:h-[58px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                    <div className="w-[250px]  h-12 md:w-[250px] md:h-[58px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         {/* <img src={devfolio.src} alt="Sponsor Image" className="p-10" /> */}
                         To be decided
 
                     </div>
-                    <div className="w-44 h-12 md:w-[250px] md:h-[58px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                    <div className="w-[250px]  h-12 md:w-[250px] md:h-[58px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         {/* <img src={devfolio.src} alt="Sponsor Image" className="p-10" /> */}
                         To be decided
 
                     </div>
                    
-                    <div className="w-44 h-12 md:w-[250px] md:h-[58px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                    <div className="w-[250px]  h-12 md:w-[250px] md:h-[58px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         {/* <img src={devfolio.src} alt="Sponsor Image" className="p-10" /> */}
                         To be decided
 
