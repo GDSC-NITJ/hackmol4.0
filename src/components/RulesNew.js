@@ -29,7 +29,8 @@ function RulesNew() {
                         RULES
                     </div>
                     <div className="rules__desc mb-10 font-Plus-Jakarta">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo?
+                        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo? */}
+                        All the submissions will be reviewed by the organizing committee & fixed top submissions will qualify for review by a panel of judges. Finalist teams may be called for special presentation with the Judges.
                     </div>
                     <div className="rulesRight h-1/2 md:hidden  flex flex-col justify-center w-full items-center ">
                 <img src={Hackmol4.src} alt="Image" className=' mb-10  w-[330px] ' />

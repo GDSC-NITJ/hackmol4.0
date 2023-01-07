@@ -4,24 +4,24 @@ import React, { useState } from "react";
 
 let qa = [
     {
-        ques: "What do you expect from this hackathon? Demo Question 1",
-        ans: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et adipiscing elit Ut et massa mi. Aliquam in hendrerit urna."
+        ques: "What is a Hackathon and who can Participate in HackMol3.0 ?",
+        ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a student developer, we'd love to have you at HacMol3.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event."
     },
     {
-        ques: "This is question 2 fsdsdfsdfsdfgsdgand 2 is my favourite number you know?",
-        ans: "No, I dont care, demo answer 2"
+        ques: "What can be the size of Team?",
+        ans: "A team can consist of 1-5 members. Pro Tip: Aim to have a mix of people with both design and developer skills. Individual Participants are also allowed"
     },
     {
-        ques: "This is question 3",
-        ans: "This is answer 3"
+        ques: "How much does it Cost ?      ",
+        ans: "TZero. Zip. Zilch. Nada. Nothing. Admission to Hackmol3.0 is completely free for all student Developers"
     },
     {
-        ques: "This is question 4",
-        ans: "This is answer 4"
+        ques: "What if I don't have a team or Idea ?",
+        ans: "Don't worry, most people don't! We'll have team formation and ideation events geared towards helping you find people to work with. It’s perfectly normal to go around to people, tell them you're looking for a team, and ask if you can help out. You can also show yourself off at #teamup on our Discord Server."
     },
     {
-        ques: "This is question 5",
-        ans: "This is answer 5"
+        ques: "When we will recive goodies?",
+        ans: "Prizes and goodies are provided by sponsors of the hackathon, hence they are responsible for the delivery of the items."
     }
 ]
 
