@@ -80,7 +80,7 @@ const Banner = () => {
           </div>
           <div className="banner__buttons__two">
                   <button id = "left" className="tagline below  w-40  " onClick={() => console.log('connect')}><Link href='https://discord.gg/6Th6ppaG' >Join Discord</Link></button>
-                  <button id="right" className="tagline below right w-40 mr-0 " onClick={() => console.log('connect')}><Link>Register</Link></button></div>
+                  <button id="right" className="tagline below right w-40 mr-0 " onClick={() => console.log('connect')}>Register</button></div>
         </div>
     </section>
   )
