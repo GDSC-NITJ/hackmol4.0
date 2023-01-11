@@ -62,12 +62,12 @@ export default function Home() {
       <Announcement />
 
       {/* <RuleCard /> */}
+        <TrackAndPrices  />
       <RulesNew/>
       {/* <Team /> */}
 
       {/* <Sponssers/> */}
      
-        <TrackAndPrices  />
 
       <Judges />
 

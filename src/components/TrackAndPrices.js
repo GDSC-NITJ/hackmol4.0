@@ -39,7 +39,7 @@ function TrackAndPrices() {
           </div>
   
         </div>
-        <div className='border-2 border-black bg-white  min-w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
+        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
           <img 
            src={p2.src}
           ></img>
@@ -65,7 +65,7 @@ function TrackAndPrices() {
           </div>
   
         </div>
-        <div className='border-2 border-black bg-white  min-w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
+        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
           <img 
            src={p3.src}
           ></img>
