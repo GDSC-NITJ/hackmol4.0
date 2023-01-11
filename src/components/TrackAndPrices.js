@@ -4,102 +4,72 @@ import p2 from '../../public/2nd.png'
 import p3 from '../../public/3rd.png'
 
 function TrackAndPrices() {
-
-  const [state, setState] = React.useState(0);
-  const trackArray = [{ title: 'Track 1 - Freshers', description: ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.' }, { title: 'Track 2 - Beginner', description: ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.' }, { title: 'Track-3 Main', description: ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.' }]
-
+  const [state, setState] = React.useState(0)
+  const trackArray = [
+    {
+      title: 'Track 1 - Freshers',
+      description:
+        ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.',
+    },
+    {
+      title: 'Track 2 - Beginner',
+      description:
+        ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.',
+    },
+    {
+      title: 'Track-3 Main',
+      description:
+        ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.',
+    },
+  ]
 
   return (
-<div className='py-10 md:py-20 space-y-8 bg-[#D0A4FF] ' >
-  <h1 className='text-center  text-4xl font-bold'>Tracks and Prizes</h1>
+    <div className='py-10 md:py-20 space-y-8 bg-[#D0A4FF] '>
+      <h1 className='text-center  text-4xl font-bold'>Tracks and Prizes</h1>
       <div className='flex w-full flex-wrap justify-center items-center gap-5 '>
-        <div className='border-2 border-black bg-white  w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
-          <img 
-           src={p1.src}
-          ></img>
-          
-          <div className='text-lg  font-bold' >
-            Prize Evaluation
-          </div>
+        <div className='border-2 border-black bg-white  w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  '>
+          <img src={p1.src}></img>
+
+          <div className='text-lg  font-bold'>Prize Evaluation</div>
           <div>
-  
-            <p className=' font-bold'>
-              - ₹ 50000  Amount
-            </p>
-            <p className=' font-bold' >
-              - Premium Swags and Goodies Kit
-            </p>
-            <p className=' font-bold' >
-              - Certificate of Participation
-            </p>
-           
-  
-            <p className=' font-bold' > - Pro Version Free for 12 months
-            </p>
+            <p className=' font-bold'>- ₹ 30000 Amount</p>
+            <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
+            <p className=' font-bold'>- Certificate of Participation</p>
+
+            <p className=' font-bold'> - Pro Version Free for 12 months</p>
           </div>
-  
         </div>
-        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
-          <img 
-           src={p2.src}
-          ></img>
-          
-          <div className='text-lg  font-bold' >
-            Prize Evaluation
-          </div>
+        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  '>
+          <img src={p2.src}></img>
+
+          <div className='text-lg  font-bold'>Prize Evaluation</div>
           <div>
-  
-            <p className=' font-bold'>
-              - ₹ 30000  Amount
-            </p>
-            <p className=' font-bold' >
-              - Premium Swags and Goodies Kit
-            </p>
-            <p className=' font-bold' >
-              - Certificate of Participation
-            </p>
-           
-  
-            <p className=' font-bold' > - Pro Version Free for 12 months
-            </p>
+            <p className=' font-bold'>- ₹ 20000 Amount</p>
+            <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
+            <p className=' font-bold'>- Certificate of Participation</p>
+
+            <p className=' font-bold'> - Pro Version Free for 12 months</p>
           </div>
-  
         </div>
-        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  ' >
-          <img 
-           src={p3.src}
-          ></img>
-          
-          <div className='text-lg  font-bold' >
-            Prize Evaluation
-          </div>
+        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  '>
+          <img src={p3.src}></img>
+
+          <div className='text-lg  font-bold'>Prize Evaluation</div>
           <div>
-  
-            <p className=' font-bold'>
-              - ₹ 20000  Amount
-            </p>
-            <p className=' font-bold' >
-              - Premium Swags and Goodies Kit
-            </p>
-            <p className=' font-bold' >
-              - Certificate of Participation
-            </p>
-           
-  
-            <p className=' font-bold' > - Pro Version Free for 12 months
-            </p>
+            <p className=' font-bold'>- ₹ 10000 Amount</p>
+            <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
+            <p className=' font-bold'>- Certificate of Participation</p>
+
+            <p className=' font-bold'> - Pro Version Free for 12 months</p>
           </div>
-  
         </div>
       </div>
-</div>
-
-
-
+    </div>
   )
 }
 
-{/* <div id='prizes' className='flex md:flex-row flex-col   border-2 border-black bg-white w-full'>
+{
+  /* <div id='prizes' className='flex md:flex-row flex-col   border-2 border-black bg-white w-full'>
       <div className='flex flex-row justify-center py-36 px-[83px] bg-green p-8 w-full md:w-1/2 h-[60%] border border-r-black border-r-[1.69312px] items-start'>
 
         <div className='flex flex-col justify-center items-center p-0 gap-[24px]  w-[100%] h-[80%] left-[119.49px] top-[191px]'>
@@ -145,8 +115,10 @@ function TrackAndPrices() {
       </div>
 
 
-      {/* right portion of this section */}
-{/* <div className='flex  flex-row  bg-white items-center w-full md:w-1/2 px-[55px] py-24  md:py-[8px] '>
+      {/* right portion of this section */
+}
+{
+  /* <div className='flex  flex-row  bg-white items-center w-full md:w-1/2 px-[55px] py-24  md:py-[8px] '>
         <div className='flex flex-col items-center'>
           <div className='flex flex-col font-bold text-[200%]  '>
             {trackArray[state].title}
@@ -156,8 +128,7 @@ function TrackAndPrices() {
           </div>
         </div>
       </div>
-    </div>  */}
-
-
+    </div>  */
+}
 
 export default TrackAndPrices
