@@ -50,7 +50,7 @@ function TrackAndPrices() {
           <div>
   
             <p className=' font-bold'>
-              - ₹ 25000  Amount
+              - ₹ 30000  Amount
             </p>
             <p className=' font-bold' >
               - Premium Swags and Goodies Kit
@@ -60,7 +60,7 @@ function TrackAndPrices() {
             </p>
            
   
-            <p className=' font-bold' > - Pro Version Free for 12 months\
+            <p className=' font-bold' > - Pro Version Free for 12 months
             </p>
           </div>
   
@@ -76,7 +76,7 @@ function TrackAndPrices() {
           <div>
   
             <p className=' font-bold'>
-              - ₹ 10000  Amount
+              - ₹ 20000  Amount
             </p>
             <p className=' font-bold' >
               - Premium Swags and Goodies Kit
