@@ -14,6 +14,8 @@ import Testimonies from "../components/Testimonies";
 import TrackMobile from "../components/TrackMobile"
 import Head from "next/head"
 import RulesNew from "../components/RulesNew"
+import TimeLine from "../components/TimeLine"
+import Collaborators from "../components/Collaborators"
 
 
 
@@ -30,8 +32,10 @@ export default function Home() {
       <NavBar/>
       <Banner/>
       <About/>
+      <Collaborators/>
 
         <Schedule/>
+        {/* <TimeLine/> */}
 
 
 
@@ -40,18 +44,13 @@ export default function Home() {
       {/* <RuleCard /> */}
       <RulesNew/>
 
-      <Sponsers/>
+      {/* <Sponssers/> */}
      
-      <div className="hidden sm:block">
         <TrackAndPrices  />
-      </div>
-      <div className="sm:hidden block">
-        <TrackMobile  />
-      </div>
 
       <Judges />
 
-      <Testimonies/>
+      {/* <Testimonies/> */}
       <FAQ></FAQ>
       <Footer></Footer>
       <FooterLinks></FooterLinks>
