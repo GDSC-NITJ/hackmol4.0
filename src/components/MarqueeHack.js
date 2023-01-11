@@ -14,9 +14,9 @@ const marqueee = () => {
           direction='left'
           className='overflow-hidden  '
           gradient={false}>
-          {marqdata.map((data) => {
+          {marqdata.map((data, i) => {
             return (
-              <div className='flex justify-center  text-slate/100 font-bold space-x-12 px-6'>
+              <div key={i} className='flex justify-center  text-slate/100 font-bold space-x-12 px-6'>
                 <h1 className='text-base font-bold tracking-wide'>
                   {data.text}
                 </h1>
