@@ -66,8 +66,10 @@ let Footer = function(props){
                         </svg>
                     </div>
                     <div className="h-[72px] row-span-1 self-start">
-                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4 w-[100px] mt-5 text-center">
+                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4  w-56  mt-5 text-center">
                         <b>GDSC NITJ</b>
+                        <br/>
+                        Google Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome.
                     </h6>
                     </div>
                 </div>

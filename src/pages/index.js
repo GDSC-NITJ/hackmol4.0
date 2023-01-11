@@ -16,11 +16,31 @@ import Head from "next/head"
 import RulesNew from "../components/RulesNew"
 import TimeLine from "../components/TimeLine"
 import Collaborators from "../components/Collaborators"
+import Team from "../components/Team"
+import { useEffect, useState } from "react"
+
+
 
 
 
 
 export default function Home() {
+
+//   const [hidden , setHidden] = useState(true)
+
+
+//  const showAnnoun = ( )=>{
+//   setTimeout(() => {
+//     setHidden(false)
+//   }, 1000);
+
+//  }
+
+//   useEffect(() => {
+//     showAnnoun()
+//   },[])
+
+
   return (
     <div className='' >
       <Head>
@@ -43,6 +63,7 @@ export default function Home() {
 
       {/* <RuleCard /> */}
       <RulesNew/>
+      {/* <Team /> */}
 
       {/* <Sponssers/> */}
      

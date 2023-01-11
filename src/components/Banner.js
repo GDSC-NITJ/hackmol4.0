@@ -64,8 +64,14 @@ const Banner = () => {
                      </span> </p>
 
                   <div className="banner__buttons__one">
-                  <button id = "left" className="tagline below w-40 " onClick={() => console.log('connect')}>Join Discord</button>
-                  <button id = "right" className="tagline below w-40" onClick={() => console.log('connect')}>Register</button></div>
+                  <button id = "left" className="tagline below w-40 " onClick={() => console.log('connect')}>
+                    <Link target="_blank" rel="noreferrer"  href='https://discord.gg/6Th6ppaG' >
+                    Join Discord</Link>
+</button>
+                  <button id = "right" className="tagline below w-40" onClick={() => console.log('connect')}>
+                    <Link target="_blank" rel="noreferrer"  href='https://www.nitj.ac.in/events_registration/hackmol/login
+' >Register</Link>
+                    </button></div>
               </div>}
             </TrackVisibility>
           </div>

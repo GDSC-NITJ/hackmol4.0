@@ -12,10 +12,10 @@ function JudgCard({color}) {
             </div>
             <div className="bg-white p-4 rounded-b-[12px] flex flex-col gap-3 ">
                 <div  className=" font-semibold " >
-                    Ann Vetrovs
+                To be Announced
                 </div>
                 <div className=" text-sm " >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, non.
+                    Coming Soon.....
                 </div>
                 <div className={`text-sm  font-semibold text-orange ${color} underline underline-offset-4 `}   >
                     Stalk on LinkedIn
