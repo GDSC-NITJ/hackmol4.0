@@ -19,6 +19,7 @@ import Collaborators from '../components/Collaborators'
 import Team from '../components/Team'
 import { useEffect, useState } from 'react'
 import MarqueeHack from '../components/MarqueeHack'
+import Tracks from '../components/Tracks'
 
 export default function Home() {
   //   const [hidden , setHidden] = useState(true)
@@ -48,11 +49,11 @@ export default function Home() {
       <Collaborators />
 
       <Schedule />
-      {/* <TimeLine /> */}
+      <TimeLine />
 
       <Announcement />
 
-      {/* <RuleCard /> */}
+      <Tracks/>
       <TrackAndPrices />
       <RulesNew />
       {/* <Team /> */}

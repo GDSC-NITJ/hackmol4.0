@@ -27,11 +27,11 @@ function TrackAndPrices() {
     <div className='py-10 md:py-20 space-y-8 bg-[#D0A4FF] '>
       <h1 className='text-center  text-4xl font-bold'>Tracks and Prizes</h1>
       <div className='flex w-full flex-wrap justify-center items-center gap-5 '>
-        <div className='border-2 border-black bg-white  w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  '>
+        <div className='border-2 border-black bg-white  w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
           <img src={p1.src}></img>
 
           <div className='text-lg  font-bold'>Prize Evaluation</div>
-          <div>
+          <div className=' self-start p-1 ' >
             <p className=' font-bold'>- ₹ 30000 Amount</p>
             <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
             <p className=' font-bold'>- Certificate of Participation</p>
@@ -39,11 +39,11 @@ function TrackAndPrices() {
             <p className=' font-bold'> - Pro Version Free for 12 months</p>
           </div>
         </div>
-        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  '>
+        <div className='border-2 border-black bg-white w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
           <img src={p2.src}></img>
 
           <div className='text-lg  font-bold'>Prize Evaluation</div>
-          <div>
+          <div className=' self-start p-1 '>
             <p className=' font-bold'>- ₹ 20000 Amount</p>
             <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
             <p className=' font-bold'>- Certificate of Participation</p>
@@ -51,11 +51,11 @@ function TrackAndPrices() {
             <p className=' font-bold'> - Pro Version Free for 12 months</p>
           </div>
         </div>
-        <div className='border-2 border-black bg-white w-11/12 md:w-[440px] flex flex-col justify-center items-center p-5 shadow-3xl rounded-xl font-bold  '>
+        <div className='border-2 border-black bg-white w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
           <img src={p3.src}></img>
 
           <div className='text-lg  font-bold'>Prize Evaluation</div>
-          <div>
+          <div className=' self-start p-1 '>
             <p className=' font-bold'>- ₹ 10000 Amount</p>
             <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
             <p className=' font-bold'>- Certificate of Participation</p>
