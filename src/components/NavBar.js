@@ -130,6 +130,14 @@ const NavBar = () => {
                   </li>
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
+                      href={'/MOL-web'}
+                      scroll={false}
+                    >
+                     MOL
+                    </Link>
+                  </li>
+                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                    <Link
                       href={'#contact'}
                       scroll={false}
                     >
