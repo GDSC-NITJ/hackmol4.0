@@ -3,6 +3,12 @@ import prisma from '../../lib/prisma'
 
 export default async function handler(req, res) {
 
+
+    // const transformIframe = (iframe) =>{
+
+
+    // }
+
     // post-request
     if (req.method === 'POST') {
         try {
@@ -14,6 +20,7 @@ export default async function handler(req, res) {
             const post = await prisma.post.create({
                 data: {
                     email,
+                    // frame: transformIframe(iframe),
                     frame: iframe,
                 },
             })

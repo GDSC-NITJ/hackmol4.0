@@ -13,7 +13,7 @@ export default function Modal({ setOpenModal, openModal }) {
     if(process.env.NODE_ENV === 'development'){
         url = `http://localhost:3000/api/post?page=1&limit=10`
     }else{
-        url = `https://www.iframehack.com/api/post?page=1&limit=10`
+        url = `https://https://hackmol.tech/api/post?page=1&limit=10`
     }
 
     const res = await fetch(url)

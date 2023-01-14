@@ -31,7 +31,7 @@ function PostWall() {
     }, [])
 
   return (
-    <div className='flex flex-wrap gap-10  mt-10' >
+    <div className='flex flex-wrap gap-10  mt-10  w-11/12 md:9/12 ' >
         {posts && posts.map((post) => (
             <div key={post.id} className='' >
                 <div dangerouslySetInnerHTML={{ __html: post.frame }} />
