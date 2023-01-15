@@ -44,7 +44,8 @@ export default function Home() {
       </Head>
 
       <NavBar />
-      <Banner2 />
+      <Banner />
+      {/* <Banner2 /> */}
       <About />
       <Collaborators />
 
