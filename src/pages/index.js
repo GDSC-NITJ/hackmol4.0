@@ -1,8 +1,9 @@
 import TrackAndPrices from '../components/TrackAndPrices'
 import FAQ from '../components/FAQ'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/Navbar'
 import About from '../components/About'
 import Banner from '../components/Banner'
+import Banner2 from '../components/Banner2'
 import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 import FooterLinks from '../components/FooterLinks'
@@ -45,6 +46,7 @@ export default function Home() {
 
       <NavBar />
       <Banner />
+      {/* <Banner2 /> */}
       <About />
 
       <Schedule />

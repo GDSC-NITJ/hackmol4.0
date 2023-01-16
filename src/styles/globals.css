@@ -1,12 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Red+Hat+Display:wght@300&family=Space+Grotesk:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Red+Hat+Display:wght@300&family=Space+Grotesk:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body {
@@ -88,11 +92,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 
 .heading {
-  font-family: 'Space Grotesk', sans-serif;
-  font-style: normal;
-  font-weight: 1000;
-  color: black;
   /* line-height: 128px; */
+  text-shadow: '4.82823px 4.82823px 0px red'
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -722,9 +723,7 @@ nav.navbar.scrolled .header-name {
   }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @layer utilities {
   .font-brygada {
