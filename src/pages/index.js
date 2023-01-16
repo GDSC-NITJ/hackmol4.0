@@ -49,7 +49,7 @@ export default function Home() {
       <Collaborators />
 
       <Schedule />
-      <TimeLine />
+      {/* <TimeLine /> */}
 
       <Announcement />
 

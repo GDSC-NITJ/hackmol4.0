@@ -1,22 +1,35 @@
 import React from "react";
-import hack from "../../public/hack.png";
-
+import hack from "../../public/72.jpg";
+import star from '../../public/star2.svg'
 const About = () => {
     return (
-      <div id="about"  className="w-full py-20 bg-orange flex flex-col  justify-center items-center " >
-        <h2 className="container flex flex-col justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-4 text-center  ">About HackMol4.0</h2>
-          <div className="border-2 border-black p-7 shadow-3xl bg-white rounded-xl w-11/12 sm:w-9/12 ">
-          <div className="border-2 border-black px-3 md:px-6 py-6 rounded-xl   ">
-            <div className="flex gap-5 justify-center items-center flex-col md:flex-row  " >
-              <div className="  md:w-5/12 " >
-                <img src={hack.src} className="rounded-xl" />
+      <div id="about"  className="w-full py-10 sm:py-20 relative bg-orange flex flex-col  justify-center items-center " >
+        
+        <div className="absolute hidden sm:block  overflow-hidden   z-0 left-0 w-full h-full  ">
+          <div className=" accent-text  "  >us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about &nbsp;&nbsp;us about </div>
+          <div className="  accent-text  -translate-x-[450px] " >us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about &nbsp;&nbsp;us about </div>
+          <div className="  accent-text -translate-x-[200px] " >us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about </div>
+          <div className="   accent-text -translate-x-[500px]" >us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about </div>
+          <div className="   accent-text -translate-x-[100px]" >us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about </div>
+          <div className="   accent-text -translate-x-[250px]" >us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about&nbsp;&nbsp;us about </div>
+        </div>
+
+          <div className="border-2  border-black z-10  relative p-7 shadow-3xl bg-white rounded-xl w-11/12 sm:w-9/12 ">
+          <img class="absolute top-[-27px] left-[-40px]" width="80" height="80" src={star.src}/>
+            <div className="flex gap-8 justify-center items-center  flex-col md:flex-row  " >
+              <div className="  md:w-5/12 h-full " >
+                <img src={hack.src} className="rounded-xl  border-2  border-black " />
                 </div>
-              <div className=" md:w-7/12 " >
+              <div className=" md:w-7/12 h-full " >
+        <h2 className="container flex flex-col  items-center text-black  text-3xl md:text-4xl font-extrabold  pb-4 ">About HackMol4.0</h2>
+{/* 
                 Over the years HackMOL has established itself as the Biggest Hackathon of Punjab with a awe-inspiring attendance of over 700+, 1100+ & 1300+ hackers in successive editions but this year HackMOL has advanced to another level by serving as the premier and opening event of Techniti (the annual Tech Fest of NIT Jalandhar) with anticipation of over 1000+ hackers physically joining us
-                It is organised at the end of Month of Learning (MOL), a series of workshops & seminars focused and centred around the latest technologies.
+                It is organised at the end of Month of Learning (MOL), a series of workshops & seminars focused and centred around the latest technologies. */}
+                HackMOL, a hackathon in Punjab, has grown in popularity over the years, with increasing attendance of 700+ in previous editions and now serving as the opening event for Techniti, the annual tech festival of NIT Jalandhar, with an expected 1000+ hackers participating. 
+                
+                <div className="hidden sm:inline">It is held at the end of the Month of Learning, a series of workshops and seminars focused on the latest technologies</div>
               </div>
             </div>
-          </div>
           </div>
            
 

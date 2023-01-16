@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Red+Hat+Display:wght@300&family=Space+Grotesk:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 
 
@@ -15,6 +15,17 @@ body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
   scroll-behavior: smooth;
+}
+
+.accent-text{
+  font-family: 'Krona One', sans-serif;
+  -webkit-text-stroke: 2px rgb(0,0,0, 0.30);
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 92px;
+  overflow:hidden;
+  width: 2000%;
+  line-height: 1.05;
 }
 
 
