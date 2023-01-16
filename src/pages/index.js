@@ -20,6 +20,7 @@ import Collaborators from '../components/Collaborators'
 import Team from '../components/Team'
 import { useEffect, useState } from 'react'
 import MarqueeHack from '../components/MarqueeHack'
+import Tracks from '../components/Tracks'
 
 export default function Home() {
   //   const [hidden , setHidden] = useState(true)
@@ -47,20 +48,20 @@ export default function Home() {
       <Banner />
       {/* <Banner2 /> */}
       <About />
-      <Collaborators />
 
       <Schedule />
       {/* <TimeLine /> */}
 
       <Announcement />
 
-      {/* <RuleCard /> */}
+      <Tracks/>
       <TrackAndPrices />
       <RulesNew />
       {/* <Team /> */}
 
       {/* <Sponssers/> */}
 
+      <Collaborators />
       <Judges />
 
       {/* <Testimonies/> */}
