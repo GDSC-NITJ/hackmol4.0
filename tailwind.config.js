@@ -13,7 +13,8 @@ module.exports = {
         'orange': '#FF6F0F',
         'green':'#94E95D',
         'black':'#000000',
-        'lightblue':'#5C40EC'
+        'lightblue':'#5C40EC',
+        'pastelBlue': '#90A8ED',
       },
         fontFamily:{
           'Space-Grotesk': ['Space Grotesk', 'sans-serif'],

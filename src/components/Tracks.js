@@ -25,7 +25,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: 'yellow'
             
         },
         {
@@ -35,7 +35,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: '[#90A8ED]'
             
         },
         {
@@ -45,7 +45,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: 'green'
             
         },
         {
@@ -55,7 +55,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: '[#D0A4FF]'
             
         },
         {
@@ -75,7 +75,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: 'yellow'
             
         },
         {
@@ -85,7 +85,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: '[#90A8ED]'
             
         },
         {
@@ -95,7 +95,7 @@ function Tracks() {
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
-            color: 'orange'
+            color: 'green'
             
         },
     ]
@@ -122,7 +122,7 @@ function Tracks() {
                         <div className='flex flex-wrap gap-2' >
                             {
                                 data.tags.map((tag,j)=>{
-                                    return <div key={j} className='transition py-0.5  bg-white hover:shadow-2xl duration-200  relative hover:-translate-y-1  ease-in hover:ease-in  rounded-2xl border-2 border-black px-3 text-[12px]   ' >
+                                    return <div key={j} className='transition py-0.5  bg-white hover:shadow-2xl duration-200  relative hover:-translate-y-1  ease-in hover:ease-in  rounded-2xl border border-black px-3 text-[12px]   ' >
                                         {tag}
                                     </div>
                                 })

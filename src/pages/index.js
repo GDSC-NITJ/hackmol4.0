@@ -46,7 +46,6 @@ export default function Home() {
       <NavBar />
       <Banner />
       <About />
-      <Collaborators />
 
       <Schedule />
       {/* <TimeLine /> */}
@@ -60,6 +59,7 @@ export default function Home() {
 
       {/* <Sponssers/> */}
 
+      <Collaborators />
       <Judges />
 
       {/* <Testimonies/> */}
