@@ -2,8 +2,8 @@ import React from 'react'
 
 function TimeLine2() {
   return (
-    <div>
-
+    <div className='py-10 md:py-20 border-y-2 border-black '>
+<h1 className='text-center  text-4xl font-bold'>TimeLine</h1>
       <div className=" flex w-full justify-center items-center ">
         <div
           className="flex flex-col md:grid grid-cols-9 w-11/12 p-2 text-blue-50"
@@ -14,7 +14,7 @@ function TimeLine2() {
               className="bg-blue  shadow-3xl col-start-1 col-end-5   rounded-xl my-4 ml-auto border border-black"
             >
               <h3 className="font-semibold text-lg mb-1 px-4 py-2 border-b border-black ">Lorem ipsum</h3>
-              <p className="leading-tight text-justify">
+              <p className="leading-tight text-justify px-4 py-2 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
                 quaerat?
               </p>
@@ -42,7 +42,7 @@ function TimeLine2() {
               className="bg-blue shadow-3xl col-start-6 col-end-10 rounded-xl my-4 mr-auto border border-black"
             >
               <h3 className="font-semibold text-lg mb-1  px-4 py-2 border-b border-black">Lorem ipsum</h3>
-              <p className="leading-tight text-justify">
+              <p className="leading-tight text-justify px-4 py-2 ">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Vitae, facilis.
               </p>
@@ -54,7 +54,7 @@ function TimeLine2() {
               className="bg-blue shadow-3xl col-start-1 col-end-5  rounded-xl my-4 ml-auto border border-black"
             >
               <h3 className="font-semibold text-lg mb-1  px-4 py-2 border-b border-black">Lorem ipsum</h3>
-              <p className="leading-tight text-justify">
+              <p className="leading-tight text-justify px-4 py-2 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
                 quaerat?
               </p>
@@ -81,7 +81,7 @@ function TimeLine2() {
               className="bg-blue shadow-3xl col-start-6 col-end-10  rounded-xl my-4 mr-auto  border border-black "
             >
               <h3 className="font-semibold text-lg mb-1  px-4 py-2 border-b border-black">Lorem ipsum</h3>
-              <p className="leading-tight text-justify">
+              <p className="leading-tight text-justify px-4 py-2 ">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Vitae, facilis.
               </p>

@@ -31,25 +31,30 @@ function RulesNew() {
   return (
     <div
       id='rules'
-      className='rulesNew w-full py-10  md:py-20 bg-white flex flex-col md:flex-row overflow-auto h-'>
-      <div className='rulesLeft w-full white flex items-center  justify-center flex-col'>
-        <div className='w-11/12 sm:w-9/12  flex flex-col justify-center items-center '>
-          <div className='rules__title text-4xl mb-6 font-bold font-Space-Grotesk'>
-            RULES
-          </div>
-          <div className='rules__desc mb-10 font-Plus-Jakarta text-center'>
-            {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo? */}
-            All the submissions will be reviewed by the organizing committee &
-            fixed top submissions will qualify for review by a panel of judges.
-            Finalist teams may be called for special presentation with the
-            Judges.
-          </div>
-          <div className='rules__list  space-y-8  '>
-            {rules.map((ele, i) => {
-              return <RulesPoints Desc={ele.rule} color={ele.color} key={i} />
-            })}
+      className='rulesNew w-full py-10  md:py-20 bg-white flex justify-center flex-col md:flex-row overflow-auto '>
+      <div className='rulesLeft  white flex items-center  '>
+        <div className='w-1/2 '>
+          <div className=' flex flex-col justify-center items-center '>
+            <div className='rules__title text-4xl mb-6 font-bold font-Space-Grotesk'>
+              RULES
+            </div>
+            <div className='rules__desc mb-10 font-Plus-Jakarta text-center'>
+              {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo? */}
+              All the submissions will be reviewed by the organizing committee &
+              fixed top submissions will qualify for review by a panel of judges.
+              Finalist teams may be called for special presentation with the
+              Judges.
+            </div>
+            <div className='rules__list  space-y-8  '>
+              {rules.map((ele, i) => {
+                return <RulesPoints Desc={ele.rule} color={ele.color} key={i} />
+              })}
+            </div>
           </div>
         </div>
+      <div  className='w-1/2 flex justify-end mr-2' >
+        <img src={Hackmol4.src} alt='' className='rulesRight  w-7/12 ' />
+      </div>
       </div>
     </div>
   )

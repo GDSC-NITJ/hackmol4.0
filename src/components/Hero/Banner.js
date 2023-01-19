@@ -76,19 +76,19 @@ const Banner = () => {
                   </span>{' '}
                 </p>
 
-                <div className='banner__buttons__one'>
+                <div className='banner__buttons__one flex items-end'>
                   <Link
                     target='_blank'
                     rel='noreferrer'
                     href='https://discord.gg/6Th6ppaG'>
                     <button
                       id='left'
-                      className='tagline below w-40 '
+                      className='tagline  below m-0 w-40 text-base  '
                       onClick={() => console.log('connect')}>
                       Join Discord
                     </button>
                   </Link>
-                  <Link
+                  {/* <Link
                     target='_blank'
                     rel='noreferrer'
                     href='https://www.nitj.ac.in/events_registration/hackmol/login'>
@@ -98,7 +98,18 @@ const Banner = () => {
                       onClick={() => console.log('connect')}>
                       Register
                     </button>
-                  </Link>
+                  </Link> */}
+                  <div className=''>
+                    <div
+                      data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                      data-button-theme="dark"
+                      id='right'
+                      style={{
+                        height: '50px',
+                      }}
+                      className='apply-button tagline below w-40'
+                    ></div>
+                  </div>
                 </div>
               </div>
             )}
@@ -121,7 +132,7 @@ const Banner = () => {
             )}
           </TrackVisibility>
         </div>
-        <div className='banner__buttons__two'>
+        <div className='banner__buttons__two flex items-end'>
           <Link
             target='_blank'
             rel='noreferrer'
@@ -133,7 +144,7 @@ const Banner = () => {
               Join Discord
             </button>
           </Link>
-          <Link
+          {/* <Link
             target='_blank'
             rel='noreferrer'
             href='https://www.nitj.ac.in/events_registration/hackmol/login'>
@@ -143,7 +154,16 @@ const Banner = () => {
               onClick={() => console.log('connect')}>
               Register
             </button>
-          </Link>
+          </Link> */}
+             <div
+                      data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                      data-button-theme="dark"
+                      id='right'
+                      style={{
+                        height: '50px',
+                      }}
+                      className='apply-button tagline below w-40 '
+                    ></div>
         </div>
       </div>
     </section>

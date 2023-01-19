@@ -20,23 +20,13 @@ import { useEffect, useState } from 'react'
 import MarqueeHack from '../components/Hero/MarqueeHack'
 import Tracks from '../components/ProblemStatements/Tracks'
 import TimeLine2 from '../components/Timeline/TimeLine2'
+import Script from 'next/script'
 
 export default function Home() {
-  //   const [hidden , setHidden] = useState(true)
-
-  //  const showAnnoun = ( )=>{
-  //   setTimeout(() => {
-  //     setHidden(false)
-  //   }, 1000);
-
-  //  }
-
-  //   useEffect(() => {
-  //     showAnnoun()
-  //   },[])
 
   return (
     <div className=''>
+       <Script src="https://apply.devfolio.co/v2/sdk.js" defer async  ></Script>
       <MarqueeHack />
       <Head>
         <title>HackMOL4.0</title>
@@ -50,7 +40,7 @@ export default function Home() {
 
       {/* <Schedule /> */}
       {/* <TimeLine /> */}
-      <TimeLine2/>
+      {/* <TimeLine2/> */}
 
       {/* <Announcement /> */}
 
