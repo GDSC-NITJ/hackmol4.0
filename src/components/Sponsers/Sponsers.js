@@ -3,6 +3,7 @@ import replut from '../../../public/images/sponsors/replit.png'
 import solana from '../../../public/images/sponsors/solana.svg'
 import file from '../../../public/images/sponsors/filecoine.png'
 import polygon from "../../../public/images/sponsors/Polygonlogo.png"
+import et from "../../../public/images/sponsors/etraa.jpeg"
 function Sponsers() {
     return (
         <div className="w-full py-16 md:py-20 flex justify-center items-center gap-12 bg-slate-200 flex-col ">
@@ -17,11 +18,10 @@ function Sponsers() {
                 </div>
                 <div className=" flex items-center flex-wrap justify-center">
                     <div className="w-64 h-24  sm:w-[366px] md:h-[104px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
-                        <img src={devfolio.src} alt="Sponsor Image" className="p-2" />
+                        <img src={et.src} alt="Sponsor Image" className="p-2 h-24 " />
+                        <h1 className="font-bold text-xl " >Ekara Financials</h1>
                     </div>
-                    <div className="w-64 h-24 sm:w-[366px] md:h-[104px]  mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
-                        <img src={devfolio.src} alt="Sponsor Image" className="p-2" />
-                    </div>
+                  
                 </div>
             </div>
 
