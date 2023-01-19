@@ -33,7 +33,7 @@ function RulesNew() {
       id='rules'
       className='rulesNew w-full  bg-white flex justify-center flex-col md:flex-row overflow-auto '>
       <div className='rulesLeft border-y-2  border-black  white flex flex-col md:flex-row '>
-        <div className='w-1/2 py-10  md:py-20 '>
+        <div className='md:w-1/2 py-10  md:py-20 '>
           <div className=' px-8 flex flex-col justify-center items-center '>
             <div className='rules__title text-4xl mb-6 font-bold font-Space-Grotesk'>
               RULES
@@ -52,7 +52,7 @@ function RulesNew() {
             </div>
           </div>
         </div>
-      <div  className='w-1/2  flex items-center justify-center  border-l-2 border-black ' >
+      <div  className='w-1/2 hidden md:flex items-center justify-center  border-l-2 border-black ' >
         <img src={Hackmol4.src} alt='' className='rulesRight  w-8/12 ' />
       </div>
       </div>
