@@ -1,6 +1,6 @@
 import React from 'react'
 import Marquee from 'react-fast-marquee'
-import marqdata from '../../constants/mrqdata.json'
+import marqdata from '../../../constants/mrqdata.json'
 
 const marqueee = () => {
   return (

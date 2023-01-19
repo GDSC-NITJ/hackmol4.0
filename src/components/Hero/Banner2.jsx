@@ -1,5 +1,5 @@
 import React from 'react'
-import Hackmol from '../../public/Hackmol4.png'
+import Hackmol from '../../../public/Hackmol4.png'
 import Link from 'next/link'
 
 function Banner2() {

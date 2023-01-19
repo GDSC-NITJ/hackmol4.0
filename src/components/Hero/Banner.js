@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 // import headerImg from '../public/project-img4.png';
-import headerImg from '../../public/project-img4.png'
+import headerImg from '../../../public/project-img4.png'
 import TrackVisibility from 'react-on-screen'
 import Link from 'next/link'
 

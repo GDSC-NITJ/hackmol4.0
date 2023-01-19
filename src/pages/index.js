@@ -1,26 +1,25 @@
-import TrackAndPrices from '../components/TrackAndPrices'
-import FAQ from '../components/FAQ'
-import NavBar from '../components/Navbar'
-import About from '../components/About'
-import Banner from '../components/Banner'
-import Banner2 from '../components/Banner2'
+import TrackAndPrices from '../components/Prizes/TrackAndPrices'
+import FAQ from '../components/FAQ/FAQ'
+import NavBar from '../components/Hero/Navbar'
+import About from '../components/About/About'
+import Banner from '../components/Hero/Banner'
+import Banner2 from '../components/Hero/Banner2'
 import Announcement from '../components/Announcement'
-import Footer from '../components/Footer'
-import FooterLinks from '../components/FooterLinks'
-// import RuleCard from "../components/RulesCard"
-import Schedule from '../components/Schedule'
-import Sponsers from '../components/Sponsers'
-import Judges from '../components/Judges'
+import Footer from '../components/Footer/Footer'
+import FooterLinks from '../components/Footer/FooterLinks'
+import Schedule from '../components/Timeline/Schedule'
+import Sponsers from '../components/Sponsers/Sponsers'
+import Judges from '../components/Judges/Judges'
 import Testimonies from '../components/Testimonies'
-import TrackMobile from '../components/TrackMobile'
 import Head from 'next/head'
-import RulesNew from '../components/RulesNew'
-import TimeLine from '../components/TimeLine'
-import Collaborators from '../components/Collaborators'
+import RulesNew from '../components/Rules/RulesNew'
+import TimeLine from '../components/Timeline/TimeLine'
+import Collaborators from '../components/Sponsers/Collaborators'
 import Team from '../components/Team'
 import { useEffect, useState } from 'react'
-import MarqueeHack from '../components/MarqueeHack'
-import Tracks from '../components/Tracks'
+import MarqueeHack from '../components/Hero/MarqueeHack'
+import Tracks from '../components/ProblemStatements/Tracks'
+import TimeLine2 from '../components/Timeline/TimeLine2'
 
 export default function Home() {
   //   const [hidden , setHidden] = useState(true)
@@ -49,10 +48,11 @@ export default function Home() {
       {/* <Banner2 /> */}
       <About />
 
-      <Schedule />
+      {/* <Schedule /> */}
       {/* <TimeLine /> */}
+      <TimeLine2/>
 
-      <Announcement />
+      {/* <Announcement /> */}
 
       <Tracks/>
       <TrackAndPrices />

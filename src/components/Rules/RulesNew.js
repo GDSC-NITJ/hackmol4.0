@@ -1,6 +1,6 @@
 import { rule } from 'postcss'
 import React, { useEffect, useState } from 'react'
-import Hackmol4 from '../../public/Hackmol4.png'
+import Hackmol4 from '../../../public/Hackmol4.png'
 import RulesPoints from './RulesPoints'
 
 function RulesNew() {
