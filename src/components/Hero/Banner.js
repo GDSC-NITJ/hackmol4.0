@@ -76,7 +76,7 @@ const Banner = () => {
                   </span>{' '}
                 </p>
 
-                <div className='banner__buttons__one flex items-end'>
+                <div className='banner__buttons__one flex flex-row-reverse gap-7 justify-end  items-end'>
                   <Link
                     target='_blank'
                     rel='noreferrer'
@@ -101,7 +101,7 @@ const Banner = () => {
                   </Link> */}
                   <div className=''>
                     <div
-                      data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                      data-hackathon-slug="hackmol-2"
                       data-button-theme="dark"
                       id='right'
                       style={{
@@ -132,14 +132,14 @@ const Banner = () => {
             )}
           </TrackVisibility>
         </div>
-        <div className='banner__buttons__two flex items-end'>
+        <div className='banner__buttons__two flex flex-row-reverse gap-5 flex-wrap  items-stretch justify-items-stretch '>
           <Link
             target='_blank'
             rel='noreferrer'
             href='https://discord.gg/6Th6ppaG'>
             <button
               id='left'
-              className='tagline below  w-40  '
+              className='tagline below  w-64  '
               onClick={() => console.log('connect')}>
               Join Discord
             </button>
@@ -156,7 +156,7 @@ const Banner = () => {
             </button>
           </Link> */}
              <div
-                      data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                      data-hackathon-slug="hackmol-2"
                       data-button-theme="dark"
                       id='right'
                       style={{
