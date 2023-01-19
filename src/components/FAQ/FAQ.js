@@ -4,8 +4,8 @@ import React, { useState } from "react";
 
 let qa = [
     {
-        ques: "What is a Hackathon and who can Participate in HackMol3.0 ?",
-        ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a student developer, we'd love to have you at HacMol3.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event."
+        ques: "What is a Hackathon and who can Participate in HackMol4.0 ?",
+        ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a student developer, we'd love to have you at HacMol4.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event."
     },
     {
         ques: "What can be the size of Team?",
@@ -13,7 +13,8 @@ let qa = [
     },
     {
         ques: "How much does it Cost ?      ",
-        ans: "TZero. Zip. Zilch. Nada. Nothing. Admission to Hackmol3.0 is completely free for all student Developers"
+        // ans: "TZero. Zip. Zilch. Nada. Nothing. Admission to Hackmol34.0 is completely free for all student Developers"
+        ans: "Rs 100 after selection in first round of the Hackthon"
     },
     {
         ques: "What if I don't have a team or Idea ?",

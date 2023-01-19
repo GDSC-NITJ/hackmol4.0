@@ -43,15 +43,15 @@ export default function Home() {
       {/* <TimeLine2/> */}
 
       {/* <Announcement /> */}
+      <TrackAndPrices />
 
       <Tracks/>
-      <TrackAndPrices />
       <RulesNew />
       {/* <Team /> */}
 
-      {/* <Sponssers/> */}
-
+      <Sponsers/>
       <Collaborators />
+
       <Judges />
 
       {/* <Testimonies/> */}
