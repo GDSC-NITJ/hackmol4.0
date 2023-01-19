@@ -1,7 +1,7 @@
 import React from 'react'
-import logo1 from '../../public/logo.svg'
-import logo2 from '../../public/nitj.jpg'
-import logo3 from '../../public/technitiLogo.png'
+import logo1 from '../../../public/logo.svg'
+import logo2 from '../../../public/nitj.jpg'
+import logo3 from '../../../public/technitiLogo.png'
 
 function Collaborators() {
     return (

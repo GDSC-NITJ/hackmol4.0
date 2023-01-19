@@ -1,9 +1,9 @@
 import React from 'react'
-import p1 from '../../public/prices/price1.svg'
-import p2 from '../../public/prices/price2.svg'
-import p3 from '../../public/prices/price3.svg'
-import coin from '../../public/prices/coinbox.svg'
-import grid from '../../public/grid.svg'
+import p1 from '../../../public/prices/price1.svg'
+import p2 from '../../../public/prices/price2.svg'
+import p3 from '../../../public/prices/price3.svg'
+import coin from '../../../public/prices/coinbox.svg'
+import grid from '../../../public/grid.svg'
 
 function TrackAndPrices() {
   const [state, setState] = React.useState(0)

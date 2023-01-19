@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import star from '../../public/Vector.png'
+import star from '../../../public/Vector.png'
 
 const obj = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
-import hack from "../../public/72.jpg";
-import star from '../../public/star2.svg'
+import hack from "../../../public/72.jpg";
+import star from '../../../public/star2.svg'
 const About = () => {
     return (
       <div id="about"  className="w-full py-10 sm:py-20 relative bg-orange flex flex-col  justify-center items-center " >
@@ -15,7 +15,7 @@ const About = () => {
         </div>
 
           <div className="border-2  border-black z-10  relative p-7 shadow-3xl bg-white rounded-xl w-11/12 sm:w-9/12 ">
-          <img class="absolute top-[-27px] left-[-40px]" width="80" height="80" src={star.src}/>
+          <img className="absolute top-[-27px] left-[-40px]" width="80" height="80" src={star.src}/>
             <div className="flex gap-8 justify-center items-center  flex-col md:flex-row  " >
               <div className="  md:w-5/12 h-full " >
                 <img src={hack.src} className="rounded-xl  border-2  border-black " />

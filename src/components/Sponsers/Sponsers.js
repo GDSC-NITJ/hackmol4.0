@@ -1,4 +1,4 @@
-import devfolio from "../../public/images/sponsors/devfolio.png"
+import devfolio from "../../../public/images/sponsors/devfolio.png"
 
 function Sponsers() {
     return (
