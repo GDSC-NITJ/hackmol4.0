@@ -101,7 +101,7 @@ function Tracks() {
     ]
 
   return (
-    <div className='py-10 md:py-20 space-y-8  '>
+    <div className='py-10 md:py-20 space-y-8 border-y-2 border-black  '>
     <h1 className='text-center  text-4xl font-bold'>Problem Statements</h1>
     <div className='flex w-full flex-wrap justify-center  gap-5 '>
       {/* card for diffreent problem statements mapping of obj  */}
