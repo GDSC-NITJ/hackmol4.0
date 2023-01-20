@@ -26,10 +26,10 @@ function TrackAndPrices() {
   ]
 
   return (
-    <div className='py-10 md:py-36  bg-[#D0A4FF] relative overflow-hidden '>
+    <div id="prizes" className='py-10 md:py-36  bg-[#D0A4FF] relative overflow-hidden '>
       <img src={grid.src} className='absolute top-0 right-0 w-full  z-0'></img>
       <img src={coin.src} className='absolute top-0 -right-1 w-16 sm:w-24  z-0'></img>
-      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>prizes and rewards</h1>
+      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>Prizes and Rewards</h1>
       <div className='flex relative z-10 w-full flex-wrap justify-center items-center gap-5 '>
         <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
           <div className='flex justify-center items-center'>
