@@ -25,7 +25,8 @@ const About = () => {
 {/* 
                 Over the years HackMOL has established itself as the Biggest Hackathon of Punjab with a awe-inspiring attendance of over 700+, 1100+ & 1300+ hackers in successive editions but this year HackMOL has advanced to another level by serving as the premier and opening event of Techniti (the annual Tech Fest of NIT Jalandhar) with anticipation of over 1000+ hackers physically joining us
                 It is organised at the end of Month of Learning (MOL), a series of workshops & seminars focused and centred around the latest technologies. */}
-                HackMOL, a hackathon in Punjab, has grown in popularity over the years, with increasing attendance of 700+ in previous editions and now serving as the opening event for Techniti, the annual tech festival of NIT Jalandhar, with an expected 1000+ hackers participating. 
+//                 HackMOL, a hackathon in Punjab, has grown in popularity over the years, with increasing attendance of 700+ in previous editions and now serving as the opening event for Techniti, the annual tech festival of NIT Jalandhar, with an expected 1000+ hackers participating. 
+                HackMOL, a hackathon in Punjab, has risen in popularity over the years, with past editions attracting 1100+ attendees, reaching 5000+ students, and presently serving as the opening event for Techniti, NIT Jalandhar's annual tech festival, with an expected 1500+ hackers participating.
                 
                 <div className="hidden sm:inline">It is held at the end of the Month of Learning, a series of workshops and seminars focused on the latest technologies</div>
               </div>
