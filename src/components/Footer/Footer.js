@@ -70,6 +70,7 @@ let Footer = function(props){
                     <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4  w-64  mt-5 text-center">
                         <b>GDSC NITJ</b>
                         <br/>
+                            <br/>
                         Google Developer Student Clubs are university based community groups for students interested in Google developer technologies. 
                     </h6>
                     </div>
