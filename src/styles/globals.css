@@ -730,7 +730,9 @@ nav.navbar.scrolled .header-name {
   }
 }
 
-
+.past-stats-list::before{
+  content: url('../../public/list-marker.svg');
+}
 
 @layer utilities {
   .font-brygada {
