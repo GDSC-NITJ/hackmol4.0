@@ -732,6 +732,7 @@ nav.navbar.scrolled .header-name {
 
 .past-stats-list::before{
   content: url('../../public/list-marker.svg');
+  align-items: center;
 }
 
 @layer utilities {
