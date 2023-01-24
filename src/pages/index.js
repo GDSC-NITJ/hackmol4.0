@@ -20,6 +20,7 @@ import { useEffect, useState } from 'react'
 import MarqueeHack from '../components/Hero/MarqueeHack'
 import Tracks from '../components/ProblemStatements/Tracks'
 import TimeLine2 from '../components/Timeline/TimeLine2'
+import PastYearStats from '../components/PastYearStats'
 import Script from 'next/script'
 
 export default function Home() {
@@ -46,13 +47,14 @@ export default function Home() {
       <TrackAndPrices />
 
       <Tracks/>
+      
       <RulesNew />
       {/* <Team /> */}
 
       <Sponsers/>
       <Collaborators />
-
-      {/* <Judges /> */}
+      <PastYearStats></PastYearStats>
+      <Judges />
 
       {/* <Testimonies/> */}
       <FAQ></FAQ>
