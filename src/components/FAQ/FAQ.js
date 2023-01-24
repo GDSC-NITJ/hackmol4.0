@@ -9,12 +9,12 @@ let qa = [
     },
     {
         ques: "What can be the size of Team?",
-        ans: "A team can consist of 1-5 members. Pro Tip: Aim to have a mix of people with both design and developer skills. Individual Participants are also allowed"
+        ans: "A team can consist of 2-4 members. Pro Tip: Aim to have a mix of people with both design and developer skills. Individual Participants are also allowed"
     },
     {
         ques: "How much does it Cost ?      ",
         // ans: "TZero. Zip. Zilch. Nada. Nothing. Admission to Hackmol34.0 is completely free for all student Developers"
-        ans: "Rs 100 after selection in first round of the Hackthon"
+        ans: "Interestingly It doesn't cost anything"
     },
     {
         ques: "What if I don't have a team or Idea ?",
