@@ -29,7 +29,7 @@ function TrackAndPrices() {
     <div className='py-10 md:py-36  bg-[#D0A4FF] relative overflow-hidden '>
       <img src={grid.src} className='absolute top-0 right-0 w-full  z-0'></img>
       <img src={coin.src} className='absolute top-0 -right-1 w-16 sm:w-24  z-0'></img>
-      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>prizes and rewards</h1>
+      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>Prizes and Rewards</h1>
       <div className='flex relative z-10 w-full flex-wrap justify-center items-center gap-5 '>
         <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
           <div className='flex justify-center items-center'>
@@ -53,7 +53,7 @@ function TrackAndPrices() {
         </div>
         <div className='border-2 border-black bg-[#90A8ED] w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
         <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >1<span className='text-lg' >st</span></h1>
+            <h1 className='font-bold text-3xl' >2<span className='text-lg' >nd</span></h1>
             <img src={p2.src}></img>
             </div>
 
@@ -74,7 +74,7 @@ function TrackAndPrices() {
         </div>
         <div className='border-2 border-black bg-[#90A8ED] w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
         <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >1<span className='text-lg' >st</span></h1>
+            <h1 className='font-bold text-3xl' >3<span className='text-lg' >rd</span></h1>
             <img src={p3.src}></img>
             </div>
 
