@@ -42,15 +42,15 @@ function TrackAndPrices() {
             <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
           <div className=' self-start mx-0' >
-            <p className=' font-medium text-2xl'>• Goodies Box (2000 INR of worth)</p>
-            <p className=' font-medium text-2xl'>• Geeks for Geeks 800/- INR</p>
-            <p className=' font-medium text-2xl'>• Coupons on all courses</p>
+            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
+            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
+            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
 
-            <p className=' font-medium text-2xl'> • Echo-ar free premium</p>
-            <p className=' font-medium text-2xl'>• tier services</p>
-            <p className=' font-medium text-2xl'>• Online Mock Interviews from </p>
-            <p className=' font-medium text-2xl'>• Interview Buddy </p>
+            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
+            <p className=' font-normal text-xl'>• tier services</p>
+            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
+            <p className=' font-normal text-xl'>• Interview Buddy </p>
           </div>
         </div>
         <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
@@ -64,15 +64,15 @@ function TrackAndPrices() {
             <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
           <div className=' self-start mx-0' >
-            <p className=' font-medium text-2xl'>• Goodies Box (2000 INR of worth)</p>
-            <p className=' font-medium text-2xl'>• Geeks for Geeks 800/- INR</p>
-            <p className=' font-medium text-2xl'>• Coupons on all courses</p>
+            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
+            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
+            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
 
-            <p className=' font-medium text-2xl'> • Echo-ar free premium</p>
-            <p className=' font-medium text-2xl'>• tier services</p>
-            <p className=' font-medium text-2xl'>• Online Mock Interviews from </p>
-            <p className=' font-medium text-2xl'>• Interview Buddy </p>
+            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
+            <p className=' font-normal text-xl'>• tier services</p>
+            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
+            <p className=' font-normal text-xl'>• Interview Buddy </p>
           </div>
         </div>
         <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
@@ -86,15 +86,15 @@ function TrackAndPrices() {
             <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
           <div className=' self-start mx-0' >
-            <p className=' font-medium text-2xl'>• Goodies Box (2000 INR of worth)</p>
-            <p className=' font-medium text-2xl'>• Geeks for Geeks 800/- INR</p>
-            <p className=' font-medium text-2xl'>• Coupons on all courses</p>
+            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
+            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
+            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
 
-            <p className=' font-medium text-2xl'> • Echo-ar free premium</p>
-            <p className=' font-medium text-2xl'>• tier services</p>
-            <p className=' font-medium text-2xl'>• Online Mock Interviews from </p>
-            <p className=' font-medium text-2xl'>• Interview Buddy </p>
+            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
+            <p className=' font-normal text-xl'>• tier services</p>
+            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
+            <p className=' font-normal text-xl'>• Interview Buddy </p>
           </div>
         </div>
       </div>

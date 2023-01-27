@@ -5,8 +5,8 @@ import logo3 from '../../../public/technitiLogo.png'
 
 function Collaborators() {
     return (
-        <div className="flex flex-col justify-center items-center w-full   bg-green  border border-t-black border-t-2">
-            <div className='flex flex-col justify-center items-center py-20'>
+        <div className="flex flex-col justify-center items-center w-full   bg-slate-200  ">
+            <div className='flex flex-col justify-center items-center py-20 pt-0'>
                 <div>
                     <h1 className="justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-6 text-center ">Organised by</h1>
                 </div>
