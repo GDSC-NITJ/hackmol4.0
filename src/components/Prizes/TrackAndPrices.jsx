@@ -29,68 +29,72 @@ function TrackAndPrices() {
     <div className='py-10 md:py-36  bg-[#D0A4FF] relative overflow-hidden '>
       <img src={grid.src} className='absolute top-0 right-0 w-full  z-0'></img>
       <img src={coin.src} className='absolute top-0 -right-1 w-16 sm:w-24  z-0'></img>
-      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>prizes and rewards</h1>
+      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>Prizes and Rewards</h1>
       <div className='flex relative z-10 w-full flex-wrap justify-center items-center gap-5 '>
-        <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
+      <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
           <div className='flex justify-center items-center'>
             <h1 className='font-bold text-3xl' >1<span className='text-lg' >st</span></h1>
             <img src={p1.src}></img>
             </div>
 
-          <div className=' flex flex-col items-end'>
+          <div className=' flex flex-col items-end mb-10'>
             <h2 className='text-5xl  font-bold'><span className='text-lg' >₹</span> 30k</h2>
             <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
-          <div className=' self-start p-1 ' >
-            <p className=' font-bold'>- ₹ 30000 Amount</p>
-            <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
-            <p className=' font-bold'>- Certificate of Participation</p>
+          <div className=' self-start mx-0' >
+            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
+            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
+            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
 
-            <p className=' font-bold'> - Pro Version Free for 12 months</p>
-            <p className=' font-bold'>- Interview buddy</p>
+            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
+            <p className=' font-normal text-xl'>• tier services</p>
+            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
+            <p className=' font-normal text-xl'>• Interview Buddy </p>
           </div>
         </div>
-        <div className='border-2 border-black bg-[#90A8ED] w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
-        <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >1<span className='text-lg' >st</span></h1>
+        <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
+          <div className='flex justify-center items-center'>
+            <h1 className='font-bold text-3xl' >2<span className='text-lg' >nd</span></h1>
             <img src={p2.src}></img>
             </div>
 
-          <div className=' flex flex-col items-end'>
+          <div className=' flex flex-col items-end mb-10'>
             <h2 className='text-5xl  font-bold'><span className='text-lg' >₹</span> 20k</h2>
             <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
+          <div className=' self-start mx-0' >
+            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
+            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
+            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
-          <div className=' self-start p-1 '>
-            <p className=' font-bold'>- ₹ 20000 Amount</p>
-            <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
-            <p className=' font-bold'>- Certificate of Participation</p>
 
-
-            <p className=' font-bold'> - Pro Version Free for 12 months</p>
-            <p className=' font-bold'>- Interview buddy</p>
+            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
+            <p className=' font-normal text-xl'>• tier services</p>
+            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
+            <p className=' font-normal text-xl'>• Interview Buddy </p>
           </div>
         </div>
-        <div className='border-2 border-black bg-[#90A8ED] w-11/12 md:w-[400px] flex flex-col justify-center items-center py-5 px-8 shadow-3xl rounded-xl font-bold  '>
-        <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >1<span className='text-lg' >st</span></h1>
+        <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
+          <div className='flex justify-center items-center'>
+            <h1 className='font-bold text-3xl' >3<span className='text-lg' >rd</span></h1>
             <img src={p3.src}></img>
             </div>
 
-          <div className=' flex flex-col items-end'>
+          <div className=' flex flex-col items-end mb-10'>
             <h2 className='text-5xl  font-bold'><span className='text-lg' >₹</span> 10k</h2>
             <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
+          <div className=' self-start mx-0' >
+            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
+            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
+            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
-          <div className=' self-start p-1 '>
-            <p className=' font-bold'>- ₹ 10000 Amount</p>
-            <p className=' font-bold'>- Premium Swags and Goodies Kit</p>
-            <p className=' font-bold'>- Certificate of Participation</p>
 
-
-            <p className=' font-bold'> - Pro Version Free for 12 months</p>
-            <p className=' font-bold'>- Interview buddy</p>
+            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
+            <p className=' font-normal text-xl'>• tier services</p>
+            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
+            <p className=' font-normal text-xl'>• Interview Buddy </p>
           </div>
         </div>
       </div>

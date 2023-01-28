@@ -22,6 +22,10 @@ function RulesNew() {
         rule: 'Only one person in the team would be the team leader who is required to register on behalf of all the members',
       },
       {
+        color: '#D0A4FF',
+        rule: 'You have to submit your idea via PPT and the Ideation round will be conducted where best ideas will get to participate in the in-person hackathon at NIT Jalandhar',
+      },
+      {
         color: '#94E95D',
         rule: 'All work on a project should be done during the HackMol. Your code repository must be initialized at the beginning of HackMol itself',
       },
