@@ -104,7 +104,7 @@ const NavBar = () => {
                       ABOUT
                     </Link>
                   </li>
-                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                  {/* <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#rules'}
                       scroll={false}
@@ -118,6 +118,14 @@ const NavBar = () => {
                       scroll={false}
                     >
                       SCHEDULE
+                    </Link>
+                  </li> */}
+                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                    <Link
+                      href={'#schedule'}
+                      scroll={false}
+                    >
+                      Problems
                     </Link>
                   </li>
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
