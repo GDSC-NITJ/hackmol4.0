@@ -30,7 +30,7 @@ function Tracks() {
             title: "Agriculture and Rural Development",
             description: "Create applications and technologies that increase agricultural productivity and improve rural livelihoods.",
             tags:[
-                'web','mobile','IoT', 'sustainable'
+                'web','mobile','IoT', 'sustainable','farming'
             ],
             color: '[#90A8ED]'
             
@@ -69,7 +69,7 @@ function Tracks() {
             title: "Cyber Security",
             description: "Develop and implement measures to protect data and networks from cyber-attacks. ",
             tags:[
-                'hacking','infosec','linux', 'kali-linux'
+                'hacking','infosec','linux', 'kali-linux','secure'
             ],
             color: 'yellow'
             
@@ -79,7 +79,7 @@ function Tracks() {
             title: "Internet of Things (loT)",
             description: "Leverage the power of the Internet of Things to create applications that increase efficiency and reduce waste.",
             tags:[
-                'robotics','automation','rasperry pi', 'arduino'
+                'robotics','automation','rasperry pi', 'arduino','cloud'
             ],
             color: '[#90A8ED]'
             
