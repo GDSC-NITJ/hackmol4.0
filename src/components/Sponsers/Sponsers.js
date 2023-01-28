@@ -4,7 +4,28 @@ import solana from '../../../public/images/sponsors/solana.svg'
 import file from '../../../public/images/sponsors/filecoine.png'
 import polygon from "../../../public/images/sponsors/Polygonlogo.png"
 import et from "../../../public/images/sponsors/etraa.jpeg"
+import { useLayoutEffect } from "react"
+import { gsap } from "gsap"
 function Sponsers() {
+
+    useLayoutEffect(()=>{
+
+       gsap.to(".sponsers",{
+        
+        scrollTrigger:{
+            trigger:".sponsers",
+            start:"top 80%",
+            end:"bottom 80%",
+            toggleActions:"play none none none"
+        },
+        opacity:1,
+        duration:1,
+        ease:"power4.out"
+    })
+
+
+    })
+
     return (
         <div className="w-full py-16 md:py-20 flex justify-center items-center gap-12 bg-slate-200 flex-col ">
             {/* <h1 className="container flex justify-center w-3/4 h-80 text-white text-3xl md:text-4xl font-extrabold shadow-bordered-black text-center border-white border-2 items-center">
@@ -25,7 +46,7 @@ function Sponsers() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center  flex-col">
+            <div className="sponsers flex items-center justify-center  flex-col">
                 <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#FF4E4E] text-center px-10 py-2 shadow-3xl">
                     Gold Sponsors
                 </div>

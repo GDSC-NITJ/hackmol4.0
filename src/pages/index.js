@@ -41,7 +41,7 @@ export default function Home() {
 
       {/* <Schedule /> */}
       {/* <TimeLine /> */}
-      {/* <TimeLine2/> */}
+      <TimeLine2/>
 
       {/* <Announcement /> */}
       <TrackAndPrices />
