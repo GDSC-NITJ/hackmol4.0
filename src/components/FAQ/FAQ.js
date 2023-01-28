@@ -9,13 +9,9 @@ let qa = [
     },
     {
         ques: "What can be the size of Team?",
-        ans: "A team can consist of 2-4 members. Pro Tip: Aim to have a mix of people with both design and developer skills. Individual Participants are also allowed"
+        ans: "A team can consist of 1-4 members. Pro Tip: Aim to have a mix of people with both design and developer skills. Individual Participants are also allowed"
     },
-    {
-        ques: "How much does it Cost ?      ",
-        // ans: "TZero. Zip. Zilch. Nada. Nothing. Admission to Hackmol34.0 is completely free for all student Developers"
-        ans: "Interestingly It doesn't cost anything"
-    },
+    
     {
         ques: "What if I don't have a team or Idea ?",
         ans: "Don't worry, most people don't! We'll have team formation and ideation events geared towards helping you find people to work with. It’s perfectly normal to go around to people, tell them you're looking for a team, and ask if you can help out. You can also show yourself off at #teamup on our Discord Server."

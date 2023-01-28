@@ -8,7 +8,7 @@ function RulesNew() {
 
   useEffect(() => {
     setRules([
-      { color: '#FFEB01', rule: 'Each team would comprise of 2 to 4 members ' },
+      { color: '#FFEB01', rule: 'Each team would comprise of 1 to 4 members ' },
       {
         color: '#FF6F0F',
         rule: 'Team members could be from different institutions as well',
