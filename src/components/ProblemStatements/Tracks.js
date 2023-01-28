@@ -106,7 +106,7 @@ function Tracks() {
             return (
                 <div key={i} className={`border-2 border-black bg-${data.color} w-11/12 md:w-[400px] flex flex-col justify-between gap-3  p-5  rounded-xl font-bold  `}>
                 <div className='flex flex-col gap-3' >
-                    <img src={data?.img} className='w-1/3 scale-[80%]'></img>
+                    <img src={data?.img} className='w-1/5 scale-[90%]'></img>
                     <h3 className='text-xl font-bold'> 
                         {data?.title}
                     </h3>
