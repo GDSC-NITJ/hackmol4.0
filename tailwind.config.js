@@ -14,7 +14,7 @@ module.exports = {
         'green':'#94E95D',
         'black':'#000000',
         'lightblue':'#5C40EC',
-        'pastelBlue': '#90A8ED',
+        'pastelBlue': '#90A8ED'
       },
       fontFamily: {
         'Space-Grotesk': ['Space Grotesk', 'sans-serif'],
