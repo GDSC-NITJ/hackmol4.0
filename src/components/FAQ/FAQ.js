@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 let qa = [
     {
-        ques: "What is a Hackathon and who can participate in HackMol4.0 ?",
+        ques: "What is a Hackathon and who are eligible to participate in HackMol4.0 ?",
         ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a student developer, we'd love to have you at HackMol4.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event."
     },
     {
