@@ -89,7 +89,7 @@ let Footer = function(props){
                             <Link href="https://www.facebook.com/DSCNITJ/"  rel="noreferrer"  target="_blank"><svg className="p-1 h-[35px] w-[35px] fill-white hover:fill-blue" width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4737 0.546387H8.47935C7.15574 0.546387 5.88634 1.08028 4.95041 2.03062C4.01447 2.98094 3.48867 4.26988 3.48867 5.61385V8.65433H0.494263V12.7083H3.48867V20.8163H7.48122V12.7083H10.4756L11.4737 8.65433H7.48122V5.61385C7.48122 5.34506 7.58637 5.08727 7.77357 4.8972C7.96075 4.70714 8.21463 4.60036 8.47935 4.60036H11.4737V0.546387Z"/></svg></Link>
                         </div>
                         <div className="">
-                            <button href="" className="bg-black w-full text-white p-4 text-xs leading-4 font-medium border-[1.69px] border-white shadow-[5px_5px_0px_#FFFFFF]">Learn More About GDSC</button>
+                            <button className="bg-black w-full text-white p-4 text-xs leading-4 font-medium border-[1.69px] border-white shadow-[5px_5px_0px_#FFFFFF]"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/">Learn More About GDSC</a></button>
                         </div>
                     </div>
                 </div>
