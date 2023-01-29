@@ -80,7 +80,7 @@ const Banner = () => {
                   <Link
                     target='_blank'
                     rel='noreferrer'
-                    href='https://discord.gg/6Th6ppaG'>
+                    href='http://dsc.gg/nitj'>
                     <button
                       id='left'
                       className='tagline  below m-0 w-40 text-base  '
@@ -136,7 +136,7 @@ const Banner = () => {
           <Link
             target='_blank'
             rel='noreferrer'
-            href='https://discord.gg/6Th6ppaG'>
+            href='http://dsc.gg/nitj'>
             <button
               id='left'
               className='tagline below  w-64  '
