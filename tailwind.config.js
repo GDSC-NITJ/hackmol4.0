@@ -35,7 +35,10 @@ module.exports = {
         'bordered-orange': ' 8px 8px 0 -2px #FF6F0F, 8px 8px black',
         'bordered-yellow': ' 0px 0px 0 5px #FFEB01',
         'hack': '0px 0px 0 8px #D0A4FF'
-      }
+      },
+      // backgroundImage: {
+      //   'tshirt': "url('./public/t-shirt_mockup_red_bg.jpg')",
+      // }
     },
   },
   plugins: [],
