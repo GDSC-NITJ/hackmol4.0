@@ -8,92 +8,88 @@ function Tracks() {
 
     const obj = [
         {
-            img: '',
-            title: "Tracking food waste for productive usage",
-            description: "The objective is to find a way to keep track of food that would otherwise go to waste and redirect it to those who require it, such as individuals or organizations. The solution should be able to track the food waste and the effect it has on reducing hunger and food insecurity in the community, while also being environmentally friendly.",
+            img: 'https://cdn-icons-png.flaticon.com/512/4515/4515497.png',
+            title: "Green Technology",
+            description: "Develop applications that promote renewable energy, increase energy efficiency, reduce waste, and promote sustainability.",
             tags:[
                 'web','mobile','green technology', 'sustainable'
             ],
             color: 'orange'
-            
-            
         },
         {
-            img: '',
-            title: "Collecting and reusing single-use plastics and industrial waste",
-            description: "The problem statement is concerned with creating an effective system for gathering and repurposing single-use plastics and industrial waste, in order to decrease their environmental harm and find new uses for the materials",
+            img: 'https://cdn-icons-png.flaticon.com/512/887/887739.png',
+            title: "Blockchain Development - Web3",
+            description: "Explore the potential of blockchain technology and develop applications that leverage its features.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'blockchain','web3','crypto', 'bitcoin','ethereum'
             ],
             color: 'yellow'
-            
         },
         {
-            img: '',
-            title: "Application to help small businesses sell their products",
-            description: "The goal is to help these businesses expand their customer base, simplify their sales process, and boost their revenue by providing them with easy-to-use tools for listing, promoting, and managing their products, as well as tracking sales and processing orders and payments",
+            img: 'https://cdn-icons-png.flaticon.com/512/3227/3227831.png',
+            title: "Agriculture and Rural Development",
+            description: "Create applications and technologies that increase agricultural productivity and improve rural livelihoods.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'web','mobile','IoT', 'sustainable','farming'
             ],
             color: '[#90A8ED]'
             
         },
         {
-            img: '',
-            title: "Elimination of industrial emissions",
-            description: "Developing solutions to reduce industrial pollution, including harmful pollutants released from factories and power plants, to improve air quality and decrease negative effects on the environment and human health.",
+            img: 'https://cdn-icons-png.flaticon.com/512/2382/2382533.png',
+            title: "MedTech/Healthcare",
+            description: "Develop innovative medical technologies and healthcare applications that improve patient outcomes and provide better access to healthcare.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'meditation','consulation-bots','cancer', 'medical solutions','fitness','lifestyle'
             ],
             color: 'green'
-            
         },
         {
-            img: '',
-            title: "Smart and sustainable supply chain",
-            description: "Creating a smart and sustainable supply chain through the use of technology and sustainable practices. Optimizing efficiency, transparency and reducing environmental impact.",
+            img: 'https://cdn-icons-png.flaticon.com/512/4616/4616734.png',
+            title: "Machine Learning / Artificial Intelligence",
+            description: "Explore the applications and possibilities of machine learning and AI, and develop applications that use them.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'automatation','neuroscience','chatgpt', 'python', 'future','deep-learning','ai-model'
             ],
             color: '[#D0A4FF]'
             
         },
         {
-            img: '',
-            title: "Application to track carbon emissions",
-            description: "Problem statement is to create an application to track carbon emissions. The app would allow individuals and organizations to monitor their carbon footprint, and identify opportunities for reducing emissions.",
+            img: 'https://cdn-icons-png.flaticon.com/512/1457/1457847.png',
+            title: "Smart Education",
+            description: "Develop applications and technologies to improve the quality of and access to education.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'elearning','edtech','innovative education', 'educate-for-good'
             ],
             color: 'orange'
             
         },
         {
-            img: '',
-            title: "Application to promote knowledge in green technology",
-            description: "Creating an application to raise awareness and educate people about green technology, including sustainable practices, renewable energy and other environmentally-friendly technologies. ",
+            img: 'https://cdn-icons-png.flaticon.com/512/2092/2092757.png',
+            title: "Cyber Security",
+            description: "Develop and implement measures to protect data and networks from cyber-attacks. ",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'hacking','infosec','linux', 'kali-linux','secure'
             ],
             color: 'yellow'
             
         },
         {
-            img: '',
-            title: "Softwares as well as hardware for helping green agriculture",
-            description: "The problem statement is to create software and hardware solutions for improving efficiency and sustainability of agricultural practices.  The goal is to reduce the environmental impact of farming while improving efficiency",
+            img: 'https://cdn-icons-png.flaticon.com/512/2416/2416790.png',
+            title: "Internet of Things (loT)",
+            description: "Leverage the power of the Internet of Things to create applications that increase efficiency and reduce waste.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'robotics','automation','rasperry pi', 'arduino','cloud'
             ],
             color: '[#90A8ED]'
             
         },
         {
-            img: '',
-            title: "OPEN INNOVATION IDEAS",
-            description: "New Ideas and solutions solving real world problems are welcome",
+            img: 'https://cdn-icons-png.flaticon.com/512/8646/8646407.png',
+            title: "Open Innovation",
+            description: "Encourage hackathon participants to come up with innovative solutions that promote collaboration and open innovation.",
             tags:[
-                'web','mobile','green technology', 'sustainable'
+                'business', 'beginner-friendly', 'tech','startup','fintech'
             ],
             color: 'green'
             
@@ -102,23 +98,24 @@ function Tracks() {
 
   return (
     <div className='py-10 md:py-20 space-y-8 border-y-2 border-black  '>
-    <h1 className='text-center  text-4xl font-bold'>Problem Statements</h1>
-    <div className='flex w-full flex-wrap justify-center  gap-5 '>
-      {/* card for diffreent problem statements mapping of obj  */}
+    <h1 className='text-center  text-4xl font-bold'>Themes</h1>
+    <div className='flex w-full flex-wrap justify-center gap-5'>
+      {/* card for different problem statements mapping of obj  */}
      {
         obj.map((data,i)=>{
             return (
-                <div key={i} className={`border-2 border-black bg-${data.color}  w-11/12 md:w-[400px] flex flex-col justify-between gap-3  p-5  rounded-xl font-bold  `}>
+                <div key={i} className={`border-2 border-black bg-${data.color} w-11/12 md:w-[400px] flex flex-col justify-between gap-3  p-5  rounded-xl font-bold  `}>
                 <div className='flex flex-col gap-3' >
+                    <img src={data?.img} className='w-1/5 scale-[90%]'></img>
                     <h3 className='text-xl font-bold'> 
                         {data?.title}
                     </h3>
                     <div className='text-sm' >
                         {data?.description}
-                     </div>
+                    </div>
                 </div>
-                    <div>
-                        <div className=' text-sm  mb-2' >Popular Tags</div>
+                <div>
+                    <div className=' text-sm  mb-2' >Popular Tags</div>
                         <div className='flex flex-wrap gap-2' >
                             {
                                 data.tags.map((tag,j)=>{
@@ -128,7 +125,7 @@ function Tracks() {
                                 })
                             }
                         </div>
-                        </div>
+                    </div>
                 </div>
             )
         })
