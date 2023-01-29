@@ -13,10 +13,10 @@ function RulesNew() {
         color: '#FF6F0F',
         rule: 'Team members could be from different institutions as well',
       },
-      {
-        color: '#FFEB01',
-        rule: 'Only one person in the team would be the team leader who is required to register on behalf of all the members',
-      },
+      // {
+      //   color: '#FFEB01',
+      //   rule: 'Only one person in the team would be the team leader who is required to register on behalf of all the members',
+      // },
       {
         color: '#5C40EC',
         rule: 'The registration begins on 15th Jan,2023 and ends on 31th Jan,2023',
