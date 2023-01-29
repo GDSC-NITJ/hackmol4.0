@@ -109,7 +109,7 @@ const NavBar = () => {
                       href={'#rules'}
                       scroll={false}
                     >
-                      RULES
+                      INFORMATION 
                     </Link>
                   </li>
                   {/* <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
