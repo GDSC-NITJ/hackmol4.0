@@ -34,7 +34,7 @@ const NavBar = () => {
           <h2 className="heading">HACKMOL 4.0</h2>
         </div>
 
-        <nav className="w-full bg-purple shadow border-2 border-black top-0 sticky">
+        <nav className="w-full bg-purple shadow border-2 border-black sticky top-0 ">
           <div className="justify-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 md:py-3 ">
             <div>
               <div className="flex items-center justify-between py-1 md:py-5 md:block">
