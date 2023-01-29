@@ -44,7 +44,7 @@ function RulesNew() {
             </div>
             <div className='rules__desc mb-10 font-Plus-Jakarta text-center'>
               {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo? */}
-              SWAG and FUN, CREATION and COLLABORATION<br />
+
 
               Participants will be given 30 hours to solve a real-world industry problem and create something wonderful out of it!
               Join us for a Day full of Adventure and Learnings!
