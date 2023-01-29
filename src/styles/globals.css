@@ -740,3 +740,11 @@ nav.navbar.scrolled .header-name {
     font-family: 'Brygada 1918', serif;
   }
 }
+
+
+/* prizes */
+@media screen and (max-width: 796px) {
+.solana{
+  width: 380px;
+}
+}
