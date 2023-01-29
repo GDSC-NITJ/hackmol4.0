@@ -144,7 +144,7 @@ function TrackAndPrices() {
         ></img>
 
         <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
-          <h2 className="text-4xl mb-10 font-bold"> Filecoin </h2>
+          <h2 className="text-4xl mb-6 font-bold"> Filecoin </h2>
           <div className=" self-start mx-0">
             <p className=" font-normal text-[16] mb-2">
               • ₹20,000 for best use of IPFS and/or Filecoin built at
@@ -155,8 +155,8 @@ function TrackAndPrices() {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
-          <h2 className="text-4xl mb-10 font-bold"> Polygon </h2>
+        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Polygon </h2>
           <div className=" self-start mx-0">
             <p className=" font-normal text-[16] mb-2">
               • ₹10,000 for the best hack built on Ethereum
@@ -170,8 +170,8 @@ function TrackAndPrices() {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
-          <h2 className="text-4xl mb-10 font-bold"> Replit </h2>
+        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Replit </h2>
           <div className=" self-start mx-0">
             <p className=" font-normal text-[16] mb-2">
               • $50 to winning project of the hackathon (must be deployed on
@@ -187,9 +187,9 @@ function TrackAndPrices() {
         </div>
       </div>
 
-      <div className=" px-8 flex justify-center  ">
-        <div className="border-2 border-black bg-[#FFD392] z-10  w-[760px] solana flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
-          <h2 className="text-4xl mb-10 font-bold"> Solana </h2>
+      {/* <div className=" px-8 flex justify-center  ">
+        <div className="border-2 border-black bg-[#FFD392] z-10  w-[760px] solana flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Solana </h2>
           <div className=" self-start mx-0">
             <p className=" font-normal text-[16] mb-2">
               •<span className="font-bold"> young gun</span> - $USDC 100 for the
@@ -211,7 +211,7 @@ function TrackAndPrices() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
