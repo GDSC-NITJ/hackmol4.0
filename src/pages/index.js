@@ -48,7 +48,7 @@ export default function Home() {
 
       <Tracks/>
       
-      {/* <RulesNew /> */}
+      <RulesNew />
       {/* <Team /> */}
 
       <Sponsers/>
