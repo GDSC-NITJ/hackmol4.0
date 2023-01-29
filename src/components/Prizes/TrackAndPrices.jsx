@@ -304,11 +304,9 @@ function TrackAndPrices() {
       id="prizes"
       className="py-10 md:py-36  bg-[#D0A4FF] overflow-hidden  relative FF7B54 "
     >
-      <div className="absolute top-0 right-0 ">
-        <img src={grid.src} className=" block w-full height-full z-0"></img>
-        <img src={grid.src} className=" block w-full height-full z-0"></img>
-      </div>
-
+    
+      {/*<img src={grid.src} className="absolute top-0 right-0 w-full height-full z-0"></img>*/}
+      
       <img
         src={coin.src}
         className="absolute top-0 -right-1 w-16 sm:w-24  z-0"
