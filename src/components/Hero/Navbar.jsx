@@ -104,7 +104,7 @@ const NavBar = () => {
                       ABOUT
                     </Link>
                   </li>
-                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#rules'}
                       scroll={false}
@@ -128,7 +128,7 @@ const NavBar = () => {
                       PRIZES
                     </Link>
                   </li>
-                 
+
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#contact'}
