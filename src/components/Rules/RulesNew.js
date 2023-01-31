@@ -56,18 +56,7 @@ function RulesNew() {
                 return <RulesPoints Desc={ele.rule} color={ele.color} key={i} />
               })}
             </div>
-            <div className='rules__desc mt-10 mb-5 font-Plus-Jakarta text-center'>
-              {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo? */}
-              Techniti 2023 - Annual Technical Fest, NITJ
-            </div>
-            <div className='rules__desc  font-Plus-Jakarta'>
-              {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi quam, distinctio ut non ipsum saepe reprehenderit dolores iusto adipisci hic veritatis possimus, esse, totam magni et ea ratione illo? */}
-              Providing a platform for the Indian student community to develop and showcase their technical prowess.<br/>Participate and Win Big!
-              Cash Prizes upto 5 Lakhs!<br/>Start hacking your IDEA with your CREW
-
-
-
-            </div>
+            
             
           </div>
         </div>

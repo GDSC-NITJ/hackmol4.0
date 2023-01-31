@@ -10,6 +10,7 @@ import gmc from "../../../public/images/sponsors/givemycertificate.png"
 import oreally from "../../../public/images/sponsors/oreilly.png"
 import streamyard from "../../../public/images/sponsors/streamyard.png"
 import threeway from "../../../public/images/sponsors/3-way.png"
+import producthouse from "../../../public/images/sponsors/producthouse.png"
 function Sponsers() {
     return (
         <div className="w-full py-16 md:py-20 flex justify-center items-center gap-12 bg-slate-200 flex-col ">
@@ -124,6 +125,11 @@ function Sponsers() {
                    
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={streamyard.src} alt="Sponsor Image" className="p-10" />
+                    </div>
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={producthouse.src} alt="Sponsor Image"  />
+               
+
                     </div>
                    
                    
