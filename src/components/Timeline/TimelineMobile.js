@@ -3,7 +3,7 @@ import React from 'react'
 function TimelineMobile() {
   return (
     <div class=" bg-[#94e95d] md:hidden block py-10  mx-auto px-5">
-    <div class="  relative">
+    <div class="  relative  timeline-center ">
     <div>
                     <h1 className="justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-6 text-center ">Timeline</h1>
                 </div>
@@ -17,7 +17,7 @@ function TimelineMobile() {
                     </div>
                     <div class="flex-1 ml-4 z-10 font-medium">
                         <div class="order-1 relative shadow-3xl border-2 border-black  my-2 space-y-2 bg-blue rounded-lg shadow-only transition-ease ">
-                            <h3 class="flex items-center gap-3 pb-3 font-bold text-white text-lg  px-6 pt-3  border-b-2 border-black w-full justify-between "> Registeration Deadline  <div className='flex items-center gap-3' >
+                            <h3 class="flex items-center gap-3 pb-3  text-white text-base  px-6 pt-3  border-b-2 border-black w-full justify-between "> Registeration Deadline  <div className='flex items-center gap-2 text-sm ' >
                                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.33333 8.1H4.22222V9.9H6.33333V8.1ZM10.5556 8.1H8.44444V9.9H10.5556V8.1ZM14.7778 8.1H12.6667V9.9H14.7778V8.1ZM16.8889 1.8H15.8333V0H13.7222V1.8H5.27778V0H3.16667V1.8H2.11111C0.939444 1.8 0.0105555 2.61 0.0105555 3.6L0 16.2C0 16.6774 0.22242 17.1352 0.61833 17.4728C1.01424 17.8104 1.55121 18 2.11111 18H16.8889C18.05 18 19 17.19 19 16.2V3.6C19 2.61 18.05 1.8 16.8889 1.8ZM16.8889 16.2H2.11111V6.3H16.8889V16.2Z" fill="white" />
                                 </svg>
@@ -25,7 +25,7 @@ function TimelineMobile() {
 
                             </div>
                             </h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100  px-6 pb-4">
+                            <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
                                 
                             Hackmol4.0 registration open, students can showcase their skills and bring ideas to life. Click here to  register .</p>
                         </div>
@@ -41,7 +41,7 @@ function TimelineMobile() {
                     </div>
                     <div class="flex-1 ml-4 z-10 font-medium">
                     <div class="order-1 relative shadow-3xl border-2 border-black  my-2 space-y-2 bg-blue rounded-lg shadow-only transition-ease ">
-                            <h3 class="flex items-center gap-3 pb-3 font-bold text-white text-lg  px-6 pt-3  border-b-2 border-black w-full justify-between "> Round 1 Submission   <div className='flex items-center gap-3' >
+                            <h3 class="flex items-center gap-3 pb-3  text-white text-base  px-6 pt-3  border-b-2 border-black w-full justify-between "> Round 1 Submission   <div className='flex items-center gap-2 text-sm ' >
                                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.33333 8.1H4.22222V9.9H6.33333V8.1ZM10.5556 8.1H8.44444V9.9H10.5556V8.1ZM14.7778 8.1H12.6667V9.9H14.7778V8.1ZM16.8889 1.8H15.8333V0H13.7222V1.8H5.27778V0H3.16667V1.8H2.11111C0.939444 1.8 0.0105555 2.61 0.0105555 3.6L0 16.2C0 16.6774 0.22242 17.1352 0.61833 17.4728C1.01424 17.8104 1.55121 18 2.11111 18H16.8889C18.05 18 19 17.19 19 16.2V3.6C19 2.61 18.05 1.8 16.8889 1.8ZM16.8889 16.2H2.11111V6.3H16.8889V16.2Z" fill="white" />
                                 </svg>
@@ -49,7 +49,7 @@ function TimelineMobile() {
 
                             </div>
                             </h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100  px-6 pb-4">
+                            <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
                             Round 1 is the first stage of competition  where participants present their ideas in a ppt format to give an overview of there solution. Click here to download ppt format
 </p>
                         </div>
@@ -64,15 +64,15 @@ function TimelineMobile() {
                     </div>
                     <div class="flex-1 ml-4 z-10 font-medium">
                     <div class="order-1 relative shadow-3xl border-2 border-black  my-2 space-y-2 bg-blue rounded-lg shadow-only transition-ease ">
-                            <h3 class="flex items-center gap-3 pb-3 font-bold text-white text-lg  px-6 pt-3  border-b-2 border-black w-full justify-between "> Round 1 Results  <div className='flex items-center gap-3' >
+                            <h3 class="flex items-center gap-3 pb-3  text-white text-base  px-6 pt-3  border-b-2 border-black w-full justify-between "> Round 1 Results  <div className='flex items-center gap-2 text-sm ' >
                                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.33333 8.1H4.22222V9.9H6.33333V8.1ZM10.5556 8.1H8.44444V9.9H10.5556V8.1ZM14.7778 8.1H12.6667V9.9H14.7778V8.1ZM16.8889 1.8H15.8333V0H13.7222V1.8H5.27778V0H3.16667V1.8H2.11111C0.939444 1.8 0.0105555 2.61 0.0105555 3.6L0 16.2C0 16.6774 0.22242 17.1352 0.61833 17.4728C1.01424 17.8104 1.55121 18 2.11111 18H16.8889C18.05 18 19 17.19 19 16.2V3.6C19 2.61 18.05 1.8 16.8889 1.8ZM16.8889 16.2H2.11111V6.3H16.8889V16.2Z" fill="white" />
                                 </svg>
-                                12th February
+                                15th February
 
                             </div>
                             </h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100  px-6 pb-4">
+                            <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
                             The results of the idea submission will be released, and the selected students will move forward to participate in an upcoming offline coding round, where they will have the opportunity to bring their ideas to life 
 </p>
                         </div>
@@ -87,7 +87,7 @@ function TimelineMobile() {
                     </div>
                     <div class="flex-1 ml-4 z-10 font-medium">
                     <div class="order-1 relative shadow-3xl border-2 border-black  my-2 space-y-2 bg-blue rounded-lg shadow-only transition-ease ">
-                            <h3 class="flex items-center gap-3 pb-3 font-bold text-white text-lg  px-6 pt-3  border-b-2 border-black w-full justify-between ">  Round 2   Hackathon Begins    <div className='flex items-center gap-3' >
+                            <h3 class="flex items-center gap-3 pb-3  text-white text-base  px-6 pt-3  border-b-2 border-black w-full justify-between ">  Round 2   Hackathon Begins    <div className='flex items-center gap-2 text-sm ' >
                                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.33333 8.1H4.22222V9.9H6.33333V8.1ZM10.5556 8.1H8.44444V9.9H10.5556V8.1ZM14.7778 8.1H12.6667V9.9H14.7778V8.1ZM16.8889 1.8H15.8333V0H13.7222V1.8H5.27778V0H3.16667V1.8H2.11111C0.939444 1.8 0.0105555 2.61 0.0105555 3.6L0 16.2C0 16.6774 0.22242 17.1352 0.61833 17.4728C1.01424 17.8104 1.55121 18 2.11111 18H16.8889C18.05 18 19 17.19 19 16.2V3.6C19 2.61 18.05 1.8 16.8889 1.8ZM16.8889 16.2H2.11111V6.3H16.8889V16.2Z" fill="white" />
                                 </svg>
@@ -95,7 +95,7 @@ function TimelineMobile() {
 
                             </div>
                             </h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100  px-6 pb-4">
+                            <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
                             Hackathon starts with TechNITI event, showcasing students coding skills and ideas.
 </p>
                         </div>
@@ -111,7 +111,7 @@ function TimelineMobile() {
                     </div>
                     <div class="flex-1 ml-4 z-10 font-medium">
                     <div class="order-1 relative shadow-3xl border-2 border-black  my-2 space-y-2 bg-blue rounded-lg shadow-only transition-ease ">
-                            <h3 class="flex items-center gap-3 pb-3 font-bold text-white text-lg  px-6 pt-3  border-b-2 border-black w-full justify-between ">  Round 2 Hackathon Begins  <div className='flex items-center gap-3' >
+                            <h3 class="flex items-center gap-3 pb-3  text-white text-base  px-6 pt-3  border-b-2 border-black w-full justify-between ">  Round 2 Hackathon Begins  <div className='flex items-center gap-2 text-sm ' >
                                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.33333 8.1H4.22222V9.9H6.33333V8.1ZM10.5556 8.1H8.44444V9.9H10.5556V8.1ZM14.7778 8.1H12.6667V9.9H14.7778V8.1ZM16.8889 1.8H15.8333V0H13.7222V1.8H5.27778V0H3.16667V1.8H2.11111C0.939444 1.8 0.0105555 2.61 0.0105555 3.6L0 16.2C0 16.6774 0.22242 17.1352 0.61833 17.4728C1.01424 17.8104 1.55121 18 2.11111 18H16.8889C18.05 18 19 17.19 19 16.2V3.6C19 2.61 18.05 1.8 16.8889 1.8ZM16.8889 16.2H2.11111V6.3H16.8889V16.2Z" fill="white" />
                                 </svg>
@@ -119,7 +119,7 @@ function TimelineMobile() {
 
                             </div>
                             </h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100  px-6 pb-4">
+                            <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
                                 
                             The final showdown round of the hackathon is here, where the top hacks will be presented and a winner will be chosen                  </p>
                         </div>
