@@ -4,6 +4,8 @@ import solana from '../../../public/images/sponsors/solana.svg'
 import file from '../../../public/images/sponsors/filecoine.png'
 import polygon from "../../../public/images/sponsors/Polygonlogo.png"
 import et from "../../../public/images/sponsors/etraa.jpeg"
+import { useEffect } from "react"
+import { gsap } from "gsap"
 import echo from "../../../public/images/sponsors/echo.png"
 import ib from "../../../public/images/sponsors/interviewbuddy.png"
 import gmc from "../../../public/images/sponsors/givemycertificate.png"
@@ -12,6 +14,25 @@ import streamyard from "../../../public/images/sponsors/streamyard.png"
 import threeway from "../../../public/images/sponsors/3-way.png"
 import producthouse from "../../../public/images/sponsors/producthouse.png"
 function Sponsers() {
+
+    useEffect(()=>{
+
+       gsap.to(".sponsers",{
+        
+        scrollTrigger:{
+            trigger:".sponsers",
+            start:"top 80%",
+            end:"bottom 80%",
+            toggleActions:"play none none none"
+        },
+        opacity:1,
+        duration:1,
+        ease:"power4.out"
+    })
+
+
+    })
+
     return (
         <div className="w-full py-16 md:py-20 flex justify-center items-center gap-12 bg-slate-200 flex-col ">
             {/* <h1 className="container flex justify-center w-3/4 h-80 text-white text-3xl md:text-4xl font-extrabold shadow-bordered-black text-center border-white border-2 items-center">

@@ -35,7 +35,7 @@ const About = () => {
           height="80"
           src={star.src}
         />
-        <div className="flex gap-8 justify-center items-center  flex-col md:flex-row  ">
+        <div className="flex gap-8  justify-center items-center  flex-col md:flex-row  ">
           <div className="  md:w-5/12 h-full ">
             <img
               src={hack.src}
