@@ -22,6 +22,7 @@ import Tracks from '../components/ProblemStatements/Tracks'
 import TimeLine2 from '../components/Timeline/TimeLine2'
 import PastYearStats from '../components/PastYearStats'
 import Script from 'next/script'
+import TimelineMobile from '../components/Timeline/TimelineMobile'
 // import Script from 'next/script'
 
 export default function Home() {
@@ -40,11 +41,12 @@ export default function Home() {
       <Banner />
       {/* <Banner2 /> */}
       <About />
-      <Merch />
+      {/* <Merch /> */}
 
       {/* <Schedule /> */}
       {/* <TimeLine /> */}
-      {/* <TimeLine2/> */}
+      <TimeLine2/>
+      <TimelineMobile/>
 
       {/* <Announcement /> */}
       <TrackAndPrices />
