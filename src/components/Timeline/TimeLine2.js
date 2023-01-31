@@ -2,7 +2,7 @@ import React from 'react'
 
 function TimeLine2() {
     return (
-        <div class=" bg-[#FFD392] hidden md:block py-10  mx-auto px-5">
+        <div class=" bg-[#94e95d] hidden md:block py-10  mx-auto px-5">
             <div class="  relative flex w-full justify-center items-center flex-col ">
             <div>
                     <h1 className="justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-6 text-center ">Timeline</h1>

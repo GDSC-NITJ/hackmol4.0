@@ -2,7 +2,7 @@ import React from 'react'
 
 function TimelineMobile() {
   return (
-    <div class=" bg-[#FFD392] md:hidden block py-10  mx-auto px-5">
+    <div class=" bg-[#94e95d] md:hidden block py-10  mx-auto px-5">
     <div class="  relative">
     <div>
                     <h1 className="justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-6 text-center ">Timeline</h1>
