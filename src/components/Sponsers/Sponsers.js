@@ -20,7 +20,7 @@ function Sponsers() {
             <h1 className="text-4xl uppercase  mb-2 font-bold font-Space-Grotesk">Sponsors</h1>
 
             <div className="flex items-center justify-center  flex-col">
-                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black rounded w-[294px]  bg-[#FFC900] text-center px-10 py-2 shadow-3xl">
+                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black rounded w-[294px]  bg-[#90A8ED] text-center px-10 py-2 shadow-3xl">
                     Diamond Sponsors
                 </div>
                 <div className=" flex items-center flex-wrap justify-center">
@@ -33,10 +33,10 @@ function Sponsers() {
             </div>
 
             <div className="flex items-center justify-center  flex-col">
-                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#FF4E4E] text-center px-10 py-2 shadow-3xl">
+                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#FFEB01] text-center px-10 py-2 shadow-3xl">
                     Gold Sponsors
                 </div>
-                <div className=" flex items-center justify-center w-full md:w-10/12  flex-wrap">
+                <div className=" flex items-center justify-center w-full md:w-full  flex-wrap">
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={devfolio.src} alt="Sponsor Image" className="p-10" />
                         
@@ -100,7 +100,7 @@ function Sponsers() {
             </div>
 
             <div className="flex items-center justify-center  flex-col">
-                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#296CF2] text-center px-10 py-2 shadow-3xl">
+                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#D0A4FF] text-center px-10 py-2 shadow-3xl">
                     Bronze Sponsors
                 </div>
                 <div className=" flex items-center justify-center w-full md:w-10/12  flex-wrap">
@@ -109,7 +109,7 @@ function Sponsers() {
                         
 
                     </div>
-                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-8 text-black bg-white ">
                         <img src={ib.src} alt="Sponsor Image" className="p-10" />
                
 
@@ -126,7 +126,7 @@ function Sponsers() {
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={streamyard.src} alt="Sponsor Image" className="p-10" />
                     </div>
-                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-4 text-black bg-white ">
                         <img src={producthouse.src} alt="Sponsor Image"  />
                         
 
@@ -141,7 +141,7 @@ function Sponsers() {
                     Community Partner
                 </div>
                 <div className=" flex items-center justify-center w-full md:w-10/12  flex-wrap">
-                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-[#000000] ">
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-5 text-black bg-[#000000] ">
                         <img src={threeway.src} alt="Sponsor Image" className="p-10" />
                         
 
