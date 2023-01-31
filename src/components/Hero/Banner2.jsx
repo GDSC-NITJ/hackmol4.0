@@ -1,14 +1,14 @@
 import React from 'react'
 import Hackmol from '../../../public/Hackmol4.png'
 import Link from 'next/link'
-// import Script from 'next/script'
+import Script from 'next/script'
 import Head from 'next/head'
 
 
 function Banner2() {
     return (
         <>
-            {/* <Script src="https://apply.devfolio.co/v2/sdk.js" defer async  crossOrigin="anonymous"></Script> */}
+            <Script src="https://apply.devfolio.co/v2/sdk.js" defer async  crossOrigin="anonymous"></Script>
        
             <div className="flex justify-center w-full">
                 <div className="space-y-8 flex flex-col md:flex-row justify-evenly leading-10 md:w-9/12 w-11/12 items-center py-10 md:py-20">

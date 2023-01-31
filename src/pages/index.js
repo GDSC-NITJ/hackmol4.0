@@ -21,14 +21,13 @@ import MarqueeHack from '../components/Hero/MarqueeHack'
 import Tracks from '../components/ProblemStatements/Tracks'
 import TimeLine2 from '../components/Timeline/TimeLine2'
 import PastYearStats from '../components/PastYearStats'
-import Script from 'next/script'
+// import Script from 'next/script'
 // import Script from 'next/script'
 
 export default function Home() {
 
   return (
     <div className=''>
-       <Script src="https://apply.devfolio.co/v2/sdk.js" defer async crossOrigin="anonymous"   ></Script>
        <MarqueeHack />
       <Head>
         <title>HackMOL4.0</title>
