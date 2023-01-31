@@ -4,6 +4,12 @@ import solana from '../../../public/images/sponsors/solana.svg'
 import file from '../../../public/images/sponsors/filecoine.png'
 import polygon from "../../../public/images/sponsors/Polygonlogo.png"
 import et from "../../../public/images/sponsors/etraa.jpeg"
+import echo from "../../../public/images/sponsors/echo.png"
+import ib from "../../../public/images/sponsors/interviewbuddy.png"
+import gmc from "../../../public/images/sponsors/givemycertificate.png"
+import oreally from "../../../public/images/sponsors/oreilly.png"
+import streamyard from "../../../public/images/sponsors/streamyard.png"
+import threeway from "../../../public/images/sponsors/3-way.png"
 function Sponsers() {
     return (
         <div className="w-full py-16 md:py-20 flex justify-center items-center gap-12 bg-slate-200 flex-col ">
@@ -35,16 +41,49 @@ function Sponsers() {
                         
 
                     </div>
-                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                    {/* <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={replut.src} alt="Sponsor Image" className="p-10" />
                
 
-                    </div>
+                    </div> */}
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={polygon.src} alt="Sponsor Image" className="p-10" />
                         
 
                     </div>
+                    {/* <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={file.src} alt="Sponsor Image" className="p-10" />
+                    </div> */}
+                   
+                    {/* <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={solana.src} alt="Sponsor Image" className="p-10" />
+                    </div> */}
+                    
+                   
+                   
+                </div>
+            </div>
+
+            <div className="flex items-center justify-center  flex-col">
+                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#FF6F0F] text-center px-10 py-2 shadow-3xl">
+                    Silver Sponsors
+                </div>
+                <div className=" flex items-center justify-center w-full md:w-10/12  flex-wrap">
+                    {/* <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={devfolio.src} alt="Sponsor Image" className="p-10" />
+                        
+
+                    </div> */}
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={replut.src} alt="Sponsor Image" className="p-10" />
+               
+
+                    </div>
+                    {/* <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={polygon.src} alt="Sponsor Image" className="p-10" />
+                        
+
+                    </div> */}
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={file.src} alt="Sponsor Image" className="p-10" />
                     </div>
@@ -52,10 +91,56 @@ function Sponsers() {
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={solana.src} alt="Sponsor Image" className="p-10" />
                     </div>
+                    
+                    
                    
                    
                 </div>
             </div>
+
+            <div className="flex items-center justify-center  flex-col">
+                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#296CF2] text-center px-10 py-2 shadow-3xl">
+                    Bronze Sponsors
+                </div>
+                <div className=" flex items-center justify-center w-full md:w-10/12  flex-wrap">
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={echo.src} alt="Sponsor Image" className="p-10" />
+                        
+
+                    </div>
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2  flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={ib.src} alt="Sponsor Image" className="p-10" />
+               
+
+                    </div>
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={gmc.src} alt="Sponsor Image" className="p-10" />
+                        
+
+                    </div>
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={oreally.src} alt="Sponsor Image" className="p-10" />
+                    </div>
+                   
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={streamyard.src} alt="Sponsor Image" className="p-10" />
+                    </div>
+                   
+                   
+                   
+                </div>
+            </div>
+            <div className="flex items-center justify-center  flex-col">
+                <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#34A853] text-center px-10 py-2 shadow-3xl">
+                    Community Partner
+                </div>
+                <div className=" flex items-center justify-center w-full md:w-10/12  flex-wrap">
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-[#000000] ">
+                        <img src={threeway.src} alt="Sponsor Image" className="p-10" />
+                        
+
+                    </div>
+                    </div></div>
 
 
             {/* <div className="flex items-center justify-center  flex-col">
