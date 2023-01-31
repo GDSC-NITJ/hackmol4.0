@@ -1,105 +1,219 @@
-import React from 'react'
-import p1 from '../../../public/prices/price1.svg'
-import p2 from '../../../public/prices/price2.svg'
-import p3 from '../../../public/prices/price3.svg'
-import coin from '../../../public/prices/coinbox.svg'
-import grid from '../../../public/grid.svg'
+import React from "react";
+import p1 from "../../../public/prices/price1.svg";
+import p2 from "../../../public/prices/price2.svg";
+import p3 from "../../../public/prices/price3.svg";
+import coin from "../../../public/prices/coinbox.svg";
+import grid from "../../../public/grid.svg";
 
 function TrackAndPrices() {
-  const [state, setState] = React.useState(0)
+  const [state, setState] = React.useState(0);
   const trackArray = [
     {
-      title: 'Track 1 - Freshers',
+      title: "Track 1 - Freshers",
       description:
-        ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.',
+        " Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.",
     },
     {
-      title: 'Track 2 - Beginner',
+      title: "Track 2 - Beginner",
       description:
-        ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.',
+        " Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.",
     },
     {
-      title: 'Track-3 Main',
+      title: "Track-3 Main",
       description:
-        ' Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.',
+        " Create and customize your storefront with our all-in-one platform or choose to use your personal site instead. With Zapier, you can seamlessly connect your Gumroad account to thousands of apps in your current stack.",
     },
-  ]
+  ];
 
   return (
-    <div id='prizes' className='py-10 md:py-36  bg-[#D0A4FF] relative overflow-hidden '>
-      <img src={grid.src} className='absolute top-0 right-0 w-full  z-0'></img>
-      <img src={coin.src} className='absolute top-0 -right-1 w-16 sm:w-24  z-0'></img>
-      <h1 className='text-center relative z-10 text-3xl md:text-5xl font-bold mb-8'>Prizes and Rewards</h1>
-      <div className='flex relative z-10 w-full flex-wrap justify-center items-center gap-5 '>
-      <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
-          <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >1<span className='text-lg' >st</span></h1>
+    <div
+      id="prizes"
+      className="py-10 md:py-36  bg-[#D0A4FF] overflow-hidden  relative FF7B54 "
+    >
+    <div className="absolute top-0 right-0 " >
+    <img src={grid.src} className=" block w-full h-full z-0"></img>
+    <img src={grid.src} className=" block w-full h-full z-0"></img>
+
+  </div>
+      
+      <img
+        src={coin.src}
+        className="absolute top-0 -right-1 w-16 sm:w-24  z-0"
+      ></img>
+      <h1 className="text-center relative z-10 text-3xl md:text-5xl font-bold mb-8">
+        Prizes and Rewards
+      </h1>
+      <div className="flex relative z-10 w-full flex-wrap justify-center items-center gap-5 ">
+        <div className="border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
+          <div className="flex justify-center items-center">
+            <h1 className="font-bold text-3xl">
+              1<span className="text-lg">st</span>
+            </h1>
             <img src={p1.src}></img>
-            </div>
-
-          <div className=' flex flex-col items-end mb-10'>
-            <h2 className='text-5xl  font-bold'><span className='text-lg' >₹</span> 30k</h2>
-            <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
-          <div className=' self-start mx-0' >
-            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
-            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
-            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
+          <div className=" flex flex-col items-end mb-10">
+            <h2 className="text-5xl  font-bold">
+              <span className="text-lg">₹</span> 30k
+            </h2>
+            <div className="text-lg leading-3 font-bold">cash</div>
+          </div>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-xl">
+              • Goodies Box (2000 INR of worth)
+            </p>
+            <p className=" font-normal text-xl">• Geeks for Geeks 800/- INR</p>
+            <p className=" font-normal text-xl">• Coupons on all courses</p>
 
-            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
-            <p className=' font-normal text-xl'>• tier services</p>
-            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
-            <p className=' font-normal text-xl'>• Interview Buddy </p>
+            <p className=" font-normal text-xl"> • Echo-ar free premium</p>
+            <p className=" font-normal text-xl">• tier services</p>
+            <p className=" font-normal text-xl">
+              • Online Mock Interviews from{" "}
+            </p>
+            <p className=" font-normal text-xl">• Interview Buddy </p>
           </div>
         </div>
-        <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
-          <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >2<span className='text-lg' >nd</span></h1>
+        <div className="border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
+          <div className="flex justify-center items-center">
+            <h1 className="font-bold text-3xl">
+              2<span className="text-lg">nd</span>
+            </h1>
             <img src={p2.src}></img>
-            </div>
-
-          <div className=' flex flex-col items-end mb-10'>
-            <h2 className='text-5xl  font-bold'><span className='text-lg' >₹</span> 20k</h2>
-            <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
-          <div className=' self-start mx-0' >
-            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
-            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
-            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
+          <div className=" flex flex-col items-end mb-10">
+            <h2 className="text-5xl  font-bold">
+              <span className="text-lg">₹</span> 20k
+            </h2>
+            <div className="text-lg leading-3 font-bold ">cash</div>
+          </div>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-xl">
+              • Goodies Box (2000 INR of worth)
+            </p>
+            <p className=" font-normal text-xl">• Geeks for Geeks 800/- INR</p>
+            <p className=" font-normal text-xl">• Coupons on all courses</p>
 
-            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
-            <p className=' font-normal text-xl'>• tier services</p>
-            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
-            <p className=' font-normal text-xl'>• Interview Buddy </p>
+            <p className=" font-normal text-xl"> • Echo-ar free premium</p>
+            <p className=" font-normal text-xl">• tier services</p>
+            <p className=" font-normal text-xl">
+              • Online Mock Interviews from{" "}
+            </p>
+            <p className=" font-normal text-xl">• Interview Buddy </p>
           </div>
         </div>
-        <div className='border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  '>
-          <div className='flex justify-center items-center'>
-            <h1 className='font-bold text-3xl' >3<span className='text-lg' >rd</span></h1>
+        <div className="border-2 border-black bg-[#90A8ED]  w-11/12 md:w-[380px] flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
+          <div className="flex justify-center items-center">
+            <h1 className="font-bold text-3xl">
+              3<span className="text-lg">rd</span>
+            </h1>
             <img src={p3.src}></img>
-            </div>
-
-          <div className=' flex flex-col items-end mb-10'>
-            <h2 className='text-5xl  font-bold'><span className='text-lg' >₹</span> 10k</h2>
-            <div className='text-lg leading-3 font-bold ' >cash</div>
           </div>
-          <div className=' self-start mx-0' >
-            <p className=' font-normal text-xl'>• Goodies Box (2000 INR of worth)</p>
-            <p className=' font-normal text-xl'>• Geeks for Geeks 800/- INR</p>
-            <p className=' font-normal text-xl'>• Coupons on all courses</p>
 
+          <div className=" flex flex-col items-end mb-10">
+            <h2 className="text-5xl  font-bold">
+              <span className="text-lg">₹</span> 10k
+            </h2>
+            <div className="text-lg leading-3 font-bold ">cash</div>
+          </div>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-xl">
+              • Goodies Box (2000 INR of worth)
+            </p>
+            <p className=" font-normal text-xl">• Geeks for Geeks 800/- INR</p>
+            <p className=" font-normal text-xl">• Coupons on all courses</p>
 
-            <p className=' font-normal text-xl'> • Echo-ar free premium</p>
-            <p className=' font-normal text-xl'>• tier services</p>
-            <p className=' font-normal text-xl'>• Online Mock Interviews from </p>
-            <p className=' font-normal text-xl'>• Interview Buddy </p>
+            <p className=" font-normal text-xl"> • Echo-ar free premium</p>
+            <p className=" font-normal text-xl">• tier services</p>
+            <p className=" font-normal text-xl">
+              • Online Mock Interviews from{" "}
+            </p>
+            <p className=" font-normal text-xl">• Interview Buddy </p>
           </div>
         </div>
       </div>
+
+      <h1 className="text-center mt-20  relative z-10 text-3xl md:text-5xl font-bold mb-8">
+        Special Prizes
+      </h1>
+
+      <div className="  py-10 flex gap-5 flex-wrap justify-center w-full ">
+        <img
+          src={grid.src}
+          className="absolute bottom-0 right-0 w-full height-full z-0"
+        ></img>
+
+        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Filecoin </h2>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-[16] mb-2">
+              • ₹20,000 for best use of IPFS and/or Filecoin built at
+              Devfolio-powered community Hackathons. Find them here.
+            </p>
+            <p className=" font-normal text-[16]">
+              • Microgrants up to 5000 USD, open grants up to 50,000 USD
+            </p>
+          </div>
+        </div>
+        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Polygon </h2>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-[16] mb-2">
+              • ₹10,000 for the best hack built on Ethereum
+            </p>
+            <p className=" font-normal text-[16] mb-2">
+              • ₹15,000 for the best hack built on Ethereum + Polygon
+            </p>
+            <p className=" font-normal text-[16]">
+              • Eligibility to apply for internship/full-time roles and seed
+              funding of up to 5,000 USD for winners!
+            </p>
+          </div>
+        </div>
+        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Replit </h2>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-[16] mb-2">
+              • $50 to winning project of the hackathon (must be deployed on
+              Replit)
+            </p>
+            <p className=" font-normal text-[16] mb-2">
+              • Replit schwags to 5 eligible submissions deployed on Replit.
+            </p>
+            <p className=" font-normal text-[16]">
+              • Eligibility for internship / full time role interviews at Replit
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className=" px-8 flex justify-center  ">
+        <div className="border-2 border-black bg-[#FFD392] z-10  w-[760px] solana flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Solana </h2>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-[16] mb-2">
+              •<span className="font-bold"> young gun</span> - $USDC 100 for the
+              best project beginners just starting out on Solana
+            </p>
+            <p className=" font-normal text-[16] mb-2">
+              • <span className="font-bold"> rising teknoking </span> - $USDC
+              250 for the best project that goes into depth, demonstrating
+              higher-order code
+            </p>
+            <p className=" font-normal text-[16]">
+              • <span className="font-bold"> master glasseater </span> - $USDC
+              500 for the best advanced project that is almost ready for
+              full-time development.
+            </p>
+            <p className=" font-normal text-[16] mb-2">
+              •Eligibility to apply for equity free grants ranging upto $USDC
+              5000 if you wish to continue building post the hackathon
+            </p>
+          </div>
+        </div>
+      </div> */}
     </div>
-  )
+  );
 }
 
 {
@@ -165,4 +279,4 @@ function TrackAndPrices() {
     </div>  */
 }
 
-export default TrackAndPrices
+export default TrackAndPrices;

@@ -22,20 +22,21 @@ import Tracks from '../components/ProblemStatements/Tracks'
 import TimeLine2 from '../components/Timeline/TimeLine2'
 import PastYearStats from '../components/PastYearStats'
 import Script from 'next/script'
-import Merch from '../components/About/Merch'
+// import Script from 'next/script'
 
 export default function Home() {
 
   return (
     <div className=''>
-       <Script src="https://apply.devfolio.co/v2/sdk.js" defer async  ></Script>
-      {/* <MarqueeHack /> */}
+       <Script src="https://apply.devfolio.co/v2/sdk.js" defer async    ></Script>
+       <MarqueeHack />
       <Head>
         <title>HackMOL4.0</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
 
       <NavBar />
+      
       <Banner />
       {/* <Banner2 /> */}
       <About />
@@ -50,7 +51,7 @@ export default function Home() {
 
       <Tracks/>
       
-      {/* <RulesNew /> */}
+      <RulesNew />
       {/* <Team /> */}
 
       <Sponsers/>
