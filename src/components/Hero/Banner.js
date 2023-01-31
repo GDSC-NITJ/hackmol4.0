@@ -101,7 +101,7 @@ const Banner = () => {
                   </Link> */}
                   <div className=''>
                     <div
-                      data-hackathon-slug="hackmol-2"
+                      data-hackathon-slug="hackmol-4"
                       data-button-theme="dark"
                       id='right'
                       style={{
