@@ -19,7 +19,7 @@ function RulesNew() {
       // },
       {
         color: '#5C40EC',
-        rule: 'The registration begins on 15th Jan,2023 and ends on 2nd Feb,2023',
+        rule: 'The registration begins on 15th Jan,2023 and ends on 3rd Feb,2023',
       },
       {
         color: '#D0A4FF',
