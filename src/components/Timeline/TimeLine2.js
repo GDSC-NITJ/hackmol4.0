@@ -48,7 +48,7 @@ function TimeLine2() {
                                     </div>
                                     </h3>
                                     <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
-                                    Round 1 is the first stage of competition  where participants present their ideas in a ppt format to give an overview of there solution. <a className='text-[#fb923c] underline'  href="https://docs.google.com/presentation/d/1QzHO19C7BRt7Lsec8OS0GSaMTiQMhdcMqeIYp1uM6fs/edit#slide=id.p">Click here to download ppt format</a>
+                                    Round 1 is the first stage of competition  where participants present their ideas in a ppt format to give an overview of there solution. <a className='text-[#fb923c] underline'  href="https://docs.google.com/presentation/d/1QzHO19C7BRt7Lsec8OS0GSaMTiQMhdcMqeIYp1uM6fs/edit#slide=id.p" target="_blank" rel="noopener noreferrer">Click here to download ppt format</a>
                                         </p>
                                 </div>
                             </div>
