@@ -112,14 +112,14 @@ const NavBar = () => {
                       INFO
                     </Link>
                   </li>
-                  {/* <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#schedule'}
                       scroll={false}
                     >
-                      SCHEDULE
+                      TIMELINE
                     </Link>
-                  </li>  */}
+                  </li> 
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#prizes'}
