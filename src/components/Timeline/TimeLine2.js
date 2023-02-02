@@ -2,7 +2,7 @@ import React from 'react'
 
 function TimeLine2() {
     return (
-        <div class=" bg-[#94e95d] hidden md:block py-10  mx-auto px-5">
+        <div class=" bg-[#94e95d] hidden md:block py-10  mx-auto px-5" id='schedule'>
             <div class="  relative w-full  ">
             <div>
                     <h1 className="justify-center h-1/2 text-black  text-3xl md:text-4xl font-extrabold items-center pb-6 text-center ">Timeline</h1>
@@ -21,7 +21,7 @@ function TimeLine2() {
                                         <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.33333 8.1H4.22222V9.9H6.33333V8.1ZM10.5556 8.1H8.44444V9.9H10.5556V8.1ZM14.7778 8.1H12.6667V9.9H14.7778V8.1ZM16.8889 1.8H15.8333V0H13.7222V1.8H5.27778V0H3.16667V1.8H2.11111C0.939444 1.8 0.0105555 2.61 0.0105555 3.6L0 16.2C0 16.6774 0.22242 17.1352 0.61833 17.4728C1.01424 17.8104 1.55121 18 2.11111 18H16.8889C18.05 18 19 17.19 19 16.2V3.6C19 2.61 18.05 1.8 16.8889 1.8ZM16.8889 16.2H2.11111V6.3H16.8889V16.2Z" fill="white" />
                                         </svg>
-                                             3rd February
+                                             5th February
 
                                     </div>
                                     </h3>
@@ -48,7 +48,7 @@ function TimeLine2() {
                                     </div>
                                     </h3>
                                     <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
-                                    Round 1 is the first stage of competition  where participants present their ideas in a ppt format to give an overview of there solution. <a className='text-[#fb923c] underline'  href="https://docs.google.com/presentation/d/1QzHO19C7BRt7Lsec8OS0GSaMTiQMhdcMqeIYp1uM6fs/edit#slide=id.p">Click here to download ppt format</a>
+                                    Round 1 is the first stage of competition  where participants present their ideas in a ppt format to give an overview of there solution. <a className='text-[#fb923c] underline'  href="https://docs.google.com/presentation/d/1QzHO19C7BRt7Lsec8OS0GSaMTiQMhdcMqeIYp1uM6fs/edit#slide=id.p" target="_blank" rel="noopener noreferrer">Click here to download ppt format</a>
                                         </p>
                                 </div>
                             </div>
