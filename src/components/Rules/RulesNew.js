@@ -18,8 +18,8 @@ function RulesNew() {
       //   rule: 'Only one person in the team would be the team leader who is required to register on behalf of all the members',
       // },
       {
-        color: '#5C40EC',
-        rule: 'The registration begins on 15th Jan,2023 and ends on 3rd Feb,2023',
+        color: '#90A8ED',
+        rule: 'The registration begins on 15th Jan,2023 and ends on 5th Feb,2023',
       },
       {
         color: '#D0A4FF',
