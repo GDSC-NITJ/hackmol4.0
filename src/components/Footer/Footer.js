@@ -21,6 +21,9 @@ let Footer = function(props){
                 <div className="row-span-1 w-[50%] flex items-center pt-4">
                     <button href="" className="bg-black w-full text-white p-4 text-xs leading-4 font-medium border-[1.69px] border-white shadow-[5px_5px_0px_#FFFFFF]">Learn More About GDSC</button>
                 </div>
+                <div className="mt-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.6747365938792!2d75.53538186206131!3d31.394615584952412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a517fe8cab485%3A0x599034240e7481a9!2sIT%20Building%20Or%20Cse%20Building!5e0!3m2!1sen!2sin!4v1675422316060!5m2!1sen!2sin" width="300" height="150" style={{ border: "0" }}  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div className="grid grid-rows-3 w-full mt-6">
                 <div className="row-span-2 grid grid-cols-2">
@@ -52,12 +55,12 @@ let Footer = function(props){
             </div>
 
         </div>
-        <div className="md:grid hidden w-full h-96 bg-black justify-items-center items-center">
-            <div className="ml-20 mr-20 flex justify-between self-center w-10/12">
+        <div className="md:grid hidden w-full h-96 bg-black items-center">
+            <div className="ml-20 mr-20 flex justify-between self-center w-10/12 ">
 
                 {/* Left Column */}
                 <div className="col-span-1 grid grid-rows-2">
-                    <div className="self-center row-span-2 w-64 flex justify-center ">
+                    <div className="self-start row-span-1 w-64 flex justify-center ">
                         <svg width="100" height="51" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M23.8113 26.3979L40.0507 16.5247C43.8733 14.2021 45.1777 9.05227 42.9734 5.02467C40.769 0.997064 35.8815 -0.377373 32.059 1.94524L3.99698 19.0126L23.8113 26.3979Z" fill="#EA4335"/>
                             <path d="M36.0439 51.7903C38.8014 51.7903 41.4928 50.2767 42.9706 47.58C45.1749 43.5524 43.8705 38.4027 40.048 36.0801L11.986 19.0128C8.16346 16.6902 3.27593 18.0646 1.07158 22.0922C-1.13276 26.1198 0.17169 31.2696 3.9942 33.5922L32.0562 50.6595C33.3194 51.425 34.6899 51.7903 36.0439 51.7903Z" fill="#4285F4"/>
@@ -67,16 +70,18 @@ let Footer = function(props){
                     </div>
                     <div className="h-[72px] row-span-1 self-start">
                         
-                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4  w-64  mt-5 text-center">
+                    <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4  w-64  mt-2 text-center">
                         <b>GDSC NITJ</b>
                         <br/>
                         Google Developer Student Clubs are university based community groups for students interested in Google developer technologies. 
                     </h6>
                     </div>
                 </div>
+                
 
                 {/* Right Column */}
-                <div className="relative flex items-center justify-end col-span-2">
+                <div className="relative flex items-center ml-5 justify-center">
+                
                     <div className="absolute w-[266px] h-[160px] grid grid-rows-2">
                         <div className="flex flex-row justify-between">
                             {/* Twitter */}
@@ -93,7 +98,11 @@ let Footer = function(props){
                         </div>
                     </div>
                 </div>
+                <div className="border-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.6747365938792!2d75.53538186206131!3d31.394615584952412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a517fe8cab485%3A0x599034240e7481a9!2sIT%20Building%20Or%20Cse%20Building!5e0!3m2!1sen!2sin!4v1675422316060!5m2!1sen!2sin" width="200" height="150" style={{ border: "0" }}  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+            
         </div>
         </div>
     )
