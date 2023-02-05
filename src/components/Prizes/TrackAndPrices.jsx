@@ -136,13 +136,26 @@ function TrackAndPrices() {
       <h1 className="text-center mt-20  relative z-10 text-3xl md:text-5xl font-bold mb-8">
         Special Prizes
       </h1>
-
-      <div className="  py-10 flex gap-5 flex-wrap justify-center w-full ">
+      <div className="flex w-full justify-center items-center flex-col gap-10 ">
+      <div className="items-center sm:items-stretch  w-10/12 flex gap-5 flex-col sm:flex-row  justify-center ">
         <img
           src={grid.src}
           className="absolute bottom-0 right-0 w-full height-full z-0"
         ></img>
-
+<div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Fresher&apos;s Track</h2>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-[16] mb-2">
+              • Eligibility for the Freshers Track is limited to first-year students.
+            </p>
+            <p className=" font-normal text-[16] mb-2">
+              • The winner will receive a exclusive Hackmol T-shirt.
+            </p>
+            <p className=" font-normal text-[16]">
+              • Special goodies and swags box, as well as an opportunity to showcase their project, will be given
+            </p>
+          </div>
+        </div>
         <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-10  shadow-3xl rounded-xl font-bold  ">
           <h2 className="text-4xl mb-6 font-bold"> Filecoin </h2>
           <div className=" self-start mx-0">
@@ -155,21 +168,7 @@ function TrackAndPrices() {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
-          <h2 className="text-4xl mb-6 font-bold"> Polygon </h2>
-          <div className=" self-start mx-0">
-            <p className=" font-normal text-[16] mb-2">
-              • ₹10,000 for the best hack built on Ethereum
-            </p>
-            <p className=" font-normal text-[16] mb-2">
-              • ₹15,000 for the best hack built on Ethereum + Polygon
-            </p>
-            <p className=" font-normal text-[16]">
-              • Eligibility to apply for internship/full-time roles and seed
-              funding of up to 5,000 USD for winners!
-            </p>
-          </div>
-        </div>
+        
         <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
           <h2 className="text-4xl mb-6 font-bold"> Replit </h2>
           <div className=" self-start mx-0">
@@ -187,31 +186,48 @@ function TrackAndPrices() {
         </div>
       </div>
 
-      {/* <div className=" px-8 flex justify-center  ">
-        <div className="border-2 border-black bg-[#FFD392] z-10  w-[760px] solana flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
-          <h2 className="text-4xl mb-6 font-bold"> Solana </h2>
+  
+        <div className=" w-10/12 flex justify-center gap-5 flex-col sm:flex-row ">
+          <div className="border-2 w-1/2 border-black bg-[#FFD392] z-10   flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+            <h2 className="text-4xl mb-6 font-bold"> Solana </h2>
+            <div className=" self-start mx-0">
+              <p className=" font-normal text-[16] mb-2">
+                •<span className="font-bold"> young gun</span> - $USDC 100 for the
+                best project beginners just starting out on Solana
+              </p>
+              <p className=" font-normal text-[16] mb-2">
+                • <span className="font-bold"> rising teknoking </span> - $USDC
+                250 for the best project that goes into depth, demonstrating
+                higher-order code
+              </p>
+              <p className=" font-normal text-[16]">
+                • <span className="font-bold"> master glasseater </span> - $USDC
+                500 for the best advanced project that is almost ready for
+                full-time development.
+              </p>
+              <p className=" font-normal text-[16] mb-2">
+                •Eligibility to apply for equity free grants ranging upto $USDC
+                5000 if you wish to continue building post the hackathon
+              </p>
+            </div>
+          </div>
+          <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Polygon </h2>
           <div className=" self-start mx-0">
             <p className=" font-normal text-[16] mb-2">
-              •<span className="font-bold"> young gun</span> - $USDC 100 for the
-              best project beginners just starting out on Solana
+              • ₹10,000 for the best hack built on Ethereum
             </p>
             <p className=" font-normal text-[16] mb-2">
-              • <span className="font-bold"> rising teknoking </span> - $USDC
-              250 for the best project that goes into depth, demonstrating
-              higher-order code
+              • ₹15,000 for the best hack built on Ethereum + Polygon
             </p>
             <p className=" font-normal text-[16]">
-              • <span className="font-bold"> master glasseater </span> - $USDC
-              500 for the best advanced project that is almost ready for
-              full-time development.
-            </p>
-            <p className=" font-normal text-[16] mb-2">
-              •Eligibility to apply for equity free grants ranging upto $USDC
-              5000 if you wish to continue building post the hackathon
+              • Eligibility to apply for internship/full-time roles and seed
+              funding of up to 5,000 USD for winners!
             </p>
           </div>
         </div>
-      </div> */}
+        </div>
+      </div>
     </div>
   );
 }
