@@ -26,7 +26,7 @@ function TimeLine2() {
                                     </div>
                                     </h3>
                                     <p class="text-sm font-medium  tracking-wide text-gray-200 text-opacity-100  px-6 pb-4">
-                                    Hackmol4.0 registration open, students can showcase their skills and bring ideas to life.
+                                    Hackmol4.0 registration open, students can showcase their skills and bring ideas to life. <a className='text-[#fb923c] underline'  href="https://hackmol-4.devfolio.co/" target="_blank" rel="noopener noreferrer">Click here to  register </a>
                                     </p>
                                 </div>
                             </div>
