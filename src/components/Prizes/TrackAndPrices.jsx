@@ -170,6 +170,38 @@ function TrackAndPrices() {
         </div>
         
         <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
+          <h2 className="text-4xl mb-6 font-bold"> Solana </h2>
+          <div className=" self-start mx-0">
+            <p className=" font-normal text-[16] mb-2">
+            •<span className="font-bold"> young gun</span> - $USDC 100 for the
+                best project beginners just starting out on Solana
+
+            </p>
+            <p className=" font-normal text-[16] mb-2">
+            • <span className="font-bold"> rising teknoking </span> - $USDC
+                250 for the best project that goes into depth, demonstrating
+                higher-order code
+
+            </p>
+            <p className=" font-normal text-[16]">
+            • <span className="font-bold"> master glasseater </span> - $USDC
+                500 for the best advanced project that is almost ready for
+                full-time development.
+
+            </p>
+            <p className=" font-normal text-[16]">
+            •Eligibility to apply for equity free grants ranging upto $USDC
+                5000 if you wish to continue building post the hackathon
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+  
+      <div className="flex w-full justify-center items-center flex-col gap-10 ">
+      <div className="items-center sm:items-stretch  w-10/12 flex gap-5 flex-col sm:flex-row  justify-center ">
+        <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
           <h2 className="text-4xl mb-6 font-bold"> Replit </h2>
           <div className=" self-start mx-0">
             <p className=" font-normal text-[16] mb-2">
@@ -184,33 +216,6 @@ function TrackAndPrices() {
             </p>
           </div>
         </div>
-      </div>
-
-  
-        <div className=" w-10/12 flex justify-center gap-5 flex-col sm:flex-row ">
-          <div className="border-2 w-1/2 border-black bg-[#FFD392] z-10   flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
-            <h2 className="text-4xl mb-6 font-bold"> Solana </h2>
-            <div className=" self-start mx-0">
-              <p className=" font-normal text-[16] mb-2">
-                •<span className="font-bold"> young gun</span> - $USDC 100 for the
-                best project beginners just starting out on Solana
-              </p>
-              <p className=" font-normal text-[16] mb-2">
-                • <span className="font-bold"> rising teknoking </span> - $USDC
-                250 for the best project that goes into depth, demonstrating
-                higher-order code
-              </p>
-              <p className=" font-normal text-[16]">
-                • <span className="font-bold"> master glasseater </span> - $USDC
-                500 for the best advanced project that is almost ready for
-                full-time development.
-              </p>
-              <p className=" font-normal text-[16] mb-2">
-                •Eligibility to apply for equity free grants ranging upto $USDC
-                5000 if you wish to continue building post the hackathon
-              </p>
-            </div>
-          </div>
           <div className="border-2 border-black bg-[#FFD392] z-10 w-11/12 md:w-[380px]  flex flex-col items-center px-5 py-8  shadow-3xl rounded-xl font-bold  ">
           <h2 className="text-4xl mb-6 font-bold"> Polygon </h2>
           <div className=" self-start mx-0">
@@ -227,6 +232,7 @@ function TrackAndPrices() {
           </div>
         </div>
         </div>
+      </div>
       </div>
     </div>
   );
