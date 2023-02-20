@@ -120,7 +120,7 @@ const Schedule = () => {
                             </div>
                             <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between " : "hidden"} id="link1">
                                 <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    15:00
+                                    17:30
 
 
 
