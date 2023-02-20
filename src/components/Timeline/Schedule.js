@@ -1,31 +1,215 @@
 import React from 'react';
 import star from '../../../public/Vector.png'
-const Schedule=()=>{
-    return(
-        <div id='schedule' className='flex w-full flex-col md:flex-row '>
-            <div className='flex flex-col md:w-1/2 gap-2 h-[640px] sm:py-10 border-r-black border-r-[1.7px] justify-center items-center bg-lightblue'>
-               
-                <div className='flex justify-center  items-center font-bold text-[52px] text-white relative'> <img className='absolute top-[-27px] left-[-30px]' width={54} height={54}  src={star.src}/>DAY-1</div>
-                <div className='flex flex-col bg-white  shadow-3xl font-medium w-11/12 sm:w-9/12  border-black border-[2px] rounded-[12px]'>
-                    <div className='flex justify-between px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Introduction to Hackathon</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Team Formations  </div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Ideations Phase</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>-- : -- am</div><div>Prototyping Phase Begins</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px]'><div>-- : -- am</div><div>Fun Events</div></div>
+const Schedule = () => {
+    const [openTab, setOpenTab] = React.useState(1);
+    return (
+        <div id='schedule' className='flex w-full flex-col justify-center items-center flex-wrap bg-white'>
+            <h1 className='font-bold text-4xl py-5'>Schedule</h1>
+            <div className="w-10/12">
+                <ul
+                    className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+                    role="tablist"
+                >
+                    <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                        <a
+                            className={
+                                "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                (openTab === 1
+                                    ? "text-white bg-[#E85325]"
+                                    : "text-black bg-[#FEEDE3]")
+                            }
+                            onClick={e => {
+                                e.preventDefault();
+                                setOpenTab(1);
+                            }}
+                            data-toggle="tab"
+                            href="#link1"
+                            role="tablist"
+                        >
+                            <i className="fas fa-space-shuttle text-base mr-1"></i> DAY 1
+                        </a>
+                    </li>
+                    <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                        <a
+                            className={
+                                "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                (openTab === 2
+                                    ? "text-white bg-[#E85325]"
+                                    : "text-black bg-[#FEEDE3]")
+                            }
+                            onClick={e => {
+                                e.preventDefault();
+                                setOpenTab(2);
+                            }}
+                            data-toggle="tab"
+                            href="#link2"
+                            role="tablist"
+                        >
+                            <i className="fas fa-cog text-base mr-1"></i>  DAY 2
+                        </a>
+                    </li>
+                    {/* <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                        <a
+                            className={
+                                "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                                (openTab === 3
+                                    ? "text-white bg-" + color + "-600"
+                                    : "text-" + color + "-600 bg-white")
+                            }
+                            onClick={e => {
+                                e.preventDefault();
+                                setOpenTab(3);
+                            }}
+                            data-toggle="tab"
+                            href="#link3"
+                            role="tablist"
+                        >
+                            <i className="fas fa-briefcase text-base mr-1"></i>  Options
+                        </a>
+                    </li> */}
+                </ul>
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6  rounded">
+                        <div className="tab-content tab-space font-bold">
+                            <div className={openTab === 1 ? "block flex justify-between mb-5 bg-white " : "hidden"} id="link1">
+                                <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    09:30
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                    Check-In
+                                </div>
+                            </div>
+                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    10:30
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                    Opening Ceremony
+                                </div>
+                            </div>
+                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    11:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5 bg-[#FEEDE3]'>
+                                    Hacking Begins
+                                </div>
+                            </div>
+                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end bg-[#FEEDE3]'>
+                                    15:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                    Mentor Connect - I
+                                </div>
+                            </div>
+                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between " : "hidden"} id="link1">
+                                <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    15:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Mini Event
+                                </div>
+                            </div>
+                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    11:30
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Hacker Event
+                                </div>
+                            </div>
+
+                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    08:30
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Mentor Connect - II
+                                </div>
+                            </div>
+                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    10:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Soft Deadline
+                                </div>
+                            </div>
+                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    11:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Hard Deadline
+                                </div>
+                            </div>
+                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    12:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Project Showcase
+                                </div>
+                            </div>
+                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    14:00
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Closing Ceremony
+                                </div>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div className='flex flex-col sm:py-10 md:w-1/2 gap-2 h-[640px] border-r-black border-r-[1.7px] justify-center items-center'>
-               
-            <div className='flex justify-center  items-center font-bold text-[52px] relative'> <img className='absolute top-[-27px] left-[-30px]' width={58} height={58}  src={star.src}/>DAY-2</div>
-                <div className='flex flex-col bg-white shadow-3xl font-medium w-11/12 sm:w-9/12 border-black border-[2px] rounded-[12px]'>
-                    <div className='flex justify-between  px-[10px] py-[20px]  border-b-black border-b-[2px]'><div>10:00 am</div><div>Evaluation</div></div>
-                    <div className='flex justify-between px-[10px] py-[20px] border-b-black border-b-[2px]'><div>-- : -- am</div><div>Devfolio Submissions</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px] border-b-black border-b-[2px]'><div>-- : -- am</div><div>Mentors&apos; Judging</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px] border-b-black border-b-[2px]'><div>-- : -- am</div><div>Final Evaluation</div></div>
-                    <div className='flex justify-between  px-[10px] py-[20px] '><div>-- : -- am</div><div>Closing Ceremony</div></div>
-                </div>
-            </div>
             
+
         </div>
     )
 }
