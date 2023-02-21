@@ -13,6 +13,7 @@ import oreally from "../../../public/images/sponsors/oreilly.png"
 import streamyard from "../../../public/images/sponsors/streamyard.png"
 import threeway from "../../../public/images/sponsors/3-way.png"
 import producthouse from "../../../public/images/sponsors/producthouse.png"
+import zeeve from "../../../public/images/sponsors/zeevelogo.png"
 function Sponsers() {
 
     useEffect(()=>{
@@ -40,7 +41,7 @@ function Sponsers() {
         </h1>    */}
             <h1 className="text-4xl uppercase  mb-2 font-bold font-Space-Grotesk">Sponsors</h1>
 
-            <div className="flex items-center justify-center  flex-col">
+            {/* <div className="flex items-center justify-center  flex-col">
                 <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black rounded w-[294px]  bg-[#90A8ED] text-center px-10 py-2 shadow-3xl">
                     Diamond Sponsors
                 </div>
@@ -51,13 +52,13 @@ function Sponsers() {
                     </div>
                   
                 </div>
-            </div>
+            </div> */}
 
             <div className="flex items-center justify-center  flex-col">
                 <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black  w-[250px]  md:w-[270px] rounded   bg-[#FFEB01] text-center px-10 py-2 shadow-3xl">
                     Gold Sponsors
                 </div>
-                <div className=" flex items-center justify-center w-full md:w-full  flex-wrap">
+                <div className=" flex items-center justify-center w-full md:w-11/12  flex-wrap">
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={devfolio.src} alt="Sponsor Image" className="p-10" />
                         
@@ -70,6 +71,11 @@ function Sponsers() {
                     </div> */}
                     <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
                         <img src={polygon.src} alt="Sponsor Image" className="p-10" />
+                        
+
+                    </div>
+                    <div className="w-[250px] h-[58px] md:w-[270px] md:h-[78px] mt-8 mx-2 flex items-center justify-center rounded-xl border-2 border-black shadow-3xl p-2 text-black bg-white ">
+                        <img src={zeeve.src} alt="Sponsor Image" className="p-10" />
                         
 
                     </div>
