@@ -117,7 +117,7 @@ const NavBar = () => {
                       href={'#schedule'}
                       scroll={false}
                     >
-                      TIMELINE
+                      SCHEDULE
                     </Link>
                   </li>  */}
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">

@@ -23,6 +23,7 @@ import TimeLine2 from '../components/Timeline/TimeLine2'
 import PastYearStats from '../components/PastYearStats'
 import Script from 'next/script'
 import TimelineMobile from '../components/Timeline/TimelineMobile'
+// import Schedule from '../components/Timeline/Schedule'
 // import Script from 'next/script'
 
 export default function Home() {
@@ -45,8 +46,9 @@ export default function Home() {
 
       {/* <Schedule /> */}
       {/* <TimeLine /> */}
-      <TimeLine2/>
-      <TimelineMobile/>
+      {/* <TimeLine2/>
+      <TimelineMobile/> */}
+      <Schedule/>
 
       {/* <Announcement /> */}
       <TrackAndPrices />
