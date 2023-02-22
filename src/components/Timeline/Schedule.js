@@ -164,10 +164,10 @@ const Schedule = () => {
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Soft Deadline
+                                    Deadline
                                 </div>
                             </div>
-                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            {/* <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
                                     11:00
 
@@ -178,7 +178,7 @@ const Schedule = () => {
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
                                    Hard Deadline
                                 </div>
-                            </div>
+                            </div> */}
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
                                     12:00
