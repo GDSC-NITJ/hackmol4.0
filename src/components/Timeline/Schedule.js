@@ -72,7 +72,7 @@ const Schedule = () => {
                         <div className="tab-content tab-space font-bold">
                             <div className={openTab === 1 ? "block flex justify-between mb-5 bg-white " : "hidden"} id="link1">
                                 <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    09:30
+                                    08:00 AM
 
 
 
@@ -84,7 +84,7 @@ const Schedule = () => {
                             </div>
                             <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                             <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    10:30
+                                    09:00 AM
 
 
 
@@ -96,7 +96,7 @@ const Schedule = () => {
                             </div>
                             <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    11:00
+                                    10:00 AM
 
 
 
@@ -108,80 +108,104 @@ const Schedule = () => {
                             </div>
                             <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end bg-[#FEEDE3]'>
-                                    15:00
+                                    01:00 PM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                    Mentor Connect - I
+                                    Lunch Break
                                 </div>
                             </div>
                             <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between " : "hidden"} id="link1">
                                 <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    17:30
+                                    03:00 PM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Mini Event
+                                   Mentor Connect 
                                 </div>
                             </div>
                             <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    11:30
+                                    05:30 PM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Hacker Event
+                                   Mini Event-I
+                                </div>
+                            </div>
+<div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    08:30 PM
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   EDM Night
+                                </div>
+                            </div>
+<div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                    10:00 PM
+
+
+
+
+                                </div>
+                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                   Dinner
                                 </div>
                             </div>
 
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    08:30
+                                    12:30 AM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Mentor Connect - II
+                                   Mini Event - II
                                 </div>
                             </div>
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    10:00
+                                    07:00 AM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                    Deadline
+                                    Mentor Connect - II
                                 </div>
                             </div>
-                            {/* <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            {<div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    11:00
+                                    10:00 AM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Hard Deadline
+                                   Hacking Ends
                                 </div>
-                            </div> */}
+                            </div>}
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    12:00
+                                    12:00 PM
 
 
 
@@ -193,7 +217,7 @@ const Schedule = () => {
                             </div>
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    14:00
+                                    02:00 PM
 
 
 
