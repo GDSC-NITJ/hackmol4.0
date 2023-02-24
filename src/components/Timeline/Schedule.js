@@ -69,119 +69,109 @@ const Schedule = () => {
                     </li> */}
                 </ul>
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6  rounded">
-                        <div className="tab-content tab-space font-bold">
-                            <div className={openTab === 1 ? "block flex justify-between mb-5 bg-white " : "hidden"} id="link1">
-                                <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    08:00 AM
-
-
-
-
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                    Check-In
-                                </div>
-                            </div>
-                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                    <div className="tab-content tab-space font-bold">
+                        <div className={openTab === 1 ? "block flex justify-between mb-5 bg-white " : "hidden"} id="link1">
                             <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    09:00 AM
+                                08:00 AM
 
 
 
 
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                    Opening Ceremony
-                                </div>
                             </div>
-                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    10:00 AM
-
-
-
-
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5 bg-[#FEEDE3]'>
-                                    Hacking Begins
-                                </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Check-In
                             </div>
-                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end bg-[#FEEDE3]'>
-                                    01:00 PM
+                        </div>
+                        <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                09:30 AM
 
 
 
 
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                    Lunch Break
-                                </div>
                             </div>
-                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between " : "hidden"} id="link1">
-                                <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    03:00 PM
-
-
-
-
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Mentor Connect 
-                                </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Opening Ceremony
                             </div>
-                            <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    05:30 PM
+                        </div>
+                        <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                10:30 AM
 
 
 
 
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Mini Event-I
-                                </div>
                             </div>
-<div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    08:30 PM
-
-
-
-
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   EDM Night
-                                </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5 bg-[#FEEDE3]'>
+                                Hacking Begins
                             </div>
-<div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    10:00 PM
+                        </div>
+                        <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end bg-[#FEEDE3]'>
+                                01:00 PM
 
 
 
 
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Dinner
-                                </div>
                             </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Lunch Break
+                            </div>
+                        </div>
+                        <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between " : "hidden"} id="link1">
+                            <div className='px-4 py-5 flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                04:00 PM
 
+
+
+
+                            </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Mentor Connect
+                            </div>
+                        </div>
+                        <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                06:30 PM
+
+
+
+
+                            </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Mini Event-I
+                            </div>
+                        </div>
+
+                        <div className={openTab === 1 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                8:00 PM
+
+
+
+
+                            </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Dinner
+                            </div>
+                        </div>
+
+                        <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
+                                12:30 AM
+
+
+
+
+                            </div>
+                            <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
+                                Mini Event - II
+                            </div>
+                        </div>
+        
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    12:30 AM
-
-
-
-
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Mini Event - II
-                                </div>
-                            </div>
-                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    07:00 AM
+                                    09:30 AM
 
 
 
@@ -191,18 +181,18 @@ const Schedule = () => {
                                     Mentor Connect - II
                                 </div>
                             </div>
-                            {<div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
+                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    10:00 AM
+                                    10:30 AM
 
 
 
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Hacking Ends
+                                    Hacking Ends
                                 </div>
-                            </div>}
+                            </div>
                             <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
                                 <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
                                     12:00 PM
@@ -212,30 +202,19 @@ const Schedule = () => {
 
                                 </div>
                                 <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                Project Showcase
+                                    Closing Ceremony
                                 </div>
                             </div>
-                            <div className={openTab === 2 ? "block flex mb-5 bg-white justify-between" : "hidden"} id="link1">
-                                <div className='px-4 py-5  flex flex-[0.12] shrink-0 justify-end  bg-[#FEEDE3]'>
-                                    02:00 PM
 
 
 
-
-                                </div>
-                                <div className='flex-[0.86] border-l-2 border-amber-700 border-black px-2 py-5  bg-[#FEEDE3]'>
-                                   Closing Ceremony
-                                </div>
-                            </div>
-                            
-                           
                         </div>
                     </div>
                 </div>
-            
 
-        </div>
-    )
+</div>
+        
+            )
 }
 
-export default Schedule;
+            export default Schedule;
