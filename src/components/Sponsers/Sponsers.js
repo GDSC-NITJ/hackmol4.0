@@ -39,7 +39,7 @@ function Sponsers() {
             {/* <h1 className="container flex justify-center w-3/4 h-80 text-white text-3xl md:text-4xl font-extrabold shadow-bordered-black text-center border-white border-2 items-center">
             Sponsers
         </h1>    */}
-            <h1 className="text-4xl uppercase  mb-2 font-bold font-Space-Grotesk">Sponsors</h1>
+            <h1 className="text-4xl uppercase  mb-2 font-bold font-Space-Grotesk">Last Year Sponsors</h1>
 
             {/* <div className="flex items-center justify-center  flex-col">
                 <div className="  font-Red-Hat-Display font-semibold text-lg border-2 border-black rounded w-[294px]  bg-[#90A8ED] text-center px-10 py-2 shadow-3xl">

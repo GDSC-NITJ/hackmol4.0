@@ -31,7 +31,7 @@ const NavBar = () => {
 
       <div expand="md" fixed="top" >
         <div className="heading__container" href="/">
-          <h2 className="heading">HACKMOL 4.0</h2>
+          <h2 className="heading">HACKMOL 5.0</h2>
         </div>
 
         <nav className="w-full bg-purple shadow border-2 border-black sticky top-0 ">
@@ -112,22 +112,22 @@ const NavBar = () => {
                       INFO
                     </Link>
                   </li>
-                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                  {/* <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#schedule'}
                       scroll={false}
                     >
                       SCHEDULE
                     </Link>
-                  </li> 
-                  <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
+                  </li>  */}
+                  {/* <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link
                       href={'#prizes'}
                       scroll={false}
                     >
                       PRIZES
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="text-white text-extrabold font-bold  md:text-xl hover:text-indigo-200">
                     <Link

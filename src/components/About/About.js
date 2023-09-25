@@ -44,12 +44,12 @@ const About = () => {
           </div>
           <div className=" md:w-7/12 h-full ">
             <h2 className="container flex flex-col  items-center text-black  text-3xl md:text-4xl font-extrabold  pb-4 ">
-              About HackMol4.0
+              About HackMol5.0
             </h2>
             {/* 
                 Over the years HackMOL has established itself as the Biggest Hackathon of Punjab with a awe-inspiring attendance of over 700+, 1100+ & 1300+ hackers in successive editions but this year HackMOL has advanced to another level by serving as the premier and opening event of Techniti (the annual Tech Fest of NIT Jalandhar) with anticipation of over 1000+ hackers physically joining us
                 It is organised at the end of Month of Learning (MOL), a series of workshops & seminars focused and centred around the latest technologies. */}
-            HackMOL, a hackathon in Punjab, has grown in popularity over the years, with increasing attendance of 1100+ in previous editions and now serving as the opening event for Techniti, the annual tech festival of NIT Jalandhar. 
+            HackMOL, a hackathon in Punjab, has grown in popularity over the years, with increasing attendance of 3000+ in previous editions and now serving as the opening event for Techniti, the annual tech festival of NIT Jalandhar. 
             <div className="hidden sm:inline">
               It is held at the end of the Month of Learning, a series of
               workshops and seminars focused on the latest technologies
