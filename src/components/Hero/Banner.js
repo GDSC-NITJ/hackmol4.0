@@ -99,17 +99,6 @@ const Banner = () => {
                       Register
                     </button>
                   </Link> */}
-                  <div className=''>
-                    <div
-                      data-hackathon-slug="hackmol-4"
-                      data-button-theme="dark"
-                      id='right'
-                      style={{
-                        height: '50px',
-                      }}
-                      className='apply-button tagline below w-40'
-                    ></div>
-                  </div>
                 </div>
               </div>
             )}
