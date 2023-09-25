@@ -33,7 +33,7 @@ export default function Home() {
        <Script src="https://apply.devfolio.co/v2/sdk.js" defer async    ></Script>
        <MarqueeHack />
       <Head>
-        <title>HackMOL4.0</title>
+        <title>HackMOL5.0</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
 
@@ -48,14 +48,14 @@ export default function Home() {
       {/* <TimeLine /> */}
       {/* <TimeLine2/>
       <TimelineMobile/> */}
-      <Schedule/>
+      {/* <Schedule/> */}
 
       {/* <Announcement /> */}
-      <TrackAndPrices />
+      {/* <TrackAndPrices /> */}
 
-      <Tracks/>
+      {/* <Tracks/> */}
       
-      <RulesNew />
+      {/* <RulesNew /> */}
       {/* <Team /> */}
 
       <Sponsers/>
@@ -64,7 +64,7 @@ export default function Home() {
       <Judges />
 
       {/* <Testimonies/> */}
-      <FAQ></FAQ>
+      {/* <FAQ></FAQ> */}
       <Footer></Footer>
       <FooterLinks></FooterLinks>
     </div>

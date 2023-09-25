@@ -10,11 +10,11 @@ const PastYearStats =  function PastYearStats() {
         <div className='h-[700px] md:h-[741px] flex-grow p-4'>
             <h1 className='font-Space-Grotesk font-bold relative -translate-y-[10%] top-[10%] md:-translate-y-[15%] md:top-[15%] md:text-5xl text-3xl text-center md:tracking-wider p-4'>How it went last year ?</h1>
             <ul className='top-[30%] relative -translate-y-[30%]'>
-                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 1200+ Registrations Test</li>
-                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 700+ participation for Freshers track</li>
-                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 500+ participation in the Main track</li>
-                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 30+ sponsors participated</li>
-                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 75+ project submissions</li>
+                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 3000+ Registrations Test</li>
+                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 750+ Teams All Over the India</li>
+                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> Prizes Upto 5Lakhs+</li> 
+                {/* <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 30+ sponsors participated</li> */}
+                <li className='past-stats-list pl-[8%] font-normal pb-2 md:pb-4 md:text-3xl text-xl leading-[2] flex gap-3 md:gap-6'> 50+ Accepted Projects  </li>
             </ul>
         </div>
     </div>
